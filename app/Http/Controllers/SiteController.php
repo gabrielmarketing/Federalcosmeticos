@@ -11,6 +11,16 @@ class SiteController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
+    public function home()
+    {
+        return view('site.home');
+    }
+
+    /**
+     * Display a listing of the resource.
+     *
+     * @return \Illuminate\Http\Response
+     */
     public function index()
     {
         return view('site.index');
@@ -110,5 +120,75 @@ class SiteController extends Controller
     public function OrderComplete()
     {
         return view("site.OrderComplete");
+    }
+
+    /**
+     * Remove the specified resource from storage.
+     *
+     * @return \Illuminate\Http\Response
+     */
+    public function contato()
+    {
+        return view("site.contato");
+    }
+
+    /**
+     * Remove the specified resource from storage.
+     *
+     * @return \Illuminate\Http\Response
+     */
+    public function ComoComprar()
+    {
+        return view("site.ComoComprar");
+    }
+
+    /**
+     * Remove the specified resource from storage.
+     *
+     * @return \Illuminate\Http\Response
+     */
+    public function PagamentoEnvio()
+    {
+        return view("site.PagamentoEnvio");
+    }
+
+    /**
+     * Remove the specified resource from storage.
+     *
+     * @return \Illuminate\Http\Response
+     */
+    public function Promocoes()
+    {
+        return view("site.Promocoes");
+    }
+
+    /**
+     * Remove the specified resource from storage.
+     *
+     * @return \Illuminate\Http\Response
+     */
+    public function Empresa()
+    {
+        return view("site.Empresa");
+    }
+
+    /**
+     * Remove the specified resource from storage.
+     *
+     * @return \Illuminate\Http\Response
+     */
+    public function login()
+    {
+        return view("site.login");
+    }
+
+    /**
+     * Remove the specified resource from storage.
+     *
+     * @return \Illuminate\Http\Response
+     */
+    public function cadastro()
+    {
+        return view("site.cadastro");
     }
 }

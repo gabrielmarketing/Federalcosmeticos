@@ -54,7 +54,7 @@
                                     </div>
                                 </td>
                                 <td class="product-name">
-                                    <a href="shop-product-sidebar-right.html" class="font-weight-semi-bold text-color-dark text-color-hover-primary text-decoration-none">Photo Camera</a>
+                                    <a href="shop-product-sidebar-right.html" class="font-weight-semi-bold text-color-dark text-color-hover-primary text-decoration-none">NOME DO PERFUME</a>
                                 </td>
                                 <td class="product-price">
                                     <span class="amount font-weight-medium text-color-grey">R$10</span>
@@ -77,7 +77,7 @@
                                             <i class="fas fa-times"></i>
                                         </a>
                                         <a href="shop-product-sidebar-right.html" class="product-thumbnail-image" title="Porto Headphone">
-                                            <img width="90" height="90" alt="" class="img-fluid" src="{{asset("")}}img/products/product-grey-7.jpg">
+                                            <img width="90" height="90" alt="" class="img-fluid" src="{{asset("porto/img/products/product-grey-7.jpg")}}">
                                         </a>
                                     </div>
                                 </td>
@@ -188,12 +188,12 @@
                                     <div class="row justify-content-between mx-0">
                                         <div class="col-md-auto px-0 mb-3 mb-md-0">
                                             <div class="d-flex align-items-center">
-                                                <input type="text" class="form-control h-auto border-radius-0 line-height-1 py-3" name="couponCode" placeholder="Coupon Code" />
-                                                <button type="submit" class="btn btn-light btn-modern text-color-dark bg-color-light-scale-2 text-color-hover-light bg-color-hover-primary text-uppercase text-3 font-weight-bold border-0 border-radius-0 ws-nowrap btn-px-4 py-3 ms-2">Apply Coupon</button>
+                                                <input type="text" class="form-control h-auto border-radius-0 line-height-1 py-3" name="couponCode" placeholder="Cupom de Desconto" />
+                                                <button type="submit" class="btn btn-light btn-modern text-color-dark bg-color-light-scale-2 text-color-hover-light bg-color-hover-primary text-uppercase text-3 font-weight-bold border-0 border-radius-0 ws-nowrap btn-px-4 py-3 ms-2">Aplicar Cupom</button>
                                             </div>
                                         </div>
                                         <div class="col-md-auto px-0">
-                                            <button type="submit" class="btn btn-light btn-modern text-color-dark bg-color-light-scale-2 text-color-hover-light bg-color-hover-primary text-uppercase text-3 font-weight-bold border-0 border-radius-0 btn-px-4 py-3">Update Cart</button>
+                                            <button type="submit" class="btn btn-light btn-modern text-color-dark bg-color-light-scale-2 text-color-hover-light bg-color-hover-primary text-uppercase text-3 font-weight-bold border-0 border-radius-0 btn-px-4 py-3">Atualizar Carrinho</button>
                                         </div>
                                     </div>
                                 </td>
@@ -243,7 +243,7 @@
                             </tr>
                             </tbody>
                         </table>
-                        <a href="shop-checkout.html" class="btn btn-dark btn-modern w-100 text-uppercase bg-color-hover-primary border-color-hover-primary border-radius-0 text-3 py-3">Continuar <i class="fas fa-arrow-right ms-2"></i></a>
+                        <a href="{{route("site.Checkout")}}" class="btn btn-dark btn-modern w-100 text-uppercase bg-color-hover-primary border-color-hover-primary border-radius-0 text-3 py-3">Continuar <i class="fas fa-arrow-right ms-2"></i></a>
                     </div>
                 </div>
             </div>
@@ -379,7 +379,7 @@
                                     </div>
 
                                     <div class="countdown-offer-wrapper">
-                                        <div class="text-color-light text-2" data-plugin-countdown data-plugin-options="{'date': '2022/01/01 12:00:00', 'numberClass': 'text-color-light', 'wrapperClass': 'text-color-light', 'insertHTMLbefore': '<span>OFFER ENDS IN </span>', 'textDay': 'DAYS', 'textHour': ':', 'textMin': ':', 'textSec': '', 'uppercase': true}"></div>
+                                        <div class="text-color-light text-2" data-plugin-countdown data-plugin-options="{'date': '2021/07/01 12:00:00', 'numberClass': 'text-color-light', 'wrapperClass': 'text-color-light', 'insertHTMLbefore': '<span>OFERTA ACABA EM </span>', 'textDay': 'DIAS', 'textHour': ':', 'textMin': ':', 'textSec': '', 'uppercase': true}"></div>
                                     </div>
 
                                     <a href="ajax/shop-product-quick-view.html" class="quick-view text-uppercase font-weight-semibold text-2">
@@ -387,7 +387,7 @@
                                     </a>
                                     <a href="shop-product-sidebar-left.html">
                                         <div class="product-thumb-info-image">
-                                            <img alt="" class="img-fluid" src="{{asset("images/produtoss/fox.png")}}">
+                                            <img alt="" class="img-fluid" src="{{asset("images/produtos/fox.png")}}">
 
                                         </div>
                                     </a>
@@ -422,7 +422,7 @@
                                     </a>
                                     <a href="shop-product-sidebar-left.html">
                                         <div class="product-thumb-info-image">
-                                            <img alt="" class="img-fluid" src="{{asset("porto/img/products/product-grey-4.jpg")}}">
+                                            <img alt="" class="img-fluid" src="{{asset("images/produtos/owen.png")}}">
 
                                         </div>
                                     </a>
@@ -430,7 +430,7 @@
                                 <div class="d-flex justify-content-between">
                                     <div>
                                         <a href="#" class="d-block text-uppercase text-decoration-none text-color-default text-color-hover-primary line-height-1 text-0 mb-1">COSMÉTICOS</a>
-                                        <h3 class="text-3-5 font-weight-medium font-alternative text-transform-none line-height-3 mb-0"><a href="shop-product-sidebar-right.html" class="text-color-dark text-color-hover-primary">Luxury Bag</a></h3>
+                                        <h3 class="text-3-5 font-weight-medium font-alternative text-transform-none line-height-3 mb-0"><a href="shop-product-sidebar-right.html" class="text-color-dark text-color-hover-primary">Owen</a></h3>
                                     </div>
                                     <a href="#" class="text-decoration-none text-color-default text-color-hover-dark text-4"><i class="far fa-heart"></i></a>
                                 </div>
@@ -455,15 +455,15 @@
                                     </a>
                                     <a href="shop-product-sidebar-left.html">
                                         <div class="product-thumb-info-image">
-                                            <img alt="" class="img-fluid" src="{{asset("porto/img/products/product-grey-5.jpg")}}">
+                                            <img alt="" class="img-fluid" src="{{asset("images/produtos/impala.png")}}">
 
                                         </div>
                                     </a>
                                 </div>
                                 <div class="d-flex justify-content-between">
                                     <div>
-                                        <a href="#" class="d-block text-uppercase text-decoration-none text-color-default text-color-hover-primary line-height-1 text-0 mb-1">accessories</a>
-                                        <h3 class="text-3-5 font-weight-medium font-alternative text-transform-none line-height-3 mb-0"><a href="shop-product-sidebar-right.html" class="text-color-dark text-color-hover-primary">Styled Bag</a></h3>
+                                        <a href="#" class="d-block text-uppercase text-decoration-none text-color-default text-color-hover-primary line-height-1 text-0 mb-1">COSMÉTICOS</a>
+                                        <h3 class="text-3-5 font-weight-medium font-alternative text-transform-none line-height-3 mb-0"><a href="shop-product-sidebar-right.html" class="text-color-dark text-color-hover-primary">Impala</a></h3>
                                     </div>
                                     <a href="#" class="text-decoration-none text-color-default text-color-hover-dark text-4"><i class="far fa-heart"></i></a>
                                 </div>
@@ -490,14 +490,14 @@
                                     </a>
                                     <a href="shop-product-sidebar-left.html">
                                         <div class="product-thumb-info-image">
-                                            <img alt="" class="img-fluid" src="{{asset("porto/img/products/product-grey-6.jpg")}}">
+                                            <img alt="" class="img-fluid" src="{{asset("images/produtos/invicto.png")}}">
                                         </div>
                                     </a>
                                 </div>
                                 <div class="d-flex justify-content-between">
                                     <div>
-                                        <a href="#" class="d-block text-uppercase text-decoration-none text-color-default text-color-hover-primary line-height-1 text-0 mb-1">hat</a>
-                                        <h3 class="text-3-5 font-weight-medium font-alternative text-transform-none line-height-3 mb-0"><a href="shop-product-sidebar-right.html" class="text-color-dark text-color-hover-primary">Blue Hat</a></h3>
+                                        <a href="#" class="d-block text-uppercase text-decoration-none text-color-default text-color-hover-primary line-height-1 text-0 mb-1">COSMÉTICOS</a>
+                                        <h3 class="text-3-5 font-weight-medium font-alternative text-transform-none line-height-3 mb-0"><a href="shop-product-sidebar-right.html" class="text-color-dark text-color-hover-primary">Invicto</a></h3>
                                     </div>
                                     <a href="#" class="text-decoration-none text-color-default text-color-hover-dark text-4"><i class="far fa-heart"></i></a>
                                 </div>
@@ -524,15 +524,15 @@
                                     </a>
                                     <a href="shop-product-sidebar-left.html">
                                         <div class="product-thumb-info-image">
-                                            <img alt="" class="img-fluid" src="{{asset("porto/img/products/product-grey-8.jpg")}}">
+                                            <img alt="" class="img-fluid" src="{{asset("images/produtos/mustang_v1.png")}}">
 
                                         </div>
                                     </a>
                                 </div>
                                 <div class="d-flex justify-content-between">
                                     <div>
-                                        <a href="#" class="d-block text-uppercase text-decoration-none text-color-default text-color-hover-primary line-height-1 text-0 mb-1">accessories</a>
-                                        <h3 class="text-3-5 font-weight-medium font-alternative text-transform-none line-height-3 mb-0"><a href="shop-product-sidebar-right.html" class="text-color-dark text-color-hover-primary">Adventurer Bag</a></h3>
+                                        <a href="#" class="d-block text-uppercase text-decoration-none text-color-default text-color-hover-primary line-height-1 text-0 mb-1">COSMÉTICOS</a>
+                                        <h3 class="text-3-5 font-weight-medium font-alternative text-transform-none line-height-3 mb-0"><a href="shop-product-sidebar-right.html" class="text-color-dark text-color-hover-primary">Mustang</a></h3>
                                     </div>
                                     <a href="#" class="text-decoration-none text-color-default text-color-hover-dark text-4"><i class="far fa-heart"></i></a>
                                 </div>
@@ -559,15 +559,15 @@
                                     </a>
                                     <a href="shop-product-sidebar-left.html">
                                         <div class="product-thumb-info-image">
-                                            <img alt="" class="img-fluid" src="{{asset("porto/img/products/product-grey-9.jpg")}}">
+                                            <img alt="" class="img-fluid" src="{{asset("images/produtos/speed.png")}}">
 
                                         </div>
                                     </a>
                                 </div>
                                 <div class="d-flex justify-content-between">
                                     <div>
-                                        <a href="#" class="d-block text-uppercase text-decoration-none text-color-default text-color-hover-primary line-height-1 text-0 mb-1">sports</a>
-                                        <h3 class="text-3-5 font-weight-medium font-alternative text-transform-none line-height-3 mb-0"><a href="shop-product-sidebar-right.html" class="text-color-dark text-color-hover-primary">Baseball Ball</a></h3>
+                                        <a href="#" class="d-block text-uppercase text-decoration-none text-color-default text-color-hover-primary line-height-1 text-0 mb-1">COSMÉTICOS</a>
+                                        <h3 class="text-3-5 font-weight-medium font-alternative text-transform-none line-height-3 mb-0"><a href="shop-product-sidebar-right.html" class="text-color-dark text-color-hover-primary">Speed</a></h3>
                                     </div>
                                     <a href="#" class="text-decoration-none text-color-default text-color-hover-dark text-4"><i class="far fa-heart"></i></a>
                                 </div>

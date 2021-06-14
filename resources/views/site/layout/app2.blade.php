@@ -39,6 +39,15 @@
     <link rel="stylesheet" href="{{asset("porto/css/theme-blog.css")}}">
     <link rel="stylesheet" href="{{asset("porto/css/theme-shop.css")}}">
 
+    <!-- Admin Extension Specific Page Vendor CSS -->
+    <link rel="stylesheet" href="{{asset("porto/admin/vendor/pnotify/pnotify.custom.css")}}" />
+
+    <!-- Admin Extension CSS -->
+    <link rel="stylesheet" href="{{asset("porto/admin/css/theme-admin-extension.css")}}">
+
+    <!-- Admin Extension Skin CSS -->
+    <link rel="stylesheet" href="{{asset("porto/admin/css/skins/extension.css")}}">
+
     <!-- Skin CSS -->
     <link id="skinCSS" rel="stylesheet" href="{{asset("porto/css/skins/default.css")}}">
 
@@ -158,7 +167,7 @@
                     <div class="header-column w-100">
                         <div class="header-row justify-content-between">
                             <div class="header-logo z-index-2 col-lg-2 px-0">
-                                <a href="{{asset("index.html")}}">
+                                <a href="{{route("site.index")}}">
                                     <img alt="Porto" width="180" height="65" data-sticky-width="115" data-sticky-height="40" data-sticky-top=110" src="{{asset("images/logofederalcosmeticos.png")}}">
                                 </a>
                             </div>
@@ -203,24 +212,24 @@
                                 <ul class="header-extra-info">
                                     <li class="ms-0 ms-xl-4">
                                         <div class="header-extra-info-icon">
-                                            <a href="#" class="text-decoration-none text-color-dark text-color-hover-primary text-2">
-                                                <i class="icons icon-user"></i>
+                                            <a href="{{route("site.login")}}" class="text-decoration-none text-color-dark text-color-hover-primary text-2">
+                                                <i title="Login" class="icons icon-user"></i>
                                             </a>
                                         </div>
                                     </li>
-                                    <li class="me-2 ms-3">
+                                    {{--<li class="me-2 ms-3">
                                         <div class="header-extra-info-icon">
                                             <a href="#" class="text-decoration-none text-color-dark text-color-hover-primary text-2">
                                                 <i class="icons icon-heart"></i>
                                             </a>
                                         </div>
-                                    </li>
+                                    </li>--}}
                                 </ul>
                                 <div class="header-nav-features ps-0 ms-1">
                                     <div class="header-nav-feature header-nav-features-cart header-nav-features-cart-big d-inline-flex top-2 ms-2">
                                         <a href="#" class="header-nav-features-toggle">
                                             <img src="{{asset("porto/img/icons/icon-cart-big.svg")}}" height="30" alt="" class="header-nav-top-icon-img">
-                                            <span class="cart-info">
+                                            <span title="Carrinho" class="cart-info">
 														<span class="cart-qty">1</span>
 													</span>
                                         </a>
@@ -270,33 +279,33 @@
                                                     </a>
                                                 </li>
                                                 <li class="dropdown dropdown-mega">
-                                                    <a class="dropdown-item dropdown-toggle" href="{{asset("elements.html")}}">
-                                                        Comprar
+                                                    <a class="dropdown-item dropdown-toggle" href="{{route("site.ComoComprar")}}">
+                                                        Como Comprar
                                                     </a>
                                                 </li>
                                                 <li class="dropdown">
-                                                    <a class="dropdown-item dropdown-toggle" href="#">
-                                                        Pagamento/Envio
+                                                    <a class="dropdown-item dropdown-toggle" href="{{route("site.PagamentoEnvio")}}">
+                                                        Formas de Pagamento/Envio
                                                     </a>
                                                 </li>
                                                 <li class="dropdown">
-                                                    <a class="dropdown-item dropdown-toggle" href="#">
+                                                    <a class="dropdown-item dropdown-toggle" href="{{route("site.Promocoes")}}">
                                                         Promoções
                                                     </a>
                                                 </li>
                                                 <li class="dropdown">
-                                                    <a class="dropdown-item dropdown-toggle" href="#">
+                                                    <a class="dropdown-item dropdown-toggle" href="{{route("site.Empresa")}}">
                                                         Empresa
                                                     </a>
                                                 </li>
                                                 <li class="dropdown">
-                                                    <a class="dropdown-item dropdown-toggle" href="#">
+                                                    <a class="dropdown-item dropdown-toggle" href="{{route("site.contato")}}">
                                                         Contato
                                                     </a>
                                                 </li>
                                                 <li class="dropdown">
                                                     <a class="dropdown-item dropdown-toggle active" href="#">
-                                                        Revender
+                                                        Catalogos
                                                     </a>
                                                 </li>
                                                 {{--<li class="dropdown ms-lg-auto">
@@ -326,115 +335,108 @@
 
 @yield('content')
 
-    <footer id="footer" class="footer-texts-more-lighten">
+    <footer id="footer" class="m-0 bg-color-dark" xmlns="http://www.w3.org/1999/html">
         <div class="container">
-            <div class="row py-4 my-5">
-                <div class="col-md-6 col-lg-3 mb-5 mb-lg-0">
-                    <h5 class="text-4 text-color-light mb-3">CONTACT INFO</h5>
-                    <ul class="list list-unstyled">
-                        <li class="pb-1 mb-2">
-                            <span class="d-block font-weight-normal line-height-1 text-color-light">ADDRESS</span>
-                            1234 Street Name, City, State, USA
-                        </li>
-                        <li class="pb-1 mb-2">
-                            <span class="d-block font-weight-normal line-height-1 text-color-light">PHONE</span>
-                            <a href="tel:+1234567890">Toll Free (123) 456-7890</a>
-                        </li>
-                        <li class="pb-1 mb-2">
-                            <span class="d-block font-weight-normal line-height-1 text-color-light">EMAIL</span>
-                            <a href="mailto:mail@example.com">mail@example.com</a>
-                        </li>
-                        <li class="pb-1 mb-2">
-                            <span class="d-block font-weight-normal line-height-1 text-color-light">WORKING DAYS/HOURS </span>
-                            Mon - Sun / 9:00AM - 8:00PM
-                        </li>
-                    </ul>
-                    <ul class="social-icons social-icons-clean-with-border social-icons-medium">
+            <div class="row py-5">
+                <div class="col-sm-12 pb-4 pb-lg-0 col-lg-2 mb-2 d-flex align-items-center">
+                    <img width="180" height="150" src="{{ asset("images/logofooter.png") }}" alt="Logo Footer">
+                </div>
+                <div class="col-sm-6 col-lg-3 footer-column footer-column-get-in-touch">
+                    <h4 class="mb-4 text-uppercase">Entre em Contato</h4>
+                    <div class="info custom-info mb-4">
+                        <div class="custom-info-block custom-info-block-address">
+                            <span class="text-color-default font-weight-bolder text-uppercase title-custom-info-block title-custom-info-block-address">Endereço</span>
+                            <p><span class="font-weight-normal text-color-light text-custom-info-block p-relative bottom-6 text-custom-info-block-address">Av. Contorno, 3790 - Santa Clara, Goianésia - GO, 76380-275</span></p>
+                        </div>
+                        <div class="custom-info-block custom-info-block-phone">
+                            <span class="text-color-default font-weight-bolder text-uppercase title-custom-info-block title-custom-info-block-phone">Contato</span>
+                            <p><span class="font-weight-normal text-color-light text-custom-info-block p-relative bottom-6 text-custom-info-block-phone">Fone <a href="tel:+1234567890" class="text-color-light">0800 626 2345</a></span></p>
+                            <span class="font-weight-normal text-color-light text-custom-info-block p-relative bottom-6 text-custom-info-block-phone">Whatsapp <a href="tel:+1234567890" class="text-color-light">(62) 3142-2629</a></span>
+                        </div>
+                        <div class="custom-info-block custom-info-block-email">
+                            <span class="text-color-default font-weight-bolder text-uppercase title-custom-info-block title-custom-info-block-email">E-mail</span>
+                            <p><span class="font-weight-normal text-color-light text-custom-info-block p-relative bottom-6 text-custom-info-block-email"><a class="text-color-light" href="mailto:mail@example.com">contato@federalcosmeticos.com.br</a></span></p>
+                        </div>
+                        <!--<div class="custom-info-block custom-info-block-working-days">
+                             <span class="text-color-default font-weight-bolder text-uppercase title-custom-info-block title-custom-info-block-working-days">funcionamente Dias/Horas</span>
+                             <span class="font-weight-normal text-color-light text-custom-info-block text-custom-info-block-working-days">Seg - Sab / 9:00AM - 8:00PM</span>
+                         </div>-->
+                    </div>
+                    <ul class="social-icons">
                         <li class="social-icons-instagram">
-                            <a href="http://www.instagram.com/" class="no-footer-css" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a>
+                            <a href="#" target="_blank" title="Instagram">
+                                <i class="fab fa-instagram text-4 font-weight-semibold text-hover-primary"></i>
+                            </a>
                         </li>
-                        <li class="social-icons-twitter mx-2">
-                            <a href="http://www.twitter.com/" class="no-footer-css" target="_blank" title="Twitter"><i class="fab fa-twitter"></i></a>
+                        <!--<li class="social-icons-twitter">
+                            <a href="http://www.twitter.com/" target="_blank" title="Twitter">
+                                <i class="fab fa-twitter text-4 font-weight-semibold text-hover-primary"></i>
+                            </a>
                         </li>
                         <li class="social-icons-facebook">
-                            <a href="http://www.facebook.com/" class="no-footer-css" target="_blank" title="Facebook"><i class="fab fa-facebook-f"></i></a>
-                        </li>
+                            <a href="http://www.facebook.com/" target="_blank" title="Facebook">
+                                <i class="fab fa-facebook-f text-4 font-weight-semibold text-hover-primary"></i>
+                            </a>
+                        </li>-->
                     </ul>
                 </div>
-                <div class="col-md-6 col-lg-3 mb-5 mb-lg-0">
-                    <h5 class="text-4 text-color-light mb-3">CUSTOMER SERVICE</h5>
-                    <ul class="list list-unstyled mb-0">
-                        <li class="mb-0"><a href="contact-us-1.html">Help & FAQs</a></li>
-                        <li class="mb-0"><a href="services.html">Order Tracking</a></li>
-                        <li class="mb-0"><a href="#">Shipping & Delivery</a></li>
-                        <li class="mb-0"><a href="#">Orders History</a></li>
-                        <li class="mb-0"><a href="#">Advanced Search</a></li>
-                        <li class="mb-0"><a href="#">Login</a></li>
-                        <li class="mb-0"><a href="about-us-1.html">Careers</a></li>
-                        <li class="mb-0"><a href="#">About Us</a></li>
-                        <li class="mb-0"><a href="#">Corporate Sales</a></li>
-                    </ul>
-                </div>
-                <div class="col-md-6 col-lg-3 mb-5 mb-md-0">
-                    <h5 class="text-4 text-color-light mb-3">POPULAR TAGS</h5>
-                    <ul class="list list-unstyled list-inline mb-0">
-                        <li class="list-inline-item"><a href="#" class="badge badge-dark rounded border border-color-light-3 font-weight-normal text-2 p-2">jeans</a></li>
-                        <li class="list-inline-item"><a href="#" class="badge badge-dark rounded border border-color-light-3 font-weight-normal text-2 p-2">shoes</a></li>
-                        <li class="list-inline-item"><a href="#" class="badge badge-dark rounded border border-color-light-3 font-weight-normal text-2 p-2">bag</a></li>
-                        <li class="list-inline-item"><a href="#" class="badge badge-dark rounded border border-color-light-3 font-weight-normal text-2 p-2">jeasn</a></li>
-                        <li class="list-inline-item"><a href="#" class="badge badge-dark rounded border border-color-light-3 font-weight-normal text-2 p-2">classic</a></li>
-                        <li class="list-inline-item"><a href="#" class="badge badge-dark rounded border border-color-light-3 font-weight-normal text-2 p-2">black</a></li>
-                        <li class="list-inline-item"><a href="#" class="badge badge-dark rounded border border-color-light-3 font-weight-normal text-2 p-2">bag</a></li>
-                        <li class="list-inline-item"><a href="#" class="badge badge-dark rounded border border-color-light-3 font-weight-normal text-2 p-2">white</a></li>
-                        <li class="list-inline-item"><a href="#" class="badge badge-dark rounded border border-color-light-3 font-weight-normal text-2 p-2">bag</a></li>
-                        <li class="list-inline-item"><a href="#" class="badge badge-dark rounded border border-color-light-3 font-weight-normal text-2 p-2">bag</a></li>
-                        <li class="list-inline-item"><a href="#" class="badge badge-dark rounded border border-color-light-3 font-weight-normal text-2 p-2">shoes</a></li>
-                        <li class="list-inline-item"><a href="#" class="badge badge-dark rounded border border-color-light-3 font-weight-normal text-2 p-2">bag</a></li>
-                        <li class="list-inline-item"><a href="#" class="badge badge-dark rounded border border-color-light-3 font-weight-normal text-2 p-2">jeans</a></li>
-                        <li class="list-inline-item"><a href="#" class="badge badge-dark rounded border border-color-light-3 font-weight-normal text-2 p-2">shoes</a></li>
-                        <li class="list-inline-item"><a href="#" class="badge badge-dark rounded border border-color-light-3 font-weight-normal text-2 p-2">white</a></li>
-                        <li class="list-inline-item"><a href="#" class="badge badge-dark rounded border border-color-light-3 font-weight-normal text-2 p-2">black</a></li>
-                        <li class="list-inline-item"><a href="#" class="badge badge-dark rounded border border-color-light-3 font-weight-normal text-2 p-2">white</a></li>
-                        <li class="list-inline-item"><a href="#" class="badge badge-dark rounded border border-color-light-3 font-weight-normal text-2 p-2">shoes</a></li>
-                    </ul>
-                </div>
-                <div class="col-md-6 col-lg-3">
-                    <h5 class="text-4 text-color-light mb-3">SUBSCRIBE NEWSLETTER</h5>
-                    <p class="mb-2">Get all the latest information on events, sales and offers. Sign up for newsletter:</p>
-                    <div class="alert alert-success d-none" id="newsletterSuccess">
-                        <strong>Success!</strong> You've been added to our email list.
+                <div class="col-sm-6 pt-5 pt-md-0 col-lg-4">
+                    <div class="nav-footer-container">
+                        <h4 class="mb-4 text-uppercase">FEDERAL COSMÉTICOS</h4>
+                        <div class="nav-footer d-flex">
+                            <ul>
+                                <li>
+                                    <a href="#">Home</a>
+                                </li>
+                                <li>
+                                    <a href="#">Sobre Nós</a>
+                                </li>
+                                <li>
+                                    <a href="#">Ganhos como consultor</a>
+                                </li>
+                                <li>
+                                    <a href="#">Revista Federal Cosméticos</a>
+                                </li>
+                                <li>
+                                    <a href="#">Dúvidas Frequentes</a>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
-                    <div class="alert alert-danger d-none" id="newsletterError"></div>
-                    <form id="newsletterForm" class="form-style-5 opacity-10" action="php/newsletter-subscribe.php" method="POST">
-                        <div class="row">
-                            <div class="form-group col">
-                                <input class="form-control" placeholder="Email Address" name="newsletterEmail" id="newsletterEmail" type="text" />
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="form-group col">
-                                <button class="btn btn-primary btn-rounded btn-px-4 btn-py-2 font-weight-bold" type="submit">SUBSCRIBE</button>
-                            </div>
-                        </div>
-                    </form>
+                </div>
+                <div class="col-sm-12 pt-4 pt-lg-0 col-lg-3 text-left ml-lg-auto footer-column footer-column-opening-hours">
+                    <h4 class="mb-4 text-uppercase">Horários de Funcionamento</h4>
+                    <div class="info custom-info pt-0">
+                        <span>Segunda-feira</span>
+                        <span>8:00 ás 18:00 pm</span>
+                    </div>
+                    <div class="info custom-info pt-0">
+                        <span>Terça-feira</span>
+                        <span>8:00 ás 18:00 pm</span>
+                    </div>
+                    <div class="info custom-info pt-0">
+                        <span>Quarta-feira</span>
+                        <span>8:00 ás 18:00 pm</span>
+                    </div>
+                    <div class="info custom-info pt-0">
+                        <span>Quinta-feira</span>
+                        <span>8:00 ás 18:00 pm</span>
+                    </div>
+                    <div class="info custom-info pt-0">
+                        <span>Sexta-feira</span>
+                        <span>8:00 ás 18:00 pm</span>
+                    </div>
+                    <div class="info custom-info">
+                        <span>Sabado/Domingo</span>
+                        <span>FECHADO</span>
+                    </div>
                 </div>
             </div>
         </div>
-        <div class="container">
-            <div class="footer-copyright footer-copyright-style-2 pt-4 pb-5">
-                <div class="row align-items-center justify-content-md-between">
-                    <div class="col-12 col-md-auto text-center text-md-start mb-2 mb-md-0">
-                        <p class="mb-0">Federal Cosméticos © 2021. Todos os direitos reservados</p>
-                    </div>
-                    <div class="col-12 col-md-auto">
-                        <div class="payment-cc justify-content-center justify-content-md-end">
-                            <i class="fab fa-cc-visa"></i>
-                            <i class="fab fa-cc-paypal"></i>
-                            <i class="fab fa-cc-stripe"></i>
-                            <i class="fab fa-cc-mastercard"></i>
-                            <i class="fab fa-cc-apple-pay"></i>
-                        </div>
-                    </div>
+        <div class="footer-copyright pt-3 pb-3 container bg-color-dark">
+            <div class="row">
+                <div class="col-lg-12 text-center m-0 pb-4">
+                    <p class="text-color-default">FederalCosméticos. © {{ date('Y') }}.  Todos direitos Reservados</p>
                 </div>
             </div>
         </div>
@@ -448,8 +450,9 @@
 <script src="{{asset("porto/vendor/jquery.cookie/jquery.cookie.min.js")}}"></script>
 <script src="{{asset("porto/vendor/bootstrap/js/bootstrap.bundle.min.js")}}"></script>
 <script src="{{asset("porto/vendor/jquery.validation/jquery.validate.min.js")}}"></script>
-<script src="{{asset("porto/vendor/jquery.easy-pie-chart/jquery.easypiechart.min.js")}}"></script>
-<script src="{{asset("vendor/jquery.gmap/jquery.gmap.min.js")}}"></script>
+@yield("chart/gmap")
+{{--<script src="{{asset("porto/vendor/jquery.easy-pie-chart/jquery.easypiechart.min.js")}}"></script>
+<script src="{{asset("vendor/jquery.gmap/jquery.gmap.min.js")}}"></script>--}}
 <script src="{{asset("porto/vendor/lazysizes/lazysizes.min.js")}}"></script>
 <script src="{{asset("porto/vendor/isotope/jquery.isotope.min.js")}}"></script>
 <script src="{{asset("porto/vendor/owl.carousel/owl.carousel.min.js")}}"></script>
@@ -463,7 +466,16 @@
 <!-- Theme Base, Components and Settings -->
 <script src="{{asset("porto/js/theme.js")}}"></script>
 
+<!-- Admin Extension Specific Page Vendor -->
+<script src="{{asset("porto/admin/vendor/jquery-validation/jquery.validate.js")}}"></script>
+<script src="{{asset("porto/admin/vendor/bootstrap-wizard/jquery.bootstrap.wizard.js")}}"></script>
+<script src="{{asset("porto/admin/vendor/pnotify/pnotify.custom.js")}}"></script>
 
+<!-- Admin Extension -->
+<script src="{{asset("porto/admin/js/theme.admin.extension.js")}}"></script>
+
+<!-- Admin Extension Examples -->
+<script src="{{asset("porto/admin/js/examples/examples.wizard.js")}}"></script>
 
 <!-- Current Page Vendor and Views -->
 <script src="{{asset("porto/js/views/view.shop.js")}}"></script>
