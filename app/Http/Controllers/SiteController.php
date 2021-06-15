@@ -193,4 +193,14 @@ class SiteController extends Controller
     {
         return view("site.cadastro");
     }
+
+    /**
+     * Remove the specified resource from storage.
+     *
+     * @return \Illuminate\Http\Response
+     */
+    public function quickview()
+    {
+        return redirect("site.quickview");
+    }
 }
