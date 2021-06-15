@@ -21,7 +21,7 @@
                                 <a href="{{asset("porto/ajax/shop-product-quick-view.html")}}" class="quick-view text-uppercase font-weight-semibold text-2">
                                     VER PERFUME
                                 </a>
-                                <a href="shop-product-sidebar-left.html">
+                                <a href="{{route("site.ShopCart")}}">
                                     <div class="product-thumb-info-image">
                                         <img alt="" class="img-fluid" src="{{asset($product->image)}}">
                                     </div>
