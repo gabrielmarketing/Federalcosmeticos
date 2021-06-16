@@ -205,23 +205,23 @@
                                             Red, Blue
                                         </td>
                                     </tr>--}}
-                                    <tr>
+                                    {{--<tr>
                                         <th>
                                             Material
                                         </th>
                                         <td>
                                             100% Leather
                                         </td>
-                                    </tr>
+                                    </tr>--}}
                                     </tbody>
                                 </table>
                             </div>
-                            <div class="tab-pane px-0 py-3" id="productReviews">
+                            {{--<div class="tab-pane px-0 py-3" id="productReviews">
                                 <ul class="comments">
                                     <li>
                                         <div class="comment">
                                             <div class="img-thumbnail border-0 p-0 d-none d-md-block">
-                                                <img class="avatar rounded-circle" alt="" src="img/avatars/avatar-2.jpg">
+                                                <img class="avatar rounded-circle" alt="" src="{{asset("images/avatars/avatar-2.jpg")}}">
                                             </div>
                                             <div class="comment-block">
                                                 <div class="comment-arrow"></div>
@@ -306,7 +306,7 @@
                                     </div>
 
                                 </div>
-                            </div>
+                            </div>--}}
                         </div>
                     </div>
                 </div>
@@ -314,7 +314,7 @@
 
             <div class="row">
                 <div class="col">
-                    <h4 class="font-weight-semibold text-4 mb-3">RELATED PRODUCTS</h4>
+                    <h4 class="font-weight-semibold text-4 mb-3">PRODUTOS RELACIONADOS</h4>
                     <hr class="mt-0">
                     <div class="products row">
                         <div class="col">
