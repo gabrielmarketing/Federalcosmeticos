@@ -8,8 +8,8 @@
                 <div class="col">
                     <ul class="breadcrumb breadcrumb-style-2 d-block text-4 mb-4">
                         <li><a href="#" class="text-color-default text-color-hover-primary text-decoration-none">Home</a></li>
-                        <li><a href="#" class="text-color-default text-color-hover-primary text-decoration-none">Electronics</a></li>
-                        <li>SMARTWATCHES</li>
+                        <li><a href="#" class="text-color-default text-color-hover-primary text-decoration-none">Produtos</a></li>
+                        <li>Perfumes</li>
                     </ul>
                 </div>
             </div>
@@ -19,27 +19,27 @@
                     <div class="thumb-gallery-wrapper">
                         <div class="thumb-gallery-detail owl-carousel owl-theme manual nav-inside nav-style-1 nav-dark mb-3">
                             <div>
-                                <img alt="" class="img-fluid" src="{{asset("porto/img/products/product-grey-7.jpg")}}" data-zoom-image="img/products/product-grey-7.jpg">
+                                <img alt="" class="img-fluid" src="{{asset("images/produtos/v8.png")}}" data-zoom-image="{{asset("images/produtos/v8.png")}}">
                             </div>
                             <div>
-                                <img alt="" class="img-fluid" src="{{asset("porto/img/products/product-grey-7-2.jpg")}}img/products/product-grey-7-2.jpg" data-zoom-image="img/products/product-grey-7-2.jpg">
+                                <img alt="" class="img-fluid" src="{{asset("images/produtos/v8.png")}}" data-zoom-image="img/products/product-grey-7-2.jpg">
                             </div>
                             <div>
-                                <img alt="" class="img-fluid" src="img/products/product-grey-7-3.jpg" data-zoom-image="img/products/product-grey-7-3.jpg">
+                                <img alt="" class="img-fluid" src="{{asset("porto/admin/img/products/product-grey-7-3.jpg")}}" data-zoom-image="img/products/product-grey-7-3.jpg">
                             </div>
                             <div>
-                                <img alt="" class="img-fluid" src="img/products/product-grey-7-4.jpg" data-zoom-image="img/products/product-grey-7-4.jpg">
+                                <img alt="" class="img-fluid" src="{{asset("porto/admin/img/products/product-grey-7-4.jpg")}}" data-zoom-image="img/products/product-grey-7-4.jpg">
                             </div>
                             <div>
-                                <img alt="" class="img-fluid" src="img/products/product-grey-7-5.jpg" data-zoom-image="img/products/product-grey-7-5.jpg">
+                                <img alt="" class="img-fluid" src="{{asset("porto/admin/img/products/product-grey-7-5.jpg")}}" data-zoom-image="img/products/product-grey-7-5.jpg">
                             </div>
                         </div>
                         <div class="thumb-gallery-thumbs owl-carousel owl-theme manual thumb-gallery-thumbs">
                             <div class="cur-pointer">
-                                <img alt="" class="img-fluid" src="img/products/product-grey-7.jpg">
+                                <img alt="" class="img-fluid" src="{{asset("porto/admin/img/products/product-grey-7.jpg")}}">
                             </div>
                             <div class="cur-pointer">
-                                <img alt="" class="img-fluid" src="img/products/product-grey-7-2.jpg">
+                                <img alt="" class="img-fluid" src="{{asset("porto/admin/img/products/product-grey-7-2.jpg")}}">
                             </div>
                             <div class="cur-pointer">
                                 <img alt="" class="img-fluid" src="img/products/product-grey-7-3.jpg">
@@ -66,7 +66,7 @@
                             </div>
                         </div>
 
-                        <h1 class="mb-0 font-weight-bold text-7">Porto Headphone</h1>
+                        <h1 class="mb-0 font-weight-bold text-7">V8</h1>
 
                         <div class="pb-0 clearfix d-flex align-items-center">
                             <div title="Rated 3 out of 5" class="float-start">
@@ -85,15 +85,15 @@
                         </div>
 
                         <p class="price mb-3">
-                            <span class="sale text-color-dark">$15,00</span>
-                            <span class="amount">$22,00</span>
+                            <span class="sale text-color-dark">R$10,00</span>
+                            <span class="amount">R$30,00</span>
                         </p>
 
                         <p class="text-3-5 mb-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tempus nibh sed elimttis adipiscing. Fusce in hendrerit purus. Lorem ipsum dolor sit amet.</p>
 
                         <ul class="list list-unstyled text-2">
-                            <li class="mb-0">AVAILABILITY: <strong class="text-color-dark">AVAILABLE</strong></li>
-                            <li class="mb-0">SKU: <strong class="text-color-dark">1234567890</strong></li>
+                            <li class="mb-0">DISPONIBILIDADE: <strong class="text-color-dark">DISPONÍVEL</strong></li>
+                            {{--<li class="mb-0">SKU: <strong class="text-color-dark">1234567890</strong></li>--}}
                         </ul>
 
 
@@ -101,31 +101,29 @@
                             <table class="table table-borderless" style="max-width: 300px;">
                                 <tbody>
                                 <tr>
-                                    <td class="align-middle text-2 px-0 py-2">SIZE:</td>
+                                    <td class="align-middle text-2 px-0 py-2">TAMANHO:</td>
                                     <td class="px-0 py-2">
                                         <div class="custom-select-1">
                                             <select name="size" class="form-control form-select text-1 h-auto py-2">
-                                                <option value="">PLEASE CHOOSE</option>
-                                                <option value="blue">Small</option>
-                                                <option value="red">Normal</option>
-                                                <option value="green">Big</option>
+                                                <option value="">POR FAVOR ESCOLHA</option>
+                                                <option value="blue">17ML</option>
                                             </select>
                                         </div>
                                     </td>
                                 </tr>
-                                <tr>
-                                    <td class="align-middle text-2 px-0 py-2">COLOR:</td>
+                                {{--<tr>
+                                    <td class="align-middle text-2 px-0 py-2">COR:</td>
                                     <td class="px-0 py-2">
                                         <div class="custom-select-1">
                                             <select name="color" class="form-control form-select text-1 h-auto py-2">
-                                                <option value="">PLEASE CHOOSE</option>
+                                                <option value="">POR FAVOR ESCOLHA</option>
                                                 <option value="blue">Blue</option>
                                                 <option value="red">Red</option>
                                                 <option value="green">Green</option>
                                             </select>
                                         </div>
                                     </td>
-                                </tr>
+                                </tr>--}}
                                 </tbody>
                             </table>
                             <hr>
@@ -134,7 +132,7 @@
                                 <input type="text" class="input-text qty text" title="Qty" value="1" name="quantity" min="1" step="1">
                                 <input type="button" class="plus text-color-hover-light bg-color-hover-primary border-color-hover-primary" value="+">
                             </div>
-                            <button type="submit" class="btn btn-dark btn-modern text-uppercase bg-color-hover-primary border-color-hover-primary">Add to cart</button>
+                            <button type="submit" class="btn btn-dark btn-modern text-uppercase bg-color-hover-primary border-color-hover-primary">Adicionar ao Carrinho</button>
                             <hr>
                         </form>
 
@@ -165,9 +163,9 @@
                                     </a>
                                 </li>
                             </ul>
-                            <a href="#" class="d-flex align-items-center text-decoration-none text-color-dark text-color-hover-primary font-weight-semibold text-2">
+                            {{--<a href="#" class="d-flex align-items-center text-decoration-none text-color-dark text-color-hover-primary font-weight-semibold text-2">
                                 <i class="far fa-heart me-1"></i> SAVE TO WISHLIST
-                            </a>
+                            </a>--}}
                         </div>
 
                     </div>
@@ -179,9 +177,9 @@
                 <div class="col">
                     <div id="description" class="tabs tabs-simple tabs-simple-full-width-line tabs-product tabs-dark mb-2">
                         <ul class="nav nav-tabs justify-content-start">
-                            <li class="nav-item"><a class="nav-link active font-weight-bold text-3 text-uppercase py-2 px-3" href="#productDescription" data-bs-toggle="tab">Description</a></li>
-                            <li class="nav-item"><a class="nav-link font-weight-bold text-3 text-uppercase py-2 px-3" href="#productInfo" data-bs-toggle="tab">Additional Information</a></li>
-                            <li class="nav-item"><a class="nav-link nav-link-reviews font-weight-bold text-3 text-uppercase py-2 px-3" href="#productReviews" data-bs-toggle="tab">Reviews (2)</a></li>
+                            <li class="nav-item"><a class="nav-link active font-weight-bold text-3 text-uppercase py-2 px-3" href="#productDescription" data-bs-toggle="tab">Descrição</a></li>
+                            <li class="nav-item"><a class="nav-link font-weight-bold text-3 text-uppercase py-2 px-3" href="#productInfo" data-bs-toggle="tab">Informação Adicional</a></li>
+                            {{--<li class="nav-item"><a class="nav-link nav-link-reviews font-weight-bold text-3 text-uppercase py-2 px-3" href="#productReviews" data-bs-toggle="tab">Reviews (2)</a></li>--}}
                         </ul>
                         <div class="tab-content p-0">
                             <div class="tab-pane px-0 py-3 active" id="productDescription">
@@ -193,20 +191,20 @@
                                     <tbody>
                                     <tr>
                                         <th class="border-top-0">
-                                            Size:
+                                            Tamanho:
                                         </th>
                                         <td class="border-top-0">
-                                            Unique
+                                            17ml
                                         </td>
                                     </tr>
-                                    <tr>
+                                    {{--<tr>
                                         <th>
                                             Colors
                                         </th>
                                         <td>
                                             Red, Blue
                                         </td>
-                                    </tr>
+                                    </tr>--}}
                                     <tr>
                                         <th>
                                             Material
