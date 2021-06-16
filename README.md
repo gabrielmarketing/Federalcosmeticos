@@ -10,4 +10,10 @@
 ## Sobre Federal Cosmeticos 1.0.0
 
 - Organização de views
-- 
+-
+
+## Sobre Federal Cosmeticos wa
+
+- cadastrei carrinho em javascript 
+  
+  video de apoio https://www.youtube.com/watch?v=Q-2ofSvIvBo
