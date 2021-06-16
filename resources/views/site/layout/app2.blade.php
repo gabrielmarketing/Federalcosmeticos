@@ -230,7 +230,7 @@
                                         <a href="#" class="header-nav-features-toggle">
                                             <img src="{{asset("porto/img/icons/icon-cart-big.svg")}}" height="30" alt="" class="header-nav-top-icon-img">
                                             <span title="Carrinho" class="cart-info">
-														<span class="cart-qty">1</span>
+														<span class="cart-qty" id="cartqty" style="display: none"></span>
 													</span>
                                         </a>
                                         <div class="header-nav-features-dropdown" id="headerTopCartDropdown">
@@ -485,6 +485,8 @@
 
 <!-- Theme Initialization Files -->
 <script src="{{asset("porto/js/theme.init.js")}}"></script>
+
+@includeIf('global.javascript')
 
 </body>
 </html>

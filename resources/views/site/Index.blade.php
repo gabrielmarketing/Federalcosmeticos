@@ -14,7 +14,7 @@
 {{--                                    <span class="badge badge-ecommerce badge-success">NOVIDADE</span>--}}
 {{--                                </div>--}}
                                 <div class="addtocart-btn-wrapper">
-                                    <a href="{{asset("porto/shop-cart.html")}}" class="text-decoration-none addtocart-btn" title="Adicionar ao Carrinho">
+                                    <a href="#" id="{{$product->id}}" onclick="addcar(this);" class="text-decoration-none addtocart-btn addcar" title="Adicionar ao Carrinho">
                                         <i class="icons icon-bag"></i>
                                     </a>
                                 </div>
