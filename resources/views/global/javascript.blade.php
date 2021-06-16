@@ -1,19 +1,19 @@
 
 <script>
 
+    // ------------------------------ script carrinho -------------------------------------//
     const products = []
+
     function addcar(element){
         event.preventDefault();
         var elementHtml = $(element);
 
             var product = {
                 'id':elementHtml.attr('id'),
-                'quantity': 1,
+                'quantity': 1
             };
 
         addItemToLocal(product);
-
-        // var teste = document.getElementById('cartqty').innerHTML=7;
     }
 
     function addItemToLocal(product){
@@ -41,7 +41,7 @@
         let cartNumbers = 0;
         let cartItem = JSON.parse(localStorage.getItem('prdInCart'))
         cartItem.forEach(item =>{
-            cartNumbers = cartNumbers += item.quantity;
+            cartNumbers = item.quantity += cartNumbers;
         });
         if (cartNumbers > 0){
             document.getElementById('cartqty').innerHTML=cartNumbers;

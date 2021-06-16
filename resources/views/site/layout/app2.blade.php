@@ -227,36 +227,36 @@
                                 </ul>
                                 <div class="header-nav-features ps-0 ms-1">
                                     <div class="header-nav-feature header-nav-features-cart header-nav-features-cart-big d-inline-flex top-2 ms-2">
-                                        <a href="#" class="header-nav-features-toggle">
+                                        <a href="{{route("site.ShopCart")}}" {{--class="header-nav-features-toggle"--}}> {{--tirei a class para ir diretor para a pagina do carrinho--}}
                                             <img src="{{asset("porto/img/icons/icon-cart-big.svg")}}" height="30" alt="" class="header-nav-top-icon-img">
                                             <span title="Carrinho" class="cart-info">
 														<span class="cart-qty" id="cartqty" style="display: none"></span>
 													</span>
                                         </a>
-                                        <div class="header-nav-features-dropdown" id="headerTopCartDropdown">
-                                            <ol class="mini-products-list">
-                                                <li class="item">
-                                                    <a href="#" title="diplomata" class="product-image"><img src="{{asset("images/produtos/diplomata.png")}}" alt="Diplomata"></a>
-                                                    <div class="product-details">
-                                                        <p class="product-name">
-                                                            <a href="#">Diplomata </a>
-                                                        </p>
-                                                        <p class="qty-price">
-                                                            1X <span class="price">R$10</span>
-                                                        </p>
-                                                        <a href="#" title="Remove This Item" class="btn-remove"><i class="fas fa-times"></i></a>
-                                                    </div>
-                                                </li>
-                                            </ol>
-                                            <div class="totals">
-                                                <span class="label">Total:</span>
-                                                <span class="price-total"><span class="price">R$10</span></span>
-                                            </div>
-                                            <div class="actions">
-                                                <a class="btn btn-dark" href="{{route("site.ShopCart")}}">Ver carrinho</a>
-                                                <a class="btn btn-primary" href="{{route("site.Checkout")}}">Checkout</a>
-                                            </div>
-                                        </div>
+{{--                                        <div class="header-nav-features-dropdown" id="headerTopCartDropdown">--}}
+{{--                                            <ol class="mini-products-list">--}}
+{{--                                                <li class="item">--}}
+{{--                                                    <a href="#" title="diplomata" class="product-image"><img src="{{asset("images/produtos/diplomata.png")}}" alt="Diplomata"></a>--}}
+{{--                                                    <div class="product-details">--}}
+{{--                                                        <p class="product-name">--}}
+{{--                                                            <a href="#">Diplomata </a>--}}
+{{--                                                        </p>--}}
+{{--                                                        <p class="qty-price">--}}
+{{--                                                            1X <span class="price">R$10</span>--}}
+{{--                                                        </p>--}}
+{{--                                                        <a href="#" title="Remove This Item" class="btn-remove"><i class="fas fa-times"></i></a>--}}
+{{--                                                    </div>--}}
+{{--                                                </li>--}}
+{{--                                            </ol>--}}
+{{--                                            <div class="totals">--}}
+{{--                                                <span class="label">Total:</span>--}}
+{{--                                                <span class="price-total"><span class="price">R$10</span></span>--}}
+{{--                                            </div>--}}
+{{--                                            <div class="actions">--}}
+{{--                                                <a class="btn btn-dark" href="{{route("site.ShopCart")}}">Ver carrinho</a>--}}
+{{--                                                <a class="btn btn-primary" href="{{route("site.Checkout")}}">Checkout</a>--}}
+{{--                                            </div>--}}
+{{--                                        </div>--}}
                                     </div>
                                 </div>
                             </div>
