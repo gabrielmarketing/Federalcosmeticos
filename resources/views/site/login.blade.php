@@ -10,7 +10,7 @@
                     <form action="/" id="frmSignIn" method="post" class="needs-validation">
                         <div class="row">
                             <div class="form-group col">
-                                <label class="form-label text-color-dark text-3">Endereço de E-mail <span class="text-color-danger">*</span></label>
+                                <label class="form-label text-color-dark text-3">CPF<span class="text-color-danger">*</span></label>
                                 <input type="text" value="" class="form-control form-control-lg text-4" required>
                             </div>
                         </div>
@@ -59,13 +59,13 @@
                         </div>
                         <div class="row">
                             <div class="form-group col">
-                                <p class="text-2 mb-2">Seus dados pessoais serão usados para apoiar sua experiência em todo este site, para gerenciar o acesso à sua conta e para outros fins.</p>
+                                <p class="text-2 mb-2">Seus dados pessoais serão usados para apoiar sua experiência em todo este site.</p>
                             </div>
                         </div>
                         <!-- quero que você direcione para a aba de cadastro site.register -->
                         <div class="row">
                             <div class="form-group col">
-                                <button  type="submit" class="btn btn-dark btn-modern w-100 text-uppercase rounded-0 font-weight-bold text-3 py-3" data-loading-text="Loading...">Continuar</button>
+                                <a  href="{{route("site.cadastro")}}" class="btn btn-dark btn-modern w-100 text-uppercase rounded-0 font-weight-bold text-3 py-3" data-loading-text="Loading...">Continuar</a>
                             </div>
                         </div>
                     </form>

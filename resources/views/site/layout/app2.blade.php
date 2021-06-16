@@ -6,7 +6,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-    <title>Federal Cosmétcos</title>
+    <title>Federal Cosméticos</title>
 
     <meta name="keywords" content="HTML5 Template" />
     <meta name="description" content="Porto - Responsive HTML5 Template">
@@ -230,8 +230,8 @@
                                         <a href="#" class="header-nav-features-toggle">
                                             <img src="{{asset("porto/img/icons/icon-cart-big.svg")}}" height="30" alt="" class="header-nav-top-icon-img">
                                             <span title="Carrinho" class="cart-info">
-														<span class="cart-qty">1</span>
-													</span>
+                                                <span class="cart-qty">1</span>
+                                            </span>
                                         </a>
                                         <div class="header-nav-features-dropdown" id="headerTopCartDropdown">
                                             <ol class="mini-products-list">
@@ -304,7 +304,7 @@
                                                     </a>
                                                 </li>
                                                 <li class="dropdown">
-                                                    <a class="dropdown-item dropdown-toggle active" href="#">
+                                                    <a class="dropdown-item dropdown-toggle active" href="{{asset("")}}">
                                                         Catalogos
                                                     </a>
                                                 </li>

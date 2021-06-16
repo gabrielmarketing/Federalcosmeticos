@@ -18,10 +18,10 @@
                                         <i class="icons icon-bag"></i>
                                     </a>
                                 </div>
-                                <a href="{{asset("porto/ajax/shop-product-quick-view.html")}}" class="quick-view text-uppercase font-weight-semibold text-2">
+                                <a href="{{route("site.ProductView")}}" class="quick-view text-uppercase font-weight-semibold text-2">
                                     VER PERFUME
                                 </a>
-                                <a href="{{route("site.ShopCart")}}">
+                                <a href="{{route("site.ProductView")}}">
                                     <div class="product-thumb-info-image">
                                         <img alt="" class="img-fluid" src="{{asset($product->image)}}">
                                     </div>

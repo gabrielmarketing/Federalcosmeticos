@@ -199,8 +199,8 @@ class SiteController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function quickview()
+    public function ProductView()
     {
-        return redirect("site.quickview");
+        return view("site.ProductView");
     }
 }

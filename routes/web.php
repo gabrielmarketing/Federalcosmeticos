@@ -53,8 +53,8 @@ Route::name('site.')->group(function (){
     Route::get('/cadastro', [ SiteController::class, "cadastro" ])
         ->name('cadastro');
 
-    Route::get('/quickview', [ SiteController::class, "quickview" ])
-        ->name('quickview');
+    Route::get('/ProductView', [ SiteController::class, "ProductView" ])
+        ->name('ProductView');
 
 
 });
