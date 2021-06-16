@@ -22,33 +22,33 @@
                                 <img alt="" class="img-fluid" src="{{asset("images/produtos/v8.png")}}" data-zoom-image="{{asset("images/produtos/v8.png")}}">
                             </div>
                             <div>
-                                <img alt="" class="img-fluid" src="{{asset("images/produtos/v8.png")}}" data-zoom-image="img/products/product-grey-7-2.jpg">
+                                <img alt="" class="img-fluid" src="{{asset("images/produtos/v8.png")}}" data-zoom-image="{{asset("images/produtos/v8.png")}}">
                             </div>
                             <div>
-                                <img alt="" class="img-fluid" src="{{asset("porto/admin/img/products/product-grey-7-3.jpg")}}" data-zoom-image="img/products/product-grey-7-3.jpg">
+                                <img alt="" class="img-fluid" src="{{asset("images/produtos/v8.png")}}" data-zoom-image="{{asset("images/produtos/v8.png")}}">
                             </div>
                             <div>
-                                <img alt="" class="img-fluid" src="{{asset("porto/admin/img/products/product-grey-7-4.jpg")}}" data-zoom-image="img/products/product-grey-7-4.jpg">
+                                <img alt="" class="img-fluid" src="{{asset("images/produtos/v8.png")}}" data-zoom-image="{{asset("images/produtos/v8.png")}}">
                             </div>
                             <div>
-                                <img alt="" class="img-fluid" src="{{asset("porto/admin/img/products/product-grey-7-5.jpg")}}" data-zoom-image="img/products/product-grey-7-5.jpg">
+                                <img alt="" class="img-fluid" src="{{asset("images/produtos/v8.png")}}" data-zoom-image="{{asset("images/produtos/v8.png")}}">
                             </div>
                         </div>
                         <div class="thumb-gallery-thumbs owl-carousel owl-theme manual thumb-gallery-thumbs">
                             <div class="cur-pointer">
-                                <img alt="" class="img-fluid" src="{{asset("porto/admin/img/products/product-grey-7.jpg")}}">
+                                <img alt="" class="img-fluid" src="{{asset("images/produtos/v8.png")}}">
                             </div>
                             <div class="cur-pointer">
-                                <img alt="" class="img-fluid" src="{{asset("porto/admin/img/products/product-grey-7-2.jpg")}}">
+                                <img alt="" class="img-fluid" src="{{asset("images/produtos/v8.png")}}">
                             </div>
                             <div class="cur-pointer">
-                                <img alt="" class="img-fluid" src="img/products/product-grey-7-3.jpg">
+                                <img alt="" class="img-fluid" src="{{asset("images/produtos/v8.png")}}">
                             </div>
                             <div class="cur-pointer">
-                                <img alt="" class="img-fluid" src="img/products/product-grey-7-4.jpg">
+                                <img alt="" class="img-fluid" src="{{asset("images/produtos/v8.png")}}">
                             </div>
                             <div class="cur-pointer">
-                                <img alt="" class="img-fluid" src="img/products/product-grey-7-5.jpg">
+                                <img alt="" class="img-fluid" src="{{asset("images/produtos/v8.png")}}">
                             </div>
                         </div>
                     </div>
@@ -132,36 +132,36 @@
                                 <input type="text" class="input-text qty text" title="Qty" value="1" name="quantity" min="1" step="1">
                                 <input type="button" class="plus text-color-hover-light bg-color-hover-primary border-color-hover-primary" value="+">
                             </div>
-                            <button type="submit" class="btn btn-dark btn-modern text-uppercase bg-color-hover-primary border-color-hover-primary">Adicionar ao Carrinho</button>
+                            <button type="submit" class="btn btn-success btn-modern text-uppercase bg-color-hover-primary border-color-hover-primary">COMPRAR</button>
                             <hr>
                         </form>
 
                         <div class="d-flex align-items-center">
                             <ul class="social-icons social-icons-medium social-icons-clean-with-border social-icons-clean-with-border-border-grey social-icons-clean-with-border-icon-dark me-3 mb-0">
                                 <!-- Facebook -->
-                                <li class="social-icons-facebook">
-                                    <a href="http://www.facebook.com/sharer.php?u=https://www.okler.net" target="_blank" data-bs-toggle="tooltip" data-bs-animation="false" data-bs-placement="top" title="Share On Facebook">
-                                        <i class="fab fa-facebook-f"></i>
+                                <li class="social-icons-instagram">
+                                    <a href="https://www.instagram.com/federalcosmeticos_oficial/" target="_blank" data-bs-toggle="tooltip" data-bs-animation="false" data-bs-placement="top" title="COMPARTILHAR">
+                                        <i class="fab fa-instagram"></i>
                                     </a>
                                 </li>
-                                <!-- Google+ -->
+                                {{--<!-- Google+ -->
                                 <li class="social-icons-googleplus">
                                     <a href="https://plus.google.com/share?url=https://www.okler.net" target="_blank" data-bs-toggle="tooltip" data-bs-animation="false" data-bs-placement="top" title="Share On Google+">
                                         <i class="fab fa-google-plus-g"></i>
                                     </a>
-                                </li>
-                                <!-- Twitter -->
+                                </li>--}}
+                                {{--<!-- Twitter -->
                                 <li class="social-icons-twitter">
                                     <a href="https://twitter.com/share?url=https://www.okler.net&amp;text=Simple%20Share%20Buttons&amp;hashtags=simplesharebuttons" target="_blank" data-bs-toggle="tooltip" data-bs-animation="false" data-bs-placement="top" title="Share On Twitter">
                                         <i class="fab fa-twitter"></i>
                                     </a>
-                                </li>
-                                <!-- Email -->
+                                </li>--}}
+                                {{--<!-- Email -->
                                 <li class="social-icons-email">
                                     <a href="mailto:?Subject=Share This Page&amp;Body=I%20saw%20this%20and%20thought%20of%20you!%20 https://www.okler.net" data-bs-toggle="tooltip" data-bs-animation="false" data-bs-placement="top" title="Share By Email">
                                         <i class="far fa-envelope"></i>
                                     </a>
-                                </li>
+                                </li>--}}
                             </ul>
                             {{--<a href="#" class="d-flex align-items-center text-decoration-none text-color-dark text-color-hover-primary font-weight-semibold text-2">
                                 <i class="far fa-heart me-1"></i> SAVE TO WISHLIST
@@ -322,32 +322,29 @@
 
                                 <div class="product mb-0">
                                     <div class="product-thumb-info border-0 mb-3">
-
                                         <div class="product-thumb-info-badges-wrapper">
-                                            <span class="badge badge-ecommerce badge-success">NEW</span>
+                                            <span class="badge badge-ecommerce badge-success"></span>
 
                                         </div>
-
                                         <div class="addtocart-btn-wrapper">
-                                            <a href="shop-cart.html" class="text-decoration-none addtocart-btn" title="Add to Cart">
+                                            <a href="shop-cart.html" class="text-decoration-none addtocart-btn" title="Adicionar ao Carrinho">
                                                 <i class="icons icon-bag"></i>
                                             </a>
                                         </div>
-
-                                        <a href="ajax/shop-product-quick-view.html" class="quick-view text-uppercase font-weight-semibold text-2">
+                                        {{--<a href="ajax/shop-product-quick-view.html" class="quick-view text-uppercase font-weight-semibold text-2">
                                             QUICK VIEW
-                                        </a>
+                                        </a>--}}
                                         <a href="shop-product-sidebar-left.html">
                                             <div class="product-thumb-info-image">
-                                                <img alt="" class="img-fluid" src="img/products/product-grey-1.jpg">
+                                                <img alt="" class="img-fluid" src="{{asset("images/produtos/falcon.png")}}">
 
                                             </div>
                                         </a>
                                     </div>
                                     <div class="d-flex justify-content-between">
                                         <div>
-                                            <a href="#" class="d-block text-uppercase text-decoration-none text-color-default text-color-hover-primary line-height-1 text-0 mb-1">electronics</a>
-                                            <h3 class="text-3-5 font-weight-medium font-alternative text-transform-none line-height-3 mb-0"><a href="shop-product-sidebar-right.html" class="text-color-dark text-color-hover-primary">Photo Camera</a></h3>
+                                            <a href="#" class="d-block text-uppercase text-decoration-none text-color-default text-color-hover-primary line-height-1 text-0 mb-1">PERFUME MASCULINO</a>
+                                            <h3 class="text-3-5 font-weight-medium font-alternative text-transform-none line-height-3 mb-0"><a href="shop-product-sidebar-right.html" class="text-color-dark text-color-hover-primary">FALCON</a></h3>
                                         </div>
                                         <a href="#" class="text-decoration-none text-color-default text-color-hover-dark text-4"><i class="far fa-heart"></i></a>
                                     </div>
@@ -355,41 +352,37 @@
                                         <input type="text" class="d-none" value="5" title="" data-plugin-star-rating data-plugin-options="{'displayOnly': true, 'color': 'default', 'size':'xs'}">
                                     </div>
                                     <p class="price text-5 mb-3">
-                                        <span class="sale text-color-dark font-weight-semi-bold">$69,00</span>
-                                        <span class="amount">$59,00</span>
+                                        <span class="sale text-color-dark font-weight-semi-bold">R$10,00</span>
+                                        <span class="amount">R$30,00</span>
                                     </p>
                                 </div>
 
                                 <div class="product mb-0">
                                     <div class="product-thumb-info border-0 mb-3">
-
-                                        <div class="product-thumb-info-badges-wrapper">
+                                        {{--<div class="product-thumb-info-badges-wrapper">
                                             <span class="badge badge-ecommerce badge-success">NEW</span>
                                             <span class="badge badge-ecommerce badge-danger">27% OFF</span>
-                                        </div>
-
+                                        </div>--}}
                                         <div class="addtocart-btn-wrapper">
-                                            <a href="shop-cart.html" class="text-decoration-none addtocart-btn" title="Add to Cart">
+                                            <a href="{{route("site.ShopCart")}}" class="text-decoration-none addtocart-btn" title="Adicionar ao Carrinho">
                                                 <i class="icons icon-bag"></i>
                                             </a>
                                         </div>
-
-                                        <a href="ajax/shop-product-quick-view.html" class="quick-view text-uppercase font-weight-semibold text-2">
+                                        {{--<a href="#" class="quick-view text-uppercase font-weight-semibold text-2">
                                             QUICK VIEW
-                                        </a>
-                                        <a href="shop-product-sidebar-left.html">
+                                        </a>--}}
+                                        <a href="{{route("site.ShopCart")}}">
                                             <div class="product-thumb-info-image product-thumb-info-image-effect">
-                                                <img alt="" class="img-fluid" src="img/products/product-grey-7.jpg">
+                                                <img alt="" class="img-fluid" src="{{asset("images/produtos/mustang.png")}}">
 
-                                                <img alt="" class="img-fluid" src="img/products/product-grey-7-2.jpg">
-
+                                                <img alt="" class="img-fluid" src="{{asset("images/produtos/mustang.png")}}">
                                             </div>
                                         </a>
                                     </div>
                                     <div class="d-flex justify-content-between">
                                         <div>
-                                            <a href="#" class="d-block text-uppercase text-decoration-none text-color-default text-color-hover-primary line-height-1 text-0 mb-1">accessories</a>
-                                            <h3 class="text-3-5 font-weight-medium font-alternative text-transform-none line-height-3 mb-0"><a href="shop-product-sidebar-right.html" class="text-color-dark text-color-hover-primary">Porto Headphone</a></h3>
+                                            <a href="#" class="d-block text-uppercase text-decoration-none text-color-default text-color-hover-primary line-height-1 text-0 mb-1">PERFUME MASCULINO</a>
+                                            <h3 class="text-3-5 font-weight-medium font-alternative text-transform-none line-height-3 mb-0"><a href="{{route("site.ShopCart")}}" class="text-color-dark text-color-hover-primary">MUSTANG</a></h3>
                                         </div>
                                         <a href="#" class="text-decoration-none text-color-default text-color-hover-dark text-4"><i class="far fa-heart"></i></a>
                                     </div>
@@ -397,8 +390,8 @@
                                         <input type="text" class="d-none" value="5" title="" data-plugin-star-rating data-plugin-options="{'displayOnly': true, 'color': 'default', 'size':'xs'}">
                                     </div>
                                     <p class="price text-5 mb-3">
-                                        <span class="sale text-color-dark font-weight-semi-bold">$199,00</span>
-                                        <span class="amount">$99,00</span>
+                                        <span class="sale text-color-dark font-weight-semi-bold">R$10,00</span>
+                                        <span class="amount">R$30,00</span>
                                     </p>
                                 </div>
 
@@ -406,25 +399,24 @@
                                     <div class="product-thumb-info border-0 mb-3">
 
                                         <div class="addtocart-btn-wrapper">
-                                            <a href="shop-cart.html" class="text-decoration-none addtocart-btn" title="Add to Cart">
+                                            <a href="{{route("site.ShopCart")}}" class="text-decoration-none addtocart-btn" title="Adicionar ao Carrinho">
                                                 <i class="icons icon-bag"></i>
                                             </a>
                                         </div>
-
-                                        <a href="ajax/shop-product-quick-view.html" class="quick-view text-uppercase font-weight-semibold text-2">
+                                        {{--<a href="ajax/shop-product-quick-view.html" class="quick-view text-uppercase font-weight-semibold text-2">
                                             QUICK VIEW
-                                        </a>
-                                        <a href="shop-product-sidebar-left.html">
+                                        </a>--}}
+                                        <a href="{{route("site.ShopCart")}}">
                                             <div class="product-thumb-info-image">
-                                                <img alt="" class="img-fluid" src="img/products/product-grey-2.jpg">
+                                                <img alt="" class="img-fluid" src="{{asset("images/produtos/owen.png")}}">
 
                                             </div>
                                         </a>
                                     </div>
                                     <div class="d-flex justify-content-between">
                                         <div>
-                                            <a href="#" class="d-block text-uppercase text-decoration-none text-color-default text-color-hover-primary line-height-1 text-0 mb-1">sports</a>
-                                            <h3 class="text-3-5 font-weight-medium font-alternative text-transform-none line-height-3 mb-0"><a href="shop-product-sidebar-right.html" class="text-color-dark text-color-hover-primary">Golf Bag</a></h3>
+                                            <a href="#" class="d-block text-uppercase text-decoration-none text-color-default text-color-hover-primary line-height-1 text-0 mb-1">PERFUME MASCULINO</a>
+                                            <h3 class="text-3-5 font-weight-medium font-alternative text-transform-none line-height-3 mb-0"><a href="{{route("site.ShopCart")}}" class="text-color-dark text-color-hover-primary">OWEN</a></h3>
                                         </div>
                                         <a href="#" class="text-decoration-none text-color-default text-color-hover-dark text-4"><i class="far fa-heart"></i></a>
                                     </div>
@@ -432,43 +424,38 @@
                                         <input type="text" class="d-none" value="5" title="" data-plugin-star-rating data-plugin-options="{'displayOnly': true, 'color': 'default', 'size':'xs'}">
                                     </div>
                                     <p class="price text-5 mb-3">
-                                        <span class="sale text-color-dark font-weight-semi-bold">$29,00</span>
-                                        <span class="amount">$19,00</span>
+                                        <span class="sale text-color-dark font-weight-semi-bold">R$10,00</span>
+                                        <span class="amount">R$30,00</span>
                                     </p>
                                 </div>
 
                                 <div class="product mb-0">
                                     <div class="product-thumb-info border-0 mb-3">
-
-                                        <div class="product-thumb-info-badges-wrapper">
+                                        {{--<div class="product-thumb-info-badges-wrapper">
 
                                             <span class="badge badge-ecommerce badge-danger">27% OFF</span>
-                                        </div>
-
+                                        </div>--}}
                                         <div class="addtocart-btn-wrapper">
-                                            <a href="shop-cart.html" class="text-decoration-none addtocart-btn" title="Add to Cart">
+                                            <a href="{{route("site.ShopCart")}}" class="text-decoration-none addtocart-btn" title="Adicionar ao Carrinho">
                                                 <i class="icons icon-bag"></i>
                                             </a>
                                         </div>
-
-                                        <div class="countdown-offer-wrapper">
+                                        {{--<div class="countdown-offer-wrapper">
                                             <div class="text-color-light text-2" data-plugin-countdown data-plugin-options="{'date': '2022/01/01 12:00:00', 'numberClass': 'text-color-light', 'wrapperClass': 'text-color-light', 'insertHTMLbefore': '<span>OFFER ENDS IN </span>', 'textDay': 'DAYS', 'textHour': ':', 'textMin': ':', 'textSec': '', 'uppercase': true}"></div>
-                                        </div>
-
-                                        <a href="ajax/shop-product-quick-view.html" class="quick-view text-uppercase font-weight-semibold text-2">
+                                        </div>--}}
+                                        {{--<a href="ajax/shop-product-quick-view.html" class="quick-view text-uppercase font-weight-semibold text-2">
                                             QUICK VIEW
-                                        </a>
-                                        <a href="shop-product-sidebar-left.html">
+                                        </a>--}}
+                                        <a href="{{route("site.ShopCart")}}">
                                             <div class="product-thumb-info-image">
-                                                <img alt="" class="img-fluid" src="img/products/product-grey-3.jpg">
-
+                                                <img alt="" class="img-fluid" src="{{asset("images/produtos/speed.png")}}">
                                             </div>
                                         </a>
                                     </div>
                                     <div class="d-flex justify-content-between">
                                         <div>
-                                            <a href="#" class="d-block text-uppercase text-decoration-none text-color-default text-color-hover-primary line-height-1 text-0 mb-1">sports</a>
-                                            <h3 class="text-3-5 font-weight-medium font-alternative text-transform-none line-height-3 mb-0"><a href="shop-product-sidebar-right.html" class="text-color-dark text-color-hover-primary">Workout</a></h3>
+                                            <a href="#" class="d-block text-uppercase text-decoration-none text-color-default text-color-hover-primary line-height-1 text-0 mb-1">PERFUME MASCULINO</a>
+                                            <h3 class="text-3-5 font-weight-medium font-alternative text-transform-none line-height-3 mb-0"><a href="{{route("site.ShopCart")}}" class="text-color-dark text-color-hover-primary">SPEED</a></h3>
                                         </div>
                                         <a href="#" class="text-decoration-none text-color-default text-color-hover-dark text-4"><i class="far fa-heart"></i></a>
                                     </div>
@@ -476,8 +463,40 @@
                                         <input type="text" class="d-none" value="5" title="" data-plugin-star-rating data-plugin-options="{'displayOnly': true, 'color': 'default', 'size':'xs'}">
                                     </div>
                                     <p class="price text-5 mb-3">
-                                        <span class="sale text-color-dark font-weight-semi-bold">$40,00</span>
-                                        <span class="amount">$30,00</span>
+                                        <span class="sale text-color-dark font-weight-semi-bold">R$10,00</span>
+                                        <span class="amount">R$30,00</span>
+                                    </p>
+                                </div>
+                                <div class="product mb-0">
+                                    <div class="product-thumb-info border-0 mb-3">
+                                        <div class="addtocart-btn-wrapper">
+                                            <a href="{{route("site.ShopCart")}}" class="text-decoration-none addtocart-btn" title="Adicionar ao Carrinho">
+                                                <i class="icons icon-bag"></i>
+                                            </a>
+                                        </div>
+                                        {{--<a href="ajax/shop-product-quick-view.html" class="quick-view text-uppercase font-weight-semibold text-2">
+                                            QUICK VIEW
+                                        </a>--}}
+                                        <a href="{{route("site.ShopCart")}}">
+                                            <div class="product-thumb-info-image">
+                                                <img alt="" class="img-fluid" src="{{asset("images/produtos/omega.png")}}">
+
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="d-flex justify-content-between">
+                                        <div>
+                                            <a href="#" class="d-block text-uppercase text-decoration-none text-color-default text-color-hover-primary line-height-1 text-0 mb-1">PERFUME MASCULINO</a>
+                                            <h3 class="text-3-5 font-weight-medium font-alternative text-transform-none line-height-3 mb-0"><a href="{{route("site.ShopCart")}}" class="text-color-dark text-color-hover-primary">ÔMEGA</a></h3>
+                                        </div>
+                                        <a href="#" class="text-decoration-none text-color-default text-color-hover-dark text-4"><i class="far fa-heart"></i></a>
+                                    </div>
+                                    <div title="Rated 5 out of 5">
+                                        <input type="text" class="d-none" value="5" title="" data-plugin-star-rating data-plugin-options="{'displayOnly': true, 'color': 'default', 'size':'xs'}">
+                                    </div>
+                                    <p class="price text-5 mb-3">
+                                        <span class="sale text-color-dark font-weight-semi-bold">R$10,00</span>
+                                        <span class="amount">R$30,00</span>
                                     </p>
                                 </div>
 
@@ -485,25 +504,24 @@
                                     <div class="product-thumb-info border-0 mb-3">
 
                                         <div class="addtocart-btn-wrapper">
-                                            <a href="shop-cart.html" class="text-decoration-none addtocart-btn" title="Add to Cart">
+                                            <a href="{{route("site.ShopCart")}}" class="text-decoration-none addtocart-btn" title="Adicionar a Carrinho">
                                                 <i class="icons icon-bag"></i>
                                             </a>
                                         </div>
-
-                                        <a href="ajax/shop-product-quick-view.html" class="quick-view text-uppercase font-weight-semibold text-2">
+                                        {{--<a href="ajax/shop-product-quick-view.html" class="quick-view text-uppercase font-weight-semibold text-2">
                                             QUICK VIEW
-                                        </a>
-                                        <a href="shop-product-sidebar-left.html">
+                                        </a>--}}
+                                        <a href="{{route("site.ShopCart")}}">
                                             <div class="product-thumb-info-image">
-                                                <img alt="" class="img-fluid" src="img/products/product-grey-4.jpg">
+                                                <img alt="" class="img-fluid" src="{{asset("images/produtos/lion.png")}}">
 
                                             </div>
                                         </a>
                                     </div>
                                     <div class="d-flex justify-content-between">
                                         <div>
-                                            <a href="#" class="d-block text-uppercase text-decoration-none text-color-default text-color-hover-primary line-height-1 text-0 mb-1">accessories</a>
-                                            <h3 class="text-3-5 font-weight-medium font-alternative text-transform-none line-height-3 mb-0"><a href="shop-product-sidebar-right.html" class="text-color-dark text-color-hover-primary">Luxury Bag</a></h3>
+                                            <a href="#" class="d-block text-uppercase text-decoration-none text-color-default text-color-hover-primary line-height-1 text-0 mb-1">PERFUME MASCULINO</a>
+                                            <h3 class="text-3-5 font-weight-medium font-alternative text-transform-none line-height-3 mb-0"><a href="{{route("site.ShopCart")}}" class="text-color-dark text-color-hover-primary">LION</a></h3>
                                         </div>
                                         <a href="#" class="text-decoration-none text-color-default text-color-hover-dark text-4"><i class="far fa-heart"></i></a>
                                     </div>
@@ -511,8 +529,8 @@
                                         <input type="text" class="d-none" value="5" title="" data-plugin-star-rating data-plugin-options="{'displayOnly': true, 'color': 'default', 'size':'xs'}">
                                     </div>
                                     <p class="price text-5 mb-3">
-                                        <span class="sale text-color-dark font-weight-semi-bold">$99,00</span>
-                                        <span class="amount">$79,00</span>
+                                        <span class="sale text-color-dark font-weight-semi-bold">R$10,00</span>
+                                        <span class="amount">R$30,00</span>
                                     </p>
                                 </div>
 
@@ -520,25 +538,24 @@
                                     <div class="product-thumb-info border-0 mb-3">
 
                                         <div class="addtocart-btn-wrapper">
-                                            <a href="shop-cart.html" class="text-decoration-none addtocart-btn" title="Add to Cart">
+                                            <a href="{{route("site.ShopCart")}}" class="text-decoration-none addtocart-btn" title="Adicionar ao Carrinho">
                                                 <i class="icons icon-bag"></i>
                                             </a>
                                         </div>
-
-                                        <a href="ajax/shop-product-quick-view.html" class="quick-view text-uppercase font-weight-semibold text-2">
+                                        {{--<a href="ajax/shop-product-quick-view.html" class="quick-view text-uppercase font-weight-semibold text-2">
                                             QUICK VIEW
-                                        </a>
-                                        <a href="shop-product-sidebar-left.html">
+                                        </a>--}}
+                                        <a href="{{route("site.ShopCart")}}">
                                             <div class="product-thumb-info-image">
-                                                <img alt="" class="img-fluid" src="img/products/product-grey-5.jpg">
+                                                <img alt="" class="img-fluid" src="{{asset("images/produtos/alfa.png")}}">
 
                                             </div>
                                         </a>
                                     </div>
                                     <div class="d-flex justify-content-between">
                                         <div>
-                                            <a href="#" class="d-block text-uppercase text-decoration-none text-color-default text-color-hover-primary line-height-1 text-0 mb-1">accessories</a>
-                                            <h3 class="text-3-5 font-weight-medium font-alternative text-transform-none line-height-3 mb-0"><a href="shop-product-sidebar-right.html" class="text-color-dark text-color-hover-primary">Styled Bag</a></h3>
+                                            <a href="#" class="d-block text-uppercase text-decoration-none text-color-default text-color-hover-primary line-height-1 text-0 mb-1">PERFUME MASCULINO</a>
+                                            <h3 class="text-3-5 font-weight-medium font-alternative text-transform-none line-height-3 mb-0"><a href="{{route("site.ShopCart")}}" class="text-color-dark text-color-hover-primary">ALFA</a></h3>
                                         </div>
                                         <a href="#" class="text-decoration-none text-color-default text-color-hover-dark text-4"><i class="far fa-heart"></i></a>
                                     </div>
@@ -546,8 +563,8 @@
                                         <input type="text" class="d-none" value="5" title="" data-plugin-star-rating data-plugin-options="{'displayOnly': true, 'color': 'default', 'size':'xs'}">
                                     </div>
                                     <p class="price text-5 mb-3">
-                                        <span class="sale text-color-dark font-weight-semi-bold">$199,00</span>
-                                        <span class="amount">$119,00</span>
+                                        <span class="sale text-color-dark font-weight-semi-bold">R$10,00</span>
+                                        <span class="amount">R$30,00</span>
                                     </p>
                                 </div>
 
@@ -555,25 +572,21 @@
                                     <div class="product-thumb-info border-0 mb-3">
 
                                         <div class="addtocart-btn-wrapper">
-                                            <a href="shop-cart.html" class="text-decoration-none addtocart-btn" title="Add to Cart">
+                                            <a href="{{route("site.ShopCart")}}" class="text-decoration-none addtocart-btn" title="Adicionar ao Carrinho">
                                                 <i class="icons icon-bag"></i>
                                             </a>
                                         </div>
-
-                                        <a href="ajax/shop-product-quick-view.html" class="quick-view text-uppercase font-weight-semibold text-2">
-                                            QUICK VIEW
-                                        </a>
-                                        <a href="shop-product-sidebar-left.html">
+                                        <a href="{{route("site.ShopCart")}}">
                                             <div class="product-thumb-info-image">
-                                                <img alt="" class="img-fluid" src="img/products/product-grey-6.jpg">
+                                                <img alt="" class="img-fluid" src="{{asset("images/produtos/tiger.png")}}">
 
                                             </div>
                                         </a>
                                     </div>
                                     <div class="d-flex justify-content-between">
                                         <div>
-                                            <a href="#" class="d-block text-uppercase text-decoration-none text-color-default text-color-hover-primary line-height-1 text-0 mb-1">hat</a>
-                                            <h3 class="text-3-5 font-weight-medium font-alternative text-transform-none line-height-3 mb-0"><a href="shop-product-sidebar-right.html" class="text-color-dark text-color-hover-primary">Blue Hat</a></h3>
+                                            <a href="#" class="d-block text-uppercase text-decoration-none text-color-default text-color-hover-primary line-height-1 text-0 mb-1">PERFUME MASCULINO</a>
+                                            <h3 class="text-3-5 font-weight-medium font-alternative text-transform-none line-height-3 mb-0"><a href="{{route("site.ShopCart")}}" class="text-color-dark text-color-hover-primary">TIGER</a></h3>
                                         </div>
                                         <a href="#" class="text-decoration-none text-color-default text-color-hover-dark text-4"><i class="far fa-heart"></i></a>
                                     </div>
@@ -581,8 +594,8 @@
                                         <input type="text" class="d-none" value="5" title="" data-plugin-star-rating data-plugin-options="{'displayOnly': true, 'color': 'default', 'size':'xs'}">
                                     </div>
                                     <p class="price text-5 mb-3">
-                                        <span class="sale text-color-dark font-weight-semi-bold">$299,00</span>
-                                        <span class="amount">$289,00</span>
+                                        <span class="sale text-color-dark font-weight-semi-bold">R$10,00</span>
+                                        <span class="amount">R$30,00</span>
                                     </p>
                                 </div>
 
@@ -590,25 +603,25 @@
                                     <div class="product-thumb-info border-0 mb-3">
 
                                         <div class="addtocart-btn-wrapper">
-                                            <a href="shop-cart.html" class="text-decoration-none addtocart-btn" title="Add to Cart">
+                                            <a href="{{route("site.ShopCart")}}" class="text-decoration-none addtocart-btn" title="Adicionar ao Carrinho">
                                                 <i class="icons icon-bag"></i>
                                             </a>
                                         </div>
 
-                                        <a href="ajax/shop-product-quick-view.html" class="quick-view text-uppercase font-weight-semibold text-2">
+                                        <a href="{{route("site.ShopCart")}}" class="quick-view text-uppercase font-weight-semibold text-2">
                                             QUICK VIEW
                                         </a>
-                                        <a href="shop-product-sidebar-left.html">
+                                        <a href="{{route("site.ShopCart")}}">
                                             <div class="product-thumb-info-image">
-                                                <img alt="" class="img-fluid" src="img/products/product-grey-8.jpg">
+                                                <img alt="" class="img-fluid" src="{{asset("images/produtos/impala.png")}}">
 
                                             </div>
                                         </a>
                                     </div>
                                     <div class="d-flex justify-content-between">
                                         <div>
-                                            <a href="#" class="d-block text-uppercase text-decoration-none text-color-default text-color-hover-primary line-height-1 text-0 mb-1">accessories</a>
-                                            <h3 class="text-3-5 font-weight-medium font-alternative text-transform-none line-height-3 mb-0"><a href="shop-product-sidebar-right.html" class="text-color-dark text-color-hover-primary">Adventurer Bag</a></h3>
+                                            <a href="#" class="d-block text-uppercase text-decoration-none text-color-default text-color-hover-primary line-height-1 text-0 mb-1">PERFUME MASCULINO</a>
+                                            <h3 class="text-3-5 font-weight-medium font-alternative text-transform-none line-height-3 mb-0"><a href="{{route("site.ShopCart")}}" class="text-color-dark text-color-hover-primary">IMPALA</a></h3>
                                         </div>
                                         <a href="#" class="text-decoration-none text-color-default text-color-hover-dark text-4"><i class="far fa-heart"></i></a>
                                     </div>
@@ -616,43 +629,8 @@
                                         <input type="text" class="d-none" value="5" title="" data-plugin-star-rating data-plugin-options="{'displayOnly': true, 'color': 'default', 'size':'xs'}">
                                     </div>
                                     <p class="price text-5 mb-3">
-                                        <span class="sale text-color-dark font-weight-semi-bold">$99,00</span>
-                                        <span class="amount">$79,00</span>
-                                    </p>
-                                </div>
-
-                                <div class="product mb-0">
-                                    <div class="product-thumb-info border-0 mb-3">
-
-                                        <div class="addtocart-btn-wrapper">
-                                            <a href="shop-cart.html" class="text-decoration-none addtocart-btn" title="Add to Cart">
-                                                <i class="icons icon-bag"></i>
-                                            </a>
-                                        </div>
-
-                                        <a href="ajax/shop-product-quick-view.html" class="quick-view text-uppercase font-weight-semibold text-2">
-                                            QUICK VIEW
-                                        </a>
-                                        <a href="shop-product-sidebar-left.html">
-                                            <div class="product-thumb-info-image">
-                                                <img alt="" class="img-fluid" src="img/products/product-grey-9.jpg">
-
-                                            </div>
-                                        </a>
-                                    </div>
-                                    <div class="d-flex justify-content-between">
-                                        <div>
-                                            <a href="#" class="d-block text-uppercase text-decoration-none text-color-default text-color-hover-primary line-height-1 text-0 mb-1">sports</a>
-                                            <h3 class="text-3-5 font-weight-medium font-alternative text-transform-none line-height-3 mb-0"><a href="shop-product-sidebar-right.html" class="text-color-dark text-color-hover-primary">Baseball Ball</a></h3>
-                                        </div>
-                                        <a href="#" class="text-decoration-none text-color-default text-color-hover-dark text-4"><i class="far fa-heart"></i></a>
-                                    </div>
-                                    <div title="Rated 5 out of 5">
-                                        <input type="text" class="d-none" value="5" title="" data-plugin-star-rating data-plugin-options="{'displayOnly': true, 'color': 'default', 'size':'xs'}">
-                                    </div>
-                                    <p class="price text-5 mb-3">
-                                        <span class="sale text-color-dark font-weight-semi-bold">$399,00</span>
-                                        <span class="amount">$299,00</span>
+                                        <span class="sale text-color-dark font-weight-semi-bold">R$10,00</span>
+                                        <span class="amount">R$30,00</span>
                                     </p>
                                 </div>
 
@@ -666,28 +644,28 @@
 
             <div class="products row">
                 <div class="col-md-6 col-lg-3">
-                    <h4 class="font-weight-semibold text-4 mb-3">FEATURED PRODUCTS</h4>
+                    <h4 class="font-weight-semibold text-4 mb-3">PRODUTOS EM DESTAQUE</h4>
 
                     <div class="product row row-gutter-sm align-items-center mb-4">
                         <div class="col-5 col-md-12 col-lg-5">
                             <div class="product-thumb-info border-0">
-                                <a href="shop-product-sidebar-left.html">
+                                <a href="{{route("site.ShopCart")}}">
                                     <div class="product-thumb-info-image">
-                                        <img alt="" class="img-fluid" src="img/products/product-grey-1.jpg">
+                                        <img alt="" class="img-fluid" src="{{asset("images/produtos/apollo.png")}}">
 
                                     </div>
                                 </a>
                             </div>
                         </div>
                         <div class="col-7 col-md-12 col-lg-7 ms-md-0 ms-lg-0 ps-lg-1 pt-1">
-                            <a href="#" class="d-block text-uppercase text-decoration-none text-color-default text-color-hover-primary line-height-1 text-0 mb-2">electronics</a>
-                            <h3 class="text-3-5 font-weight-medium font-alternative text-transform-none line-height-3 mb-0"><a href="shop-product-sidebar-right.html" class="text-color-dark text-color-hover-primary text-decoration-none">Photo Camera</a></h3>
+                            <a href="#" class="d-block text-uppercase text-decoration-none text-color-default text-color-hover-primary line-height-1 text-0 mb-2">PERFUME MASCULINO</a>
+                            <h3 class="text-3-5 font-weight-medium font-alternative text-transform-none line-height-3 mb-0"><a href="{{route("site.ShopCart")}}" class="text-color-dark text-color-hover-primary text-decoration-none">APOLLO</a></h3>
                             <div title="Rated 5 out of 5">
                                 <input type="text" class="d-none" value="5" title="" data-plugin-star-rating data-plugin-options="{'displayOnly': true, 'color': 'dark', 'size':'xs'}">
                             </div>
                             <p class="price text-4 mb-0">
-                                <span class="sale text-color-dark font-weight-semi-bold">$69,00</span>
-                                <span class="amount">$59,00</span>
+                                <span class="sale text-color-dark font-weight-semi-bold">R$10,00</span>
+                                <span class="amount">R$30,00</span>
                             </p>
                         </div>
                     </div>
@@ -695,25 +673,25 @@
                     <div class="product row row-gutter-sm align-items-center mb-4">
                         <div class="col-5 col-md-12 col-lg-5">
                             <div class="product-thumb-info border-0">
-                                <a href="shop-product-sidebar-left.html">
+                                <a href="{{route("site.ShopCart")}}">
                                     <div class="product-thumb-info-image product-thumb-info-image-effect">
-                                        <img alt="" class="img-fluid" src="img/products/product-grey-7.jpg">
+                                        <img alt="" class="img-fluid" src="{{asset("images/produtos/dragon.png")}}">
 
-                                        <img alt="" class="img-fluid" src="img/products/product-grey-7-2.jpg">
+                                        <img alt="" class="img-fluid" src="{{asset("images/produtos/dragon.png")}}">
 
                                     </div>
                                 </a>
                             </div>
                         </div>
                         <div class="col-7 col-md-12 col-lg-7 ms-md-0 ms-lg-0 ps-lg-1 pt-1">
-                            <a href="#" class="d-block text-uppercase text-decoration-none text-color-default text-color-hover-primary line-height-1 text-0 mb-2">accessories</a>
-                            <h3 class="text-3-5 font-weight-medium font-alternative text-transform-none line-height-3 mb-0"><a href="shop-product-sidebar-right.html" class="text-color-dark text-color-hover-primary text-decoration-none">Porto Headphone</a></h3>
+                            <a href="#" class="d-block text-uppercase text-decoration-none text-color-default text-color-hover-primary line-height-1 text-0 mb-2">PERFUME MASCULINO</a>
+                            <h3 class="text-3-5 font-weight-medium font-alternative text-transform-none line-height-3 mb-0"><a href="{{route("site.ShopCart")}}" class="text-color-dark text-color-hover-primary text-decoration-none">DRAGON</a></h3>
                             <div title="Rated 5 out of 5">
                                 <input type="text" class="d-none" value="5" title="" data-plugin-star-rating data-plugin-options="{'displayOnly': true, 'color': 'dark', 'size':'xs'}">
                             </div>
                             <p class="price text-4 mb-0">
-                                <span class="sale text-color-dark font-weight-semi-bold">$199,00</span>
-                                <span class="amount">$99,00</span>
+                                <span class="sale text-color-dark font-weight-semi-bold">R$10,00</span>
+                                <span class="amount">R$10,00</span>
                             </p>
                         </div>
                     </div>
@@ -721,123 +699,50 @@
                     <div class="product row row-gutter-sm align-items-center mb-4">
                         <div class="col-5 col-md-12 col-lg-5">
                             <div class="product-thumb-info border-0">
-                                <a href="shop-product-sidebar-left.html">
+                                <a href="{{route("site.ShopCart")}}">
                                     <div class="product-thumb-info-image">
-                                        <img alt="" class="img-fluid" src="img/products/product-grey-2.jpg">
+                                        <img alt="" class="img-fluid" src="{{asset("images/produtos/scorpion.png")}}">
 
                                     </div>
                                 </a>
                             </div>
                         </div>
                         <div class="col-7 col-md-12 col-lg-7 ms-md-0 ms-lg-0 ps-lg-1 pt-1">
-                            <a href="#" class="d-block text-uppercase text-decoration-none text-color-default text-color-hover-primary line-height-1 text-0 mb-2">sports</a>
-                            <h3 class="text-3-5 font-weight-medium font-alternative text-transform-none line-height-3 mb-0"><a href="shop-product-sidebar-right.html" class="text-color-dark text-color-hover-primary text-decoration-none">Golf Bag</a></h3>
+                            <a href="#" class="d-block text-uppercase text-decoration-none text-color-default text-color-hover-primary line-height-1 text-0 mb-2">PERFUME MASCULINO</a>
+                            <h3 class="text-3-5 font-weight-medium font-alternative text-transform-none line-height-3 mb-0"><a href="{{route("site.ShopCart")}}" class="text-color-dark text-color-hover-primary text-decoration-none">SCORPION</a></h3>
                             <div title="Rated 5 out of 5">
                                 <input type="text" class="d-none" value="5" title="" data-plugin-star-rating data-plugin-options="{'displayOnly': true, 'color': 'dark', 'size':'xs'}">
                             </div>
                             <p class="price text-4 mb-0">
-                                <span class="sale text-color-dark font-weight-semi-bold">$29,00</span>
-                                <span class="amount">$19,00</span>
-                            </p>
-                        </div>
-                    </div>
-
-                </div>
-                <div class="col-md-6 col-lg-3">
-                    <h4 class="font-weight-semibold text-4 mb-3">BEST SELLING PRODUCTS</h4>
-
-                    <div class="product row row-gutter-sm align-items-center mb-4">
-                        <div class="col-5 col-md-12 col-lg-5">
-                            <div class="product-thumb-info border-0">
-                                <a href="shop-product-sidebar-left.html">
-                                    <div class="product-thumb-info-image">
-                                        <img alt="" class="img-fluid" src="img/products/product-grey-3.jpg">
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="col-7 col-md-12 col-lg-7 ms-md-0 ms-lg-0 ps-lg-1 pt-1">
-                            <a href="#" class="d-block text-uppercase text-decoration-none text-color-default text-color-hover-primary line-height-1 text-0 mb-2">sports</a>
-                            <h3 class="text-3-5 font-weight-medium font-alternative text-transform-none line-height-3 mb-0"><a href="shop-product-sidebar-right.html" class="text-color-dark text-color-hover-primary text-decoration-none">Workout</a></h3>
-                            <div title="Rated 5 out of 5">
-                                <input type="text" class="d-none" value="5" title="" data-plugin-star-rating data-plugin-options="{'displayOnly': true, 'color': 'dark', 'size':'xs'}">
-                            </div>
-                            <p class="price text-4 mb-0">
-                                <span class="sale text-color-dark font-weight-semi-bold">$40,00</span>
-                                <span class="amount">$30,00</span>
-                            </p>
-                        </div>
-                    </div>
-
-                    <div class="product row row-gutter-sm align-items-center mb-4">
-                        <div class="col-5 col-md-12 col-lg-5">
-                            <div class="product-thumb-info border-0">
-                                <a href="shop-product-sidebar-left.html">
-                                    <div class="product-thumb-info-image">
-                                        <img alt="" class="img-fluid" src="img/products/product-grey-4.jpg">
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="col-7 col-md-12 col-lg-7 ms-md-0 ms-lg-0 ps-lg-1 pt-1">
-                            <a href="#" class="d-block text-uppercase text-decoration-none text-color-default text-color-hover-primary line-height-1 text-0 mb-2">accessories</a>
-                            <h3 class="text-3-5 font-weight-medium font-alternative text-transform-none line-height-3 mb-0"><a href="shop-product-sidebar-right.html" class="text-color-dark text-color-hover-primary text-decoration-none">Luxury Bag</a></h3>
-                            <div title="Rated 5 out of 5">
-                                <input type="text" class="d-none" value="5" title="" data-plugin-star-rating data-plugin-options="{'displayOnly': true, 'color': 'dark', 'size':'xs'}">
-                            </div>
-                            <p class="price text-4 mb-0">
-                                <span class="sale text-color-dark font-weight-semi-bold">$99,00</span>
-                                <span class="amount">$79,00</span>
-                            </p>
-                        </div>
-                    </div>
-
-                    <div class="product row row-gutter-sm align-items-center mb-4">
-                        <div class="col-5 col-md-12 col-lg-5">
-                            <div class="product-thumb-info border-0">
-                                <a href="shop-product-sidebar-left.html">
-                                    <div class="product-thumb-info-image">
-                                        <img alt="" class="img-fluid" src="img/products/product-grey-5.jpg">
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="col-7 col-md-12 col-lg-7 ms-md-0 ms-lg-0 ps-lg-1 pt-1">
-                            <a href="#" class="d-block text-uppercase text-decoration-none text-color-default text-color-hover-primary line-height-1 text-0 mb-2">accessories</a>
-                            <h3 class="text-3-5 font-weight-medium font-alternative text-transform-none line-height-3 mb-0"><a href="shop-product-sidebar-right.html" class="text-color-dark text-color-hover-primary text-decoration-none">Styled Bag</a></h3>
-                            <div title="Rated 5 out of 5">
-                                <input type="text" class="d-none" value="5" title="" data-plugin-star-rating data-plugin-options="{'displayOnly': true, 'color': 'dark', 'size':'xs'}">
-                            </div>
-                            <p class="price text-4 mb-0">
-                                <span class="sale text-color-dark font-weight-semi-bold">$199,00</span>
-                                <span class="amount">$119,00</span>
+                                <span class="sale text-color-dark font-weight-semi-bold">R$10,00</span>
+                                <span class="amount">R$30,00</span>
                             </p>
                         </div>
                     </div>
 
                 </div>
                 <div class="col-md-6 col-lg-3">
-                    <h4 class="font-weight-semibold text-4 mb-3">LATEST PRODUCTS</h4>
+                    <h4 class="font-weight-semibold text-4 mb-3">PRODUTOS MAIS VENDIDOS</h4>
 
                     <div class="product row row-gutter-sm align-items-center mb-4">
                         <div class="col-5 col-md-12 col-lg-5">
                             <div class="product-thumb-info border-0">
-                                <a href="shop-product-sidebar-left.html">
+                                <a href="{{route("site.ShopCart")}}">
                                     <div class="product-thumb-info-image">
-                                        <img alt="" class="img-fluid" src="img/products/product-grey-6.jpg">
+                                        <img alt="" class="img-fluid" src="{{asset("images/produtos/fox.png")}}">
                                     </div>
                                 </a>
                             </div>
                         </div>
                         <div class="col-7 col-md-12 col-lg-7 ms-md-0 ms-lg-0 ps-lg-1 pt-1">
-                            <a href="#" class="d-block text-uppercase text-decoration-none text-color-default text-color-hover-primary line-height-1 text-0 mb-2">hat</a>
-                            <h3 class="text-3-5 font-weight-medium font-alternative text-transform-none line-height-3 mb-0"><a href="shop-product-sidebar-right.html" class="text-color-dark text-color-hover-primary text-decoration-none">Blue Hat</a></h3>
+                            <a href="#" class="d-block text-uppercase text-decoration-none text-color-default text-color-hover-primary line-height-1 text-0 mb-2">PERFUME MASCULINO</a>
+                            <h3 class="text-3-5 font-weight-medium font-alternative text-transform-none line-height-3 mb-0"><a href="{{route("site.ShopCart")}}" class="text-color-dark text-color-hover-primary text-decoration-none">FOX</a></h3>
                             <div title="Rated 5 out of 5">
                                 <input type="text" class="d-none" value="5" title="" data-plugin-star-rating data-plugin-options="{'displayOnly': true, 'color': 'dark', 'size':'xs'}">
                             </div>
                             <p class="price text-4 mb-0">
-                                <span class="sale text-color-dark font-weight-semi-bold">$299,00</span>
-                                <span class="amount">$289,00</span>
+                                <span class="sale text-color-dark font-weight-semi-bold">R$10,00</span>
+                                <span class="amount">R$30,00</span>
                             </p>
                         </div>
                     </div>
@@ -845,22 +750,22 @@
                     <div class="product row row-gutter-sm align-items-center mb-4">
                         <div class="col-5 col-md-12 col-lg-5">
                             <div class="product-thumb-info border-0">
-                                <a href="shop-product-sidebar-left.html">
+                                <a href="{{route("site.ShopCart")}}">
                                     <div class="product-thumb-info-image">
-                                        <img alt="" class="img-fluid" src="img/products/product-grey-8.jpg">
+                                        <img alt="" class="img-fluid" src="{{asset("images/produtos/fusion.png")}}">
                                     </div>
                                 </a>
                             </div>
                         </div>
                         <div class="col-7 col-md-12 col-lg-7 ms-md-0 ms-lg-0 ps-lg-1 pt-1">
-                            <a href="#" class="d-block text-uppercase text-decoration-none text-color-default text-color-hover-primary line-height-1 text-0 mb-2">accessories</a>
-                            <h3 class="text-3-5 font-weight-medium font-alternative text-transform-none line-height-3 mb-0"><a href="shop-product-sidebar-right.html" class="text-color-dark text-color-hover-primary text-decoration-none">Adventurer Bag</a></h3>
+                            <a href="#" class="d-block text-uppercase text-decoration-none text-color-default text-color-hover-primary line-height-1 text-0 mb-2">PERFUME MASCULINO</a>
+                            <h3 class="text-3-5 font-weight-medium font-alternative text-transform-none line-height-3 mb-0"><a href="{{route("site.ShopCart")}}" class="text-color-dark text-color-hover-primary text-decoration-none">FUSION</a></h3>
                             <div title="Rated 5 out of 5">
                                 <input type="text" class="d-none" value="5" title="" data-plugin-star-rating data-plugin-options="{'displayOnly': true, 'color': 'dark', 'size':'xs'}">
                             </div>
                             <p class="price text-4 mb-0">
-                                <span class="sale text-color-dark font-weight-semi-bold">$99,00</span>
-                                <span class="amount">$79,00</span>
+                                <span class="sale text-color-dark font-weight-semi-bold">R$10,00</span>
+                                <span class="amount">R$30,00</span>
                             </p>
                         </div>
                     </div>
@@ -868,16 +773,89 @@
                     <div class="product row row-gutter-sm align-items-center mb-4">
                         <div class="col-5 col-md-12 col-lg-5">
                             <div class="product-thumb-info border-0">
-                                <a href="shop-product-sidebar-left.html">
+                                <a href="{{route("site.ShopCart")}}">
                                     <div class="product-thumb-info-image">
-                                        <img alt="" class="img-fluid" src="img/products/product-grey-9.jpg">
+                                        <img alt="" class="img-fluid" src="{{asset("images/produtos/hipno.png")}}">
                                     </div>
                                 </a>
                             </div>
                         </div>
                         <div class="col-7 col-md-12 col-lg-7 ms-md-0 ms-lg-0 ps-lg-1 pt-1">
-                            <a href="#" class="d-block text-uppercase text-decoration-none text-color-default text-color-hover-primary line-height-1 text-0 mb-2">sports</a>
-                            <h3 class="text-3-5 font-weight-medium font-alternative text-transform-none line-height-3 mb-0"><a href="shop-product-sidebar-right.html" class="text-color-dark text-color-hover-primary text-decoration-none">Baseball Ball</a></h3>
+                            <a href="#" class="d-block text-uppercase text-decoration-none text-color-default text-color-hover-primary line-height-1 text-0 mb-2">PERFUME MASCULINO</a>
+                            <h3 class="text-3-5 font-weight-medium font-alternative text-transform-none line-height-3 mb-0"><a href="{{route("site.ShopCart")}}" class="text-color-dark text-color-hover-primary text-decoration-none">HIPNO</a></h3>
+                            <div title="Rated 5 out of 5">
+                                <input type="text" class="d-none" value="5" title="" data-plugin-star-rating data-plugin-options="{'displayOnly': true, 'color': 'dark', 'size':'xs'}">
+                            </div>
+                            <p class="price text-4 mb-0">
+                                <span class="sale text-color-dark font-weight-semi-bold">R$10,00</span>
+                                <span class="amount">R$30,00</span>
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <h4 class="font-weight-semibold text-4 mb-3">PRODUTOS MAIS RECENTES</h4>
+
+                    <div class="product row row-gutter-sm align-items-center mb-4">
+                        <div class="col-5 col-md-12 col-lg-5">
+                            <div class="product-thumb-info border-0">
+                                <a href="{{route("site.ShopCart")}}">
+                                    <div class="product-thumb-info-image">
+                                        <img alt="" class="img-fluid" src="{{asset("images/produtos/invicto.png")}}">
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-7 col-md-12 col-lg-7 ms-md-0 ms-lg-0 ps-lg-1 pt-1">
+                            <a href="#" class="d-block text-uppercase text-decoration-none text-color-default text-color-hover-primary line-height-1 text-0 mb-2">PERFUME MASCULINO</a>
+                            <h3 class="text-3-5 font-weight-medium font-alternative text-transform-none line-height-3 mb-0"><a href="{{route("site.ShopCart")}}" class="text-color-dark text-color-hover-primary text-decoration-none">INVICTO</a></h3>
+                            <div title="Rated 5 out of 5">
+                                <input type="text" class="d-none" value="5" title="" data-plugin-star-rating data-plugin-options="{'displayOnly': true, 'color': 'dark', 'size':'xs'}">
+                            </div>
+                            <p class="price text-4 mb-0">
+                                <span class="sale text-color-dark font-weight-semi-bold">R$10,00</span>
+                                <span class="amount">R$30,00</span>
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="product row row-gutter-sm align-items-center mb-4">
+                        <div class="col-5 col-md-12 col-lg-5">
+                            <div class="product-thumb-info border-0">
+                                <a href="{{route("site.ShopCart")}}">
+                                    <div class="product-thumb-info-image">
+                                        <img alt="" class="img-fluid" src="{{asset("images/produtos/wolf.png")}}">
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-7 col-md-12 col-lg-7 ms-md-0 ms-lg-0 ps-lg-1 pt-1">
+                            <a href="#" class="d-block text-uppercase text-decoration-none text-color-default text-color-hover-primary line-height-1 text-0 mb-2">PERFUME MASCULINO</a>
+                            <h3 class="text-3-5 font-weight-medium font-alternative text-transform-none line-height-3 mb-0"><a href="{{route("site.ShopCart")}}" class="text-color-dark text-color-hover-primary text-decoration-none"></a>WOLF</h3>
+                            <div title="Rated 5 out of 5">
+                                <input type="text" class="d-none" value="5" title="" data-plugin-star-rating data-plugin-options="{'displayOnly': true, 'color': 'dark', 'size':'xs'}">
+                            </div>
+                            <p class="price text-4 mb-0">
+                                <span class="sale text-color-dark font-weight-semi-bold">R$10,00</span>
+                                <span class="amount">R$30,00</span>
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="product row row-gutter-sm align-items-center mb-4">
+                        <div class="col-5 col-md-12 col-lg-5">
+                            <div class="product-thumb-info border-0">
+                                <a href="{{route("site.ShopCart")}}">
+                                    <div class="product-thumb-info-image">
+                                        <img alt="" class="img-fluid" src="{{asset("images/produtos/black.png")}}">
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-7 col-md-12 col-lg-7 ms-md-0 ms-lg-0 ps-lg-1 pt-1">
+                            <a href="#" class="d-block text-uppercase text-decoration-none text-color-default text-color-hover-primary line-height-1 text-0 mb-2">PERFUME MASCULINO</a>
+                            <h3 class="text-3-5 font-weight-medium font-alternative text-transform-none line-height-3 mb-0"><a href="{{route("site.ShopCart")}}" class="text-color-dark text-color-hover-primary text-decoration-none">BLACK</a></h3>
                             <div title="Rated 5 out of 5">
                                 <input type="text" class="d-none" value="5" title="" data-plugin-star-rating data-plugin-options="{'displayOnly': true, 'color': 'dark', 'size':'xs'}">
                             </div>
@@ -890,22 +868,22 @@
 
                 </div>
                 <div class="col-md-6 col-lg-3">
-                    <h4 class="font-weight-semibold text-4 mb-3">TOP RATED PRODUCTS</h4>
+                    <h4 class="font-weight-semibold text-4 mb-3">PRODUTOS MAIS AVALIADOS</h4>
 
                     <div class="product row row-gutter-sm align-items-center mb-4">
                         <div class="col-5 col-md-12 col-lg-5">
                             <div class="product-thumb-info border-0">
-                                <a href="shop-product-sidebar-left.html">
+                                <a href="{{route("site.ShopCart")}}">
                                     <div class="product-thumb-info-image">
-                                        <img alt="" class="img-fluid" src="img/products/product-grey-1.jpg">
+                                        <img alt="" class="img-fluid" src="{{asset("images/produtos/blackout.png")}}">
 
                                     </div>
                                 </a>
                             </div>
                         </div>
                         <div class="col-7 col-md-12 col-lg-7 ms-md-0 ms-lg-0 ps-lg-1 pt-1">
-                            <a href="#" class="d-block text-uppercase text-decoration-none text-color-default text-color-hover-primary line-height-1 text-0 mb-2">electronics</a>
-                            <h3 class="text-3-5 font-weight-medium font-alternative text-transform-none line-height-3 mb-0"><a href="shop-product-sidebar-right.html" class="text-color-dark text-color-hover-primary text-decoration-none">Photo Camera</a></h3>
+                            <a href="#" class="d-block text-uppercase text-decoration-none text-color-default text-color-hover-primary line-height-1 text-0 mb-2">PERFUME MASCULINO</a>
+                            <h3 class="text-3-5 font-weight-medium font-alternative text-transform-none line-height-3 mb-0"><a href="{{route("site.ShopCart")}}" class="text-color-dark text-color-hover-primary text-decoration-none">BLACKOUT</a></h3>
                             <div title="Rated 5 out of 5">
                                 <input type="text" class="d-none" value="5" title="" data-plugin-star-rating data-plugin-options="{'displayOnly': true, 'color': 'dark', 'size':'xs'}">
                             </div>
@@ -919,25 +897,23 @@
                     <div class="product row row-gutter-sm align-items-center mb-4">
                         <div class="col-5 col-md-12 col-lg-5">
                             <div class="product-thumb-info border-0">
-                                <a href="shop-product-sidebar-left.html">
+                                <a href="{{route("site.ShopCart")}}">
                                     <div class="product-thumb-info-image product-thumb-info-image-effect">
-                                        <img alt="" class="img-fluid" src="img/products/product-grey-7.jpg">
-
-                                        <img alt="" class="img-fluid" src="img/products/product-grey-7-2.jpg">
-
+                                        <img alt="" class="img-fluid" src="{{asset("images/produtos/lion.png")}}">
+                                        <img alt="" class="img-fluid" src="{{route("site.ShopCart")}}">
                                     </div>
                                 </a>
                             </div>
                         </div>
                         <div class="col-7 col-md-12 col-lg-7 ms-md-0 ms-lg-0 ps-lg-1 pt-1">
-                            <a href="#" class="d-block text-uppercase text-decoration-none text-color-default text-color-hover-primary line-height-1 text-0 mb-2">accessories</a>
-                            <h3 class="text-3-5 font-weight-medium font-alternative text-transform-none line-height-3 mb-0"><a href="shop-product-sidebar-right.html" class="text-color-dark text-color-hover-primary text-decoration-none">Porto Headphone</a></h3>
+                            <a href="#" class="d-block text-uppercase text-decoration-none text-color-default text-color-hover-primary line-height-1 text-0 mb-2">PERFUME MASCULINO</a>
+                            <h3 class="text-3-5 font-weight-medium font-alternative text-transform-none line-height-3 mb-0"><a href="{{route("site.ShopCart")}}" class="text-color-dark text-color-hover-primary text-decoration-none">LION</a></h3>
                             <div title="Rated 5 out of 5">
                                 <input type="text" class="d-none" value="5" title="" data-plugin-star-rating data-plugin-options="{'displayOnly': true, 'color': 'dark', 'size':'xs'}">
                             </div>
                             <p class="price text-4 mb-0">
-                                <span class="sale text-color-dark font-weight-semi-bold">$199,00</span>
-                                <span class="amount">$99,00</span>
+                                <span class="sale text-color-dark font-weight-semi-bold">R$10,00</span>
+                                <span class="amount">R$30,00</span>
                             </p>
                         </div>
                     </div>
@@ -945,23 +921,23 @@
                     <div class="product row row-gutter-sm align-items-center mb-4">
                         <div class="col-5 col-md-12 col-lg-5">
                             <div class="product-thumb-info border-0">
-                                <a href="shop-product-sidebar-left.html">
+                                <a href="{{route("site.ShopCart")}}">
                                     <div class="product-thumb-info-image">
-                                        <img alt="" class="img-fluid" src="img/products/product-grey-2.jpg">
+                                        <img alt="" class="img-fluid" src="{{asset("images/produtos/wolf.png")}}">
 
                                     </div>
                                 </a>
                             </div>
                         </div>
                         <div class="col-7 col-md-12 col-lg-7 ms-md-0 ms-lg-0 ps-lg-1 pt-1">
-                            <a href="#" class="d-block text-uppercase text-decoration-none text-color-default text-color-hover-primary line-height-1 text-0 mb-2">sports</a>
-                            <h3 class="text-3-5 font-weight-medium font-alternative text-transform-none line-height-3 mb-0"><a href="shop-product-sidebar-right.html" class="text-color-dark text-color-hover-primary text-decoration-none">Golf Bag</a></h3>
+                            <a href="#" class="d-block text-uppercase text-decoration-none text-color-default text-color-hover-primary line-height-1 text-0 mb-2">PERFUME MASCULINO</a>
+                            <h3 class="text-3-5 font-weight-medium font-alternative text-transform-none line-height-3 mb-0"><a href="{{route("site.ShopCart")}}" class="text-color-dark text-color-hover-primary text-decoration-none">WOLF</a></h3>
                             <div title="Rated 5 out of 5">
                                 <input type="text" class="d-none" value="5" title="" data-plugin-star-rating data-plugin-options="{'displayOnly': true, 'color': 'dark', 'size':'xs'}">
                             </div>
                             <p class="price text-4 mb-0">
-                                <span class="sale text-color-dark font-weight-semi-bold">$29,00</span>
-                                <span class="amount">$19,00</span>
+                                <span class="sale text-color-dark font-weight-semi-bold">R$10,00</span>
+                                <span class="amount">R$30,00</span>
                             </p>
                         </div>
                     </div>
