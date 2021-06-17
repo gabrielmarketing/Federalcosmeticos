@@ -304,20 +304,21 @@
                                                     </a>
                                                 </li>
                                                 <li class="dropdown">
-                                                    <a class="dropdown-item dropdown-toggle active" href="{{asset("")}}">
+                                                    <a class="dropdown-item" data-hash data-hash-offset="130" href="{{route("site.home")}}">
                                                         Catalogos
                                                     </a>
+                                                    <ul class="dropdown-menu">
+                                                        <li class="dropdown">
+                                                            <a class="dropdown-item" href="#">Catalogo Feminino</a>
+                                                        </li>
+                                                        <li class="dropdown">
+                                                            <a class="dropdown-item" href="#">Catalogo Masculino</a>
+                                                        </li>
+                                                        <li class="dropdown">
+                                                            <a class="dropdown-item" href="#">Revista Plano de Negócio</a>
+                                                        </li>
+                                                    </ul>
                                                 </li>
-                                                {{--<li class="dropdown ms-lg-auto">
-                                                    <a href="#" class="dropdown-item">
-                                                        Outlet
-                                                    </a>
-                                                </li>
-                                                <li class="dropdown">
-                                                    <a href="#" class="dropdown-item">
-                                                        Buy Porto!
-                                                    </a>
-                                                </li>--}}
                                             </ul>
                                         </nav>
                                     </div>

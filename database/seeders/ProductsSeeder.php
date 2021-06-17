@@ -53,7 +53,7 @@ class ProductsSeeder extends Seeder
             'name'          => 'BLACK',
             'descripition'  => 'perfume amadeirado',
             'weight'        => '0,50',
-            'image'         => 'images/produtos/black.png',
+            'image'         => 'images/produtos/black_v1.png',
             'price'         => 10,
         ]);
 
@@ -69,7 +69,7 @@ class ProductsSeeder extends Seeder
             'name'          => 'BLACKOUT',
             'descripition'  => 'perfume amadeirado',
             'weight'        => '0,50',
-            'image'         => 'images/produtos/blackout.png',
+            'image'         => 'images/produtos/blackout_v1.png',
             'price'         => 10,
         ]);
 
