@@ -163,12 +163,12 @@
     // ------------------------------ script carrinho 2-------------------------------------//
 
     function confericar(){
-        let cartItem = JSON.parse(localStorage.getItem('prdInCart'))
+        var cartItem = JSON.parse(localStorage.getItem('prdInCart'))
         var carttr = $(".carttr");
         var htmltr = '';
         var total = 0;
         var totalsub = 0;
-        if (cartItem.length == 0){
+        if (!cartItem){
             htmltr += "" +
                 "<tr class='cart_table_item'>"+
                 "<td class='product-thumbnail'>" +
@@ -188,34 +188,54 @@
                 "</tr>";
         }else {
 
-            cartItem.forEach(item =>{
-                var price = 'R$ '+ item.price;
-                var totaltr = parseInt(item.price) * parseInt(item.quantity);
-                totalsub += totaltr;
+            if (Object.keys(cartItem).length === 0){
                 htmltr += "" +
-            "<tr class='cart_table_item'>"+
+                    "<tr class='cart_table_item'>"+
                     "<td class='product-thumbnail'>" +
-                            "<div class='product-thumbnail-wrapper'>" +
-                                "<a href='#' class='product-thumbnail-remove' title='Remove Product' id='"+item.id+"' onclick='decreasesCart(this);'><i class='fas fa-times'></i></a>" +
-                                "<a href='shop-product-sidebar-right.html' class='product-thumbnail-image' title='Luxury Bag'><img width='90' height='90' alt='' class='img-fluid' src='"+item.image+"'></a>"+
-                            "</div>"+
-                   "</td>"+
-                    "<td class='product-name'><a href='#' class='font-weight-semi-bold text-color-dark text-color-hover-primary text-decoration-none'>"+item.perfume+"</a>"+
-                    "</td>"+
-                    "<td class='product-price'><span class='amount font-weight-medium text-color-grey'>"+price+"</span>"+
-                    "</td>"+
-                    "<td class='product-quantity'>"+
-                    "<div class='quantity float-none m-0' id='"+item.id+"' image='"+item.image+"' perfume='"+item.perfume+"' price='"+item.price+"'>"+
-                    "<input type='button' class='minus text-color-hover-light bg-color-hover-primary border-color-hover-primary' value='-' onclick='delcart(this);'>"+
-                    "<input type='text' class='input-text qty text' title='Qty' value='"+item.quantity+"' name='quantity' min='1' step='1'>"+
-                    "<input type='button' class='plus text-color-hover-light bg-color-hover-primary border-color-hover-primary' value='+' onclick='updatecart(this);'>"+
+                    "<div class='product-thumbnail-wrapper'>" +
+                    "<a href='#' class='product-thumbnail-remove' title='Remove Product' id='' onclick='decreasesCart(this);'><i class='fas fa-times'></i></a>" +
+                    "<a href='shop-product-sidebar-right.html' class='product-thumbnail-image' title='Luxury Bag'><img width='90' height='90' alt='' class='img-fluid' src='{{asset('porto/img/products/product-grey-1.jpg')}}'></a>"+
                     "</div>"+
-            "</td>"+
-                    "<td class='product-subtotal text-end'><span class='amount text-color-dark font-weight-bold text-4'>R$ "+totaltr+"</span>"+
                     "</td>"+
-            "</tr>";
+                    "<td class='product-name'><a href='#' class='font-weight-semi-bold text-color-dark text-color-hover-primary text-decoration-none'>Sem Produtos</a>"+
+                    "</td>"+
+                    "<td class='product-price'><span class='amount font-weight-medium text-color-grey'>0</span>"+
+                    "</td>"+
+                    "<td class='product-subtotal text-end'><span class='amount text-color-dark font-weight-bold text-4'>0</span>"+
+                    "</td>"+
+                    "<td class='product-subtotal text-end'><span class='amount text-color-dark font-weight-bold text-4'>R$ 0</span>"+
+                    "</td>"+
+                    "</tr>";
+            }else{
+                cartItem.forEach(item =>{
+                    var price = 'R$ '+ item.price;
+                    var totaltr = parseInt(item.price) * parseInt(item.quantity);
+                    totalsub += totaltr;
+                    htmltr += "" +
+                        "<tr class='cart_table_item'>"+
+                        "<td class='product-thumbnail'>" +
+                        "<div class='product-thumbnail-wrapper'>" +
+                        "<a href='#' class='product-thumbnail-remove' title='Remove Product' id='"+item.id+"' onclick='decreasesCart(this);'><i class='fas fa-times'></i></a>" +
+                        "<a href='shop-product-sidebar-right.html' class='product-thumbnail-image' title='Luxury Bag'><img width='90' height='90' alt='' class='img-fluid' src='"+item.image+"'></a>"+
+                        "</div>"+
+                        "</td>"+
+                        "<td class='product-name'><a href='#' class='font-weight-semi-bold text-color-dark text-color-hover-primary text-decoration-none'>"+item.perfume+"</a>"+
+                        "</td>"+
+                        "<td class='product-price'><span class='amount font-weight-medium text-color-grey'>"+price+"</span>"+
+                        "</td>"+
+                        "<td class='product-quantity'>"+
+                        "<div class='quantity float-none m-0' id='"+item.id+"' image='"+item.image+"' perfume='"+item.perfume+"' price='"+item.price+"'>"+
+                        "<input type='button' class='minus text-color-hover-light bg-color-hover-primary border-color-hover-primary' value='-' onclick='delcart(this);'>"+
+                        "<input type='text' class='input-text qty text' title='Qty' value='"+item.quantity+"' name='quantity' min='1' step='1'>"+
+                        "<input type='button' class='plus text-color-hover-light bg-color-hover-primary border-color-hover-primary' value='+' onclick='updatecart(this);'>"+
+                        "</div>"+
+                        "</td>"+
+                        "<td class='product-subtotal text-end'><span class='amount text-color-dark font-weight-bold text-4'>R$ "+totaltr+"</span>"+
+                        "</td>"+
+                        "</tr>";
 
-            });
+                });
+            }
 
         }
 
