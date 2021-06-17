@@ -309,13 +309,13 @@
                                                     </a>
                                                     <ul class="dropdown-menu">
                                                         <li class="dropdown">
-                                                            <a class="dropdown-item" href="#">Catalogo Feminino</a>
+                                                            <a target="_blank" class="dropdown-item" href="{{asset("images/catalogofeminino.pdf")}}">Catalogo Feminino</a>
                                                         </li>
                                                         <li class="dropdown">
-                                                            <a class="dropdown-item" href="#">Catalogo Masculino</a>
+                                                            <a target="_blank" lass="dropdown-item" href="{{asset("images/catalogomasculino.pdf")}}">Catalogo Masculino</a>
                                                         </li>
                                                         <li class="dropdown">
-                                                            <a class="dropdown-item" href="#">Revista Plano de Negócio</a>
+                                                            <a target="_blank" class="dropdown-item" href="{{asset("images/revistaoficial.pdf")}}">Revista Plano de Negócio</a>
                                                         </li>
                                                     </ul>
                                                 </li>
