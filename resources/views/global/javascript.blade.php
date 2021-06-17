@@ -6,6 +6,7 @@
 
     function addcar(element){
         event.preventDefault();
+
         var elementHtml = $(element);
 
             var product = {
