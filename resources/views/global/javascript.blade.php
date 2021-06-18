@@ -236,7 +236,6 @@
 
     }
     confericar();
-
     function decreasesCart(element){
         event.preventDefault();
         let products = [];

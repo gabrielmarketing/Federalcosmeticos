@@ -14,7 +14,7 @@
                             <a href="{{route("site.Checkout")}}" class="text-decoration-none text-color-primary">Checkout</a>
                         </li>
                         <li class="text-transform-none text-color-grey-lighten">
-                            <a href="{{route("site.OrderComplete")}}" class="text-decoration-none text-color-grey-lighten text-color-hover-primary">Pedido Finalizado</a>
+                            <a href="#" class="text-decoration-none text-color-grey-lighten text-color-hover-primary">Pedido Finalizado</a>
                         </li>
                     </ul>
                 </div>
@@ -69,26 +69,26 @@
                 </div>
             </div>
 
-            <div class="row">
-                <div class="col">
-                    <p>Tem um cupom? <a href="#" class="text-color-dark text-color-hover-primary text-uppercase text-decoration-none font-weight-bold" data-bs-toggle="collapse" data-bs-target=".coupon-form-wrapper">Aplicar Cupom</a></p>
-                </div>
-            </div>
+{{--            <div class="row">--}}
+{{--                <div class="col">--}}
+{{--                    <p>Tem um cupom? <a href="#" class="text-color-dark text-color-hover-primary text-uppercase text-decoration-none font-weight-bold" data-bs-toggle="collapse" data-bs-target=".coupon-form-wrapper">Aplicar Cupom</a></p>--}}
+{{--                </div>--}}
+{{--            </div>--}}
 
-            <div class="row coupon-form-wrapper collapse mb-5">
-                <div class="col">
-                    <div class="card border-width-3 border-radius-0 border-color-hover-dark">
-                        <div class="card-body">
-                            <form role="form" method="post" action="">
-                                <div class="d-flex align-items-center">
-                                    <input type="text" class="form-control h-auto border-radius-0 line-height-1 py-3" name="couponCode" placeholder="Coupon Code" required />
-                                    <button type="submit" class="btn btn-light btn-modern text-color-dark bg-color-light-scale-2 text-color-hover-light bg-color-hover-primary text-uppercase text-3 font-weight-bold border-0 border-radius-0 ws-nowrap btn-px-4 py-3 ms-2">Apply Coupon</button>
-                                </div>
-                            </form>
-                        </div>
-                    </div>
-                </div>
-            </div>
+{{--            <div class="row coupon-form-wrapper collapse mb-5">--}}
+{{--                <div class="col">--}}
+{{--                    <div class="card border-width-3 border-radius-0 border-color-hover-dark">--}}
+{{--                        <div class="card-body">--}}
+{{--                            <form role="form" method="post" action="">--}}
+{{--                                <div class="d-flex align-items-center">--}}
+{{--                                    <input type="text" class="form-control h-auto border-radius-0 line-height-1 py-3" name="couponCode" placeholder="Coupon Code" required />--}}
+{{--                                    <button type="submit" class="btn btn-light btn-modern text-color-dark bg-color-light-scale-2 text-color-hover-light bg-color-hover-primary text-uppercase text-3 font-weight-bold border-0 border-radius-0 ws-nowrap btn-px-4 py-3 ms-2">Apply Coupon</button>--}}
+{{--                                </div>--}}
+{{--                            </form>--}}
+{{--                        </div>--}}
+{{--                    </div>--}}
+{{--                </div>--}}
+{{--            </div>--}}
 
             <form role="form" class="needs-validation" method="post" action="">
                 <div class="row">
@@ -96,82 +96,96 @@
 
                         <h2 class="text-color-dark font-weight-bold text-5-5 mb-3">Detalhes de Cobrança</h2>
                         <div class="row">
-                            <div class="form-group col-md-6">
-                                <label class="form-label">Nome<span class="text-color-danger">*</span></label>
-                                <input type="text" class="form-control h-auto py-2" name="firstName" value="" required />
-                            </div>
-                            <div class="form-group col-md-6">
-                                <label class="form-label">Sobrenome<span class="text-color-danger">*</span></label>
-                                <input type="text" class="form-control h-auto py-2" name="lastName" value="" required />
-                            </div>
-                        </div>
-                        <div class="row">
                             <div class="form-group col">
                                 <label class="form-label">CPF</label>
-                                <input type="text" class="form-control h-auto py-2" name="companyName" value="" />
+                                <input type="text" class="form-control h-auto py-2 @error('cpf') is-invalid @enderror" name="cpf" value="" required/>
+                                @error('cpf')
+                                <span class="text-danger">{{ $message }}</span>
+                                @enderror
                             </div>
                         </div>
                         <div class="row">
                             <div class="form-group col">
-                                <label class="form-label">País/Região<span class="text-color-danger">*</span></label>
-                                <div class="custom-select-1">
-                                    <select class="form-select form-control h-auto py-2" name="country" required>
-                                        <option value="" selected></option>
-                                        <option value="usa">United States</option>
-                                        <option value="spa">Spain</option>
-                                        <option value="fra">France</option>
-                                        <option value="uk">United Kingdon</option>
-                                    </select>
-                                </div>
+                                <label class="form-label">Nome<span class="text-color-danger">*</span></label>
+                                <input type="text" class="form-control h-auto py-2 @error('name') is-invalid @enderror" name="name" value="" required />
+                                @error('name')
+                                <span class="text-danger">{{ $message }}</span>
+                                @enderror
+                            </div>
+
+                        </div>
+
+                        <div class="row">
+                            <div class="form-group col">
+                                <label class="form-label">CEP<span class="text-color-danger">*</span></label>
+                                <input type="text" class="form-control h-auto py-2 @error('cep') is-invalid @enderror" name="cep" value="" required />
+                                @error('cep')
+                                <span class="text-danger">{{ $message }}</span>
+                                @enderror
                             </div>
                         </div>
                         <div class="row">
                             <div class="form-group col">
                                 <label class="form-label">Endereço<span class="text-color-danger">*</span></label>
-                                <input type="text" class="form-control h-auto py-2" name="address1" value="" placeholder="House number and street name" required />
+                                <input type="text" class="form-control h-auto py-2 @error('address') is-invalid @enderror" name="address" value="" placeholder="House number and street name" required />
+                                @error('address')
+                                <span class="text-danger">{{ $message }}</span>
+                                @enderror
                             </div>
                         </div>
                         <div class="row">
                             <div class="form-group col">
-                                <input type="text" class="form-control h-auto py-2" name="address2" value="" placeholder="Apartment, suite, unit, etc..." required />
+                                <label class="form-label">Complemento<span class="text-color-danger">*</span></label>
+                                <input type="text" class="form-control h-auto py-2 @error('complement') is-invalid @enderror" name="complement" value="" placeholder="Apartment, suite, unit, etc..." required />
+                                @error('complement')
+                                <span class="text-danger">{{ $message }}</span>
+                                @enderror
                             </div>
                         </div>
                         <div class="row">
                             <div class="form-group col">
                                 <label class="form-label">Cidade<span class="text-color-danger">*</span></label>
-                                <input type="text" class="form-control h-auto py-2" name="city" value="" required />
+                                <input type="text" class="form-control h-auto py-2 @error('city') is-invalid @enderror" name="city" value="" required />
+                                @error('city')
+                                <span class="text-danger">{{ $message }}</span>
+                                @enderror
                             </div>
                         </div>
                         <div class="row">
                             <div class="form-group col">
                                 <label class="form-label">Estado<span class="text-color-danger">*</span></label>
-                                <div class="custom-select-1">
-                                    <select class="form-select form-control h-auto py-2" name="state" required>
-                                        <option value="" selected></option>
-                                        <option value="ny">Nova York</option>
-                                        <option value="ca">California</option>
-                                        <option value="tx">Texas</option>
-                                        <option value="">Florida</option>
-                                    </select>
-                                </div>
+                                <input type="text" class="form-control h-auto py-2 @error('state') is-invalid @enderror" name="state" value="" required />
+                                @error('state')
+                                <span class="text-danger">{{ $message }}</span>
+                                @enderror
                             </div>
                         </div>
-                        <div class="row">
-                            <div class="form-group col">
-                                <label class="form-label">CEP<span class="text-color-danger">*</span></label>
-                                <input type="text" class="form-control h-auto py-2" name="zip" value="" required />
-                            </div>
-                        </div>
+
                         <div class="row">
                             <div class="form-group col">
                                 <label class="form-label">Telefone<span class="text-color-danger">*</span></label>
-                                <input type="number" class="form-control h-auto py-2" name="phone" value="" required />
+                                <input type="number" class="form-control h-auto py-2 @error('phone') is-invalid @enderror" name="phone" value="" required />
+                                @error('phone')
+                                <span class="text-danger">{{ $message }}</span>
+                                @enderror
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="form-group col">
+                                <label class="form-label">Celular<span class="text-color-danger">*</span></label>
+                                <input type="number" class="form-control h-auto py-2 @error('cell') is-invalid @enderror" name="cell" value="" required />
+                                @error('cell')
+                                <span class="text-danger">{{ $message }}</span>
+                                @enderror
                             </div>
                         </div>
                         <div class="row">
                             <div class="form-group col">
                                 <label class="form-label">Endereço de E-mail<span class="text-color-danger">*</span></label>
-                                <input type="email" class="form-control h-auto py-2" name="email" value="" required />
+                                <input type="email" class="form-control h-auto py-2 @error('email') is-invalid @enderror" name="email" value="" required />
+                                @error('email')
+                                <span class="text-danger">{{ $message }}</span>
+                                @enderror
                             </div>
                         </div>
                         {{--<div class="row">
@@ -182,91 +196,91 @@
                                 </div>
                             </div>
                         </div>--}}
-                        <div class="row">
-                            <div class="form-group col">
-                                <div class="custom-checkbox-1" data-bs-toggle="collapse" data-bs-target=".shipping-field-wrapper">
-                                    <input id="shipAddress" type="checkbox" name="shipAddress" value="1" />
-                                    <label for="shipAddress">Comprar em um endereço diferente?</label>
-                                </div>
-                            </div>
-                        </div>
+{{--                        <div class="row">--}}
+{{--                            <div class="form-group col">--}}
+{{--                                <div class="custom-checkbox-1" data-bs-toggle="collapse" data-bs-target=".shipping-field-wrapper">--}}
+{{--                                    <input id="shipAddress" type="checkbox" name="shipAddress" value="1" />--}}
+{{--                                    <label for="shipAddress">Comprar em um endereço diferente?</label>--}}
+{{--                                </div>--}}
+{{--                            </div>--}}
+{{--                        </div>--}}
                         <!-- Ship to a differente address fields -->
-                        <div class="shipping-field-wrapper collapse">
-                            <div class="row">
-                                <div class="form-group col-md-6">
-                                    <label class="form-label">Nome<span class="text-color-danger">*</span></label>
-                                    <input type="text" class="form-control h-auto py-2" name="shippingFirstName" value="" required />
-                                </div>
-                                <div class="form-group col-md-6">
-                                    <label class="form-label">Sobrenome<span class="text-color-danger">*</span></label>
-                                    <input type="text" class="form-control h-auto py-2" name="shippingLastName" value="" required />
-                                </div>
-                            </div>
-                            {{--<div class="row">
-                                <div class="form-group col">
-                                    <label class="form-label">Company Name</label>
-                                    <input type="text" class="form-control h-auto py-2" name="shippingCompanyName" value="" />
-                                </div>
-                            </div>--}}
-                            <div class="row">
-                                <div class="form-group col">
-                                    <label class="form-label">País/Região <span class="text-color-danger">*</span></label>
-                                    <div class="custom-select-1">
-                                        <select class="form-select form-control h-auto py-2" name="shippingCountry" required>
-                                            <option value="" selected></option>
-                                            <option value="usa">United States</option>
-                                            <option value="spa">Spain</option>
-                                            <option value="fra">France</option>
-                                            <option value="uk">United Kingdon</option>
-                                        </select>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="form-group col">
-                                    <label class="form-label">Endereço<span class="text-color-danger">*</span></label>
-                                    <input type="text" class="form-control h-auto py-2" name="shippingAddress1" value="" placeholder="House number and street name" required />
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="form-group col">
-                                    <input type="text" class="form-control h-auto py-2" name="shippingAddress2" value="" placeholder="Apartment, suite, unit, etc..." required/>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="form-group col">
-                                    <label class="form-label">Cidade<span class="text-color-danger">*</span></label>
-                                    <input type="text" class="form-control h-auto py-2" name="shippingCity" value="" required />
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="form-group col">
-                                    <label class="form-label">Estado<span class="text-color-danger">*</span></label>
-                                    <div class="custom-select-1">
-                                        <select class="form-select form-control h-auto py-2" name="shippingState" required>
-                                            <option value="" selected></option>
-                                            <option value="ny">Nova York</option>
-                                            <option value="ca">California</option>
-                                            <option value="tx">Texas</option>
-                                            <option value="">Florida</option>
-                                        </select>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="form-group col">
-                                    <label class="form-label">CEP<span class="text-color-danger">*</span></label>
-                                    <input type="text" class="form-control h-auto py-2" name="shippingZip" value="" required />
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="form-group col">
-                                    <label class="form-label">Telefone<span class="text-color-danger">*</span></label>
-                                    <input type="number" class="form-control h-auto py-2" name="shippingPhone" value="" required />
-                                </div>
-                            </div>
-                            <!-- End of Ship to a differente address fields -->
-                        </div>
+{{--                        <div class="shipping-field-wrapper collapse">--}}
+{{--                            <div class="row">--}}
+{{--                                <div class="form-group col-md-6">--}}
+{{--                                    <label class="form-label">Nome<span class="text-color-danger">*</span></label>--}}
+{{--                                    <input type="text" class="form-control h-auto py-2" name="shippingFirstName" value="" required />--}}
+{{--                                </div>--}}
+{{--                                <div class="form-group col-md-6">--}}
+{{--                                    <label class="form-label">Sobrenome<span class="text-color-danger">*</span></label>--}}
+{{--                                    <input type="text" class="form-control h-auto py-2" name="shippingLastName" value="" required />--}}
+{{--                                </div>--}}
+{{--                            </div>--}}
+{{--                            --}}{{--<div class="row">--}}
+{{--                                <div class="form-group col">--}}
+{{--                                    <label class="form-label">Company Name</label>--}}
+{{--                                    <input type="text" class="form-control h-auto py-2" name="shippingCompanyName" value="" />--}}
+{{--                                </div>--}}
+{{--                            </div>--}}
+{{--                            <div class="row">--}}
+{{--                                <div class="form-group col">--}}
+{{--                                    <label class="form-label">País/Região <span class="text-color-danger">*</span></label>--}}
+{{--                                    <div class="custom-select-1">--}}
+{{--                                        <select class="form-select form-control h-auto py-2" name="shippingCountry" required>--}}
+{{--                                            <option value="" selected></option>--}}
+{{--                                            <option value="usa">United States</option>--}}
+{{--                                            <option value="spa">Spain</option>--}}
+{{--                                            <option value="fra">France</option>--}}
+{{--                                            <option value="uk">United Kingdon</option>--}}
+{{--                                        </select>--}}
+{{--                                    </div>--}}
+{{--                                </div>--}}
+{{--                            </div>--}}
+{{--                            <div class="row">--}}
+{{--                                <div class="form-group col">--}}
+{{--                                    <label class="form-label">Endereço<span class="text-color-danger">*</span></label>--}}
+{{--                                    <input type="text" class="form-control h-auto py-2" name="shippingAddress1" value="" placeholder="House number and street name" required />--}}
+{{--                                </div>--}}
+{{--                            </div>--}}
+{{--                            <div class="row">--}}
+{{--                                <div class="form-group col">--}}
+{{--                                    <input type="text" class="form-control h-auto py-2" name="shippingAddress2" value="" placeholder="Apartment, suite, unit, etc..." required/>--}}
+{{--                                </div>--}}
+{{--                            </div>--}}
+{{--                            <div class="row">--}}
+{{--                                <div class="form-group col">--}}
+{{--                                    <label class="form-label">Cidade<span class="text-color-danger">*</span></label>--}}
+{{--                                    <input type="text" class="form-control h-auto py-2" name="shippingCity" value="" required />--}}
+{{--                                </div>--}}
+{{--                            </div>--}}
+{{--                            <div class="row">--}}
+{{--                                <div class="form-group col">--}}
+{{--                                    <label class="form-label">Estado<span class="text-color-danger">*</span></label>--}}
+{{--                                    <div class="custom-select-1">--}}
+{{--                                        <select class="form-select form-control h-auto py-2" name="shippingState" required>--}}
+{{--                                            <option value="" selected></option>--}}
+{{--                                            <option value="ny">Nova York</option>--}}
+{{--                                            <option value="ca">California</option>--}}
+{{--                                            <option value="tx">Texas</option>--}}
+{{--                                            <option value="">Florida</option>--}}
+{{--                                        </select>--}}
+{{--                                    </div>--}}
+{{--                                </div>--}}
+{{--                            </div>--}}
+{{--                            <div class="row">--}}
+{{--                                <div class="form-group col">--}}
+{{--                                    <label class="form-label">CEP<span class="text-color-danger">*</span></label>--}}
+{{--                                    <input type="text" class="form-control h-auto py-2" name="shippingZip" value="" required />--}}
+{{--                                </div>--}}
+{{--                            </div>--}}
+{{--                            <div class="row">--}}
+{{--                                <div class="form-group col">--}}
+{{--                                    <label class="form-label">Telefone<span class="text-color-danger">*</span></label>--}}
+{{--                                    <input type="number" class="form-control h-auto py-2" name="shippingPhone" value="" required />--}}
+{{--                                </div>--}}
+{{--                            </div>--}}
+{{--                            <!-- End of Ship to a differente address fields -->--}}
+{{--                        </div>--}}
                         <div class="row">
                             <div class="form-group col">
                                 <label class="form-label">Observação do pedido</label>
