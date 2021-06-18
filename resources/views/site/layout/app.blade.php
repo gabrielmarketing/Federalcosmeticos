@@ -71,8 +71,23 @@
                                     <nav class="collapse">
                                         <ul class="nav nav-pills" id="mainNav">
                                             <li class="dropdown">
-                                                <a class="dropdown-item dropdown-toggle" href="{{route("site.home")}}">
+                                                <a class="dropdown-item dropdown-toggle" href="{{route("site.Home")}}">
                                                     Home
+                                                </a>
+                                            </li>
+                                            <li class="dropdown dropdown-mega">
+                                                <a class="dropdown-item dropdown-toggle" href="{{route("site.index")}}">
+                                                    Produtos
+                                                </a>
+                                            </li>
+                                            <li class="dropdown">
+                                                <a class="dropdown-item dropdown-toggle" href="{{route("site.Empresa")}}">
+                                                    Empresa
+                                                </a>
+                                            </li>
+                                            <li class="dropdown">
+                                                <a class="dropdown-item dropdown-toggle" href="{{route("site.contato")}}">
+                                                    Contato
                                                 </a>
                                             </li>
                                             <li class="dropdown">
@@ -94,16 +109,6 @@
                                             <li class="dropdown dropdown-mega">
                                                 <a class="dropdown-item dropdown-toggle" href="{{route("site.login")}}">
                                                     Área do Consultor
-                                                </a>
-                                            </li>
-                                            <li class="dropdown">
-                                                <a class="dropdown-item dropdown-toggle" href="{{route("site.Empresa")}}">
-                                                    Empresa
-                                                </a>
-                                            </li>
-                                            <li class="dropdown">
-                                                <a class="dropdown-item dropdown-toggle" href="{{route("site.contato")}}">
-                                                    Contato
                                                 </a>
                                             </li>
                                         </ul>
