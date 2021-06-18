@@ -458,6 +458,8 @@
 <script src="{{asset("porto/vendor/bootstrap-star-rating/js/star-rating.min.js")}}"></script>
 <script src="{{asset("porto/vendor/bootstrap-star-rating/themes/krajee-fas/theme.min.js")}}"></script>
 <script src="{{asset("porto/vendor/jquery.countdown/jquery.countdown.min.js")}}"></script>
+<script src="{{asset("js/sweetalert2.js")}}"></script>
+
 
 <!-- Theme Base, Components and Settings -->
 <script src="{{asset("porto/js/theme.js")}}"></script>
@@ -482,6 +484,8 @@
 <!-- Theme Initialization Files -->
 <script src="{{asset("porto/js/theme.init.js")}}"></script>
 
+@includeIf('global.sweetalert2')
+@includeIf('global.formRequest')
 @includeIf('global.javascript')
 
 </body>

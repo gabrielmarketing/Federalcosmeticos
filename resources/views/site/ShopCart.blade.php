@@ -41,163 +41,8 @@
                                 </th>
                             </tr>
                             </thead>
-                            <tbody>
-                            <tr class="cart_table_item">
-                                <td class="product-thumbnail">
-                                    <div class="product-thumbnail-wrapper">
-                                        <a href="#" class="product-thumbnail-remove" title="Remove Product">
-                                            <i class="fas fa-times"></i>
-                                        </a>
-                                        <a href="shop-product-sidebar-right.html" class="product-thumbnail-image" title="Photo Camera">
-                                            <img width="90" height="90" alt="" class="img-fluid" src="{{asset("porto/img/products/product-grey-1.jpg")}}">
-                                        </a>
-                                    </div>
-                                </td>
-                                <td class="product-name">
-                                    <a href="shop-product-sidebar-right.html" class="font-weight-semi-bold text-color-dark text-color-hover-primary text-decoration-none">NOME DO PERFUME</a>
-                                </td>
-                                <td class="product-price">
-                                    <span class="amount font-weight-medium text-color-grey">R$10</span>
-                                </td>
-                                <td class="product-quantity">
-                                    <div class="quantity float-none m-0">
-                                        <input type="button" class="minus text-color-hover-light bg-color-hover-primary border-color-hover-primary" value="-">
-                                        <input type="text" class="input-text qty text" title="Qty" value="1" name="quantity" min="1" step="1">
-                                        <input type="button" class="plus text-color-hover-light bg-color-hover-primary border-color-hover-primary" value="+">
-                                    </div>
-                                </td>
-                                <td class="product-subtotal text-end">
-                                    <span class="amount text-color-dark font-weight-bold text-4">R$10</span>
-                                </td>
-                            </tr>
-                            <tr class="cart_table_item">
-                                <td class="product-thumbnail">
-                                    <div class="product-thumbnail-wrapper">
-                                        <a href="#" class="product-thumbnail-remove" title="Remove Product">
-                                            <i class="fas fa-times"></i>
-                                        </a>
-                                        <a href="shop-product-sidebar-right.html" class="product-thumbnail-image" title="Porto Headphone">
-                                            <img width="90" height="90" alt="" class="img-fluid" src="{{asset("porto/img/products/product-grey-7.jpg")}}">
-                                        </a>
-                                    </div>
-                                </td>
-                                <td class="product-name">
-                                    <a href="shop-product-sidebar-right.html" class="font-weight-semi-bold text-color-dark text-color-hover-primary text-decoration-none">Porto Headphone</a>
-                                </td>
-                                <td class="product-price">
-                                    <span class="amount font-weight-medium text-color-grey">R$10</span>
-                                </td>
-                                <td class="product-quantity">
-                                    <div class="quantity float-none m-0">
-                                        <input type="button" class="minus text-color-hover-light bg-color-hover-primary border-color-hover-primary" value="-">
-                                        <input type="text" class="input-text qty text" title="Qty" value="1" name="quantity" min="1" step="1">
-                                        <input type="button" class="plus text-color-hover-light bg-color-hover-primary border-color-hover-primary" value="+">
-                                    </div>
-                                </td>
-                                <td class="product-subtotal text-end">
-                                    <span class="amount text-color-dark font-weight-bold text-4">R$10</span>
-                                </td>
-                            </tr>
+                            <tbody class="carttr">
 
-                            <tr class="cart_table_item">
-                                <td class="product-thumbnail">
-                                    <div class="product-thumbnail-wrapper">
-                                        <a href="#" class="product-thumbnail-remove" title="Remove Product">
-                                            <i class="fas fa-times"></i>
-                                        </a>
-                                        <a href="shop-product-sidebar-right.html" class="product-thumbnail-image" title="Golf Bag">
-                                            <img width="90" height="90" alt="" class="img-fluid" src="{{asset("porto/img/products/product-grey-2.jpg")}}">
-                                        </a>
-                                    </div>
-                                </td>
-                                <td class="product-name">
-                                    <a href="shop-product-sidebar-right.html" class="font-weight-semi-bold text-color-dark text-color-hover-primary text-decoration-none">Golf Bag</a>
-                                </td>
-                                <td class="product-price">
-                                    <span class="amount font-weight-medium text-color-grey">R$10</span>
-                                </td>
-                                <td class="product-quantity">
-                                    <div class="quantity float-none m-0">
-                                        <input type="button" class="minus text-color-hover-light bg-color-hover-primary border-color-hover-primary" value="-">
-                                        <input type="text" class="input-text qty text" title="Qty" value="1" name="quantity" min="1" step="1">
-                                        <input type="button" class="plus text-color-hover-light bg-color-hover-primary border-color-hover-primary" value="+">
-                                    </div>
-                                </td>
-                                <td class="product-subtotal text-end">
-                                    <span class="amount text-color-dark font-weight-bold text-4">R$10</span>
-                                </td>
-                            </tr>
-                            <tr class="cart_table_item">
-                                <td class="product-thumbnail">
-                                    <div class="product-thumbnail-wrapper">
-                                        <a href="#" class="product-thumbnail-remove" title="Remove Product">
-                                            <i class="fas fa-times"></i>
-                                        </a>
-                                        <a href="shop-product-sidebar-right.html" class="product-thumbnail-image" title="Workout">
-                                            <img width="90" height="90" alt="" class="img-fluid" src="{{asset("porto/img/products/product-grey-3.jpg")}}">
-                                        </a>
-                                    </div>
-                                </td>
-                                <td class="product-name">
-                                    <a href="shop-product-sidebar-right.html" class="font-weight-semi-bold text-color-dark text-color-hover-primary text-decoration-none">Workout</a>
-                                </td>
-                                <td class="product-price">
-                                    <span class="amount font-weight-medium text-color-grey">R$10</span>
-                                </td>
-                                <td class="product-quantity">
-                                    <div class="quantity float-none m-0">
-                                        <input type="button" class="minus text-color-hover-light bg-color-hover-primary border-color-hover-primary" value="-">
-                                        <input type="text" class="input-text qty text" title="Qty" value="1" name="quantity" min="1" step="1">
-                                        <input type="button" class="plus text-color-hover-light bg-color-hover-primary border-color-hover-primary" value="+">
-                                    </div>
-                                </td>
-                                <td class="product-subtotal text-end">
-                                    <span class="amount text-color-dark font-weight-bold text-4">R$10</span>
-                                </td>
-                            </tr>
-                            <tr class="cart_table_item">
-                                <td class="product-thumbnail">
-                                    <div class="product-thumbnail-wrapper">
-                                        <a href="#" class="product-thumbnail-remove" title="Remove Product">
-                                            <i class="fas fa-times"></i>
-                                        </a>
-                                        <a href="shop-product-sidebar-right.html" class="product-thumbnail-image" title="Luxury Bag">
-                                            <img width="90" height="90" alt="" class="img-fluid" src="{{asset("porto/img/products/product-grey-4.jpg")}}">
-                                        </a>
-                                    </div>
-                                </td>
-                                <td class="product-name">
-                                    <a href="shop-product-sidebar-right.html" class="font-weight-semi-bold text-color-dark text-color-hover-primary text-decoration-none">Luxury Bag</a>
-                                </td>
-                                <td class="product-price">
-                                    <span class="amount font-weight-medium text-color-grey">R$10</span>
-                                </td>
-                                <td class="product-quantity">
-                                    <div class="quantity float-none m-0">
-                                        <input type="button" class="minus text-color-hover-light bg-color-hover-primary border-color-hover-primary" value="-">
-                                        <input type="text" class="input-text qty text" title="Qty" value="1" name="quantity" min="1" step="1">
-                                        <input type="button" class="plus text-color-hover-light bg-color-hover-primary border-color-hover-primary" value="+">
-                                    </div>
-                                </td>
-                                <td class="product-subtotal text-end">
-                                    <span class="amount text-color-dark font-weight-bold text-4">R$10</span>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td colspan="5">
-                                    <div class="row justify-content-between mx-0">
-                                        <div class="col-md-auto px-0 mb-3 mb-md-0">
-                                            <div class="d-flex align-items-center">
-                                                <input type="text" class="form-control h-auto border-radius-0 line-height-1 py-3" name="couponCode" placeholder="Cupom de Desconto" />
-                                                <button type="submit" class="btn btn-light btn-modern text-color-dark bg-color-light-scale-2 text-color-hover-light bg-color-hover-primary text-uppercase text-3 font-weight-bold border-0 border-radius-0 ws-nowrap btn-px-4 py-3 ms-2">Aplicar Cupom</button>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-auto px-0">
-                                            <button type="submit" class="btn btn-light btn-modern text-color-dark bg-color-light-scale-2 text-color-hover-light bg-color-hover-primary text-uppercase text-3 font-weight-bold border-0 border-radius-0 btn-px-4 py-3">Atualizar Carrinho</button>
-                                        </div>
-                                    </div>
-                                </td>
-                            </tr>
                             </tbody>
                         </table>
                     </div>
@@ -214,7 +59,7 @@
                                     <strong class="text-color-dark">Subtotal</strong>
                                 </td>
                                 <td class="border-top-0 text-end">
-                                    <strong><span class="amount font-weight-medium">R$10</span></strong>
+                                    <strong><span class="amount font-weight-medium" id="totalsub">R$10</span></strong>
                                 </td>
                             </tr>
                             <tr class="shipping">
@@ -238,7 +83,7 @@
                                     <strong class="text-color-dark text-3-5">Total</strong>
                                 </td>
                                 <td class="text-end">
-                                    <strong class="text-color-dark"><span class="amount text-color-dark text-5">R$30</span></strong>
+                                    <strong class="text-color-dark"><span class="amount text-color-dark text-5" id="total"></span></strong>
                                 </td>
                             </tr>
                             </tbody>
