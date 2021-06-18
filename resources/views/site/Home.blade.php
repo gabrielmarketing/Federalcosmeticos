@@ -46,41 +46,41 @@
                 <div class="col-lg-10 text-center offset-lg-1">
                     <h2 class="font-weight-bold text-9 mb-0">Veja como se tornar<br>um Consultor da Federal Cosméticos</h2>
                     <p class="sub-title text-primary text-4 font-weight-semibold positive-ls-2 mt-2 mb-4">Um negócio forte, simples e <span class="highlighted-word highlighted-word-animation-1 highlighted-word-animation-1-2 highlighted-word-animation-1 highlighted-word-animation-1-no-rotate alternative-font-4 font-weight-semibold line-height-2 pb-2">muito lucrativo!</span></p>
-                    <p class="text-1rem text-color-default negative-ls-05 pt-3 pb-4 mb-5">he world, being constantly improved and following the trends of design and best practices of code. Your search for the best solution is over, get your own copy and join tens of thousands of happy customers.</p>
+                    <p class="text-1rem text-color-default negative-ls-05 pt-3 pb-4 mb-5">a Federal Cosméticos, existem muitas formas de mudar de vida. Descubra os caminhos para poder alcançar todos os seus sonhos.</p>
                 </div>
                 <div class="col-sm-6 col-lg-4 offset-lg-2 counter mb-5 mb-md-0">
                     <div class="appear-animation" data-appear-animation="fadeInLeftShorter" data-appear-animation-delay="750" data-appear-animation-duration="750">
-                        <h3 class="font-weight-extra-bold text-14 line-height-1 mb-2" data-to="80" data-append="+" data-plugin-options="{'accY': 50}">0</h3>
-                        <label class="font-weight-semibold negative-ls-1 text-color-dark mb-0">Included Demos</label>
-                        <p class="text-color-grey font-weight-semibold pb-1 mb-2">600+ HTML FILES</p>
-                        <p class="mb-0"><a href="#demos" data-hash data-hash-offset="120" class="text-color-primary d-flex align-items-center justify-content-center text-4 font-weight-semibold text-decoration-none">VIEW DEMOS <i class="fas fa-long-arrow-alt-right ms-2 text-4 mb-0"></i></a></p>
+                        <h3 class="font-weight-extra-bold text-14 line-height-1 mb-2" data-to="180" data-append="+" data-plugin-options="{'accY': 50}">0</h3>
+                        <label class="font-weight-semibold negative-ls-1 text-color-dark mb-0">CONSULTORES</label>
+                        <p class="text-color-grey font-weight-semibold pb-1 mb-2">Ao se tornar um(a) Consultor(a), você poderá oferecer a seus clientes todo nosso portfólio, que conta com mais de 40 perfumes.</p>
+                        <p class="mb-0"><a href="#demos" data-hash data-hash-offset="120" class="text-color-primary d-flex align-items-center justify-content-center text-4 font-weight-semibold text-decoration-none">SABER MAIS<i class="fas fa-long-arrow-alt-right ms-2 text-4 mb-0"></i></a></p>
                     </div>
                 </div>
                 <div class="col-sm-6 col-lg-4 counter divider-left-border">
                     <div class="appear-animation" data-appear-animation="fadeInRightShorter" data-appear-animation-delay="750" data-appear-animation-duration="750">
-                        <h3 class="font-weight-extra-bold text-14 line-height-1 mb-2" data-to="40" data-append="K+" data-plugin-options="{'accY': 50}">0</h3>
-                        <label class="font-weight-semibold negative-ls-1 text-color-dark mb-0">Websites Using Porto HTML</label>
-                        <p class="text-color-grey font-weight-semibold pb-1 mb-2">100K+ IN ALL VERSIONS</p>
-                        <p class="mb-0"><a href="https://themeforest.net/checkout/from_item/4106987?license=regular&support=bundle_6month&ref=Okler" class="text-color-primary d-flex align-items-center justify-content-center text-4 font-weight-semibold text-decoration-none" target="_blank">BUILD WEBSITE <i class="fas fa-long-arrow-alt-right ms-2 text-4 mb-0"></i></a></p>
+                        <h3 class="font-weight-extra-bold text-14 line-height-1 mb-2" data-to="3" data-append="+" data-plugin-options="{'accY': 50}">0</h3>
+                        <label class="font-weight-semibold negative-ls-1 text-color-dark mb-0">FRANQUIAS</label>
+                        <p class="text-color-grey font-weight-semibold pb-1 mb-2">Nossos(as) Consultores(as) contam com um local para experimentar e adquirir seus produtos, fazer suas reuniões e treinamentos. A Federal Cosméticos é uma extensão da nossa marca para todo o Brasil.</p>
+                        <p class="mb-0"><a href="https://themeforest.net/checkout/from_item/4106987?license=regular&support=bundle_6month&ref=Okler" class="text-color-primary d-flex align-items-center justify-content-center text-4 font-weight-semibold text-decoration-none" target="_blank">SABER MAIS<i class="fas fa-long-arrow-alt-right ms-2 text-4 mb-0"></i></a></p>
                     </div>
                 </div>
             </div>
             <div class="intro row align-items-center justify-content-center justify-content-md-start">
                 <div class="col-3 pe-0 ps-3 position-relative z-index-2">
-                    <img src="{{asset("porto/img/lazy.png")}}" data-src="{{asset("porto/img/landing/intro2.jpg")}}" class="lazyload img-fluid border border-width-10 border-color-light box-shadow-3 rounded d-none d-md-block appear-animation" alt="Screenshot 2" data-appear-animation="fadeInUp" data-appear-animation-delay="600">
+                    {{--<img src="{{asset("images/produtos/13.png")}}" data-src="{{asset("images/produtos/13.png")}}" class="lazyload img-fluid  rounded d-none d-md-block appear-animation" alt="Screenshot 2" data-appear-animation="fadeInUp" data-appear-animation-delay="600">
                     <div class="position-absolute d-none d-md-flex align-items-end appear-animation" data-appear-animation="fadeInLeftShorter" data-appear-animation-delay="900" style="bottom: -60px; right: -90px;">
-                        <span class="arrow hlt" style="margin-right: -70px;"></span>
-                        <strong class="text-color-dark mb-4 pb-3">modern designs!</strong>
-                    </div>
+                        --}}{{--<span class="arrow hlt" style="margin-right: -70px;"></span>
+                        <strong class="text-color-dark mb-4 pb-3"></strong>--}}{{--
+                    </div>--}}
                 </div>
                 <div class="col-11 col-md-9 position-relative ps-0 pe-5 pb-5 pb-md-0 mb-5 mb-md-0">
-                    <div class="intro2 pt-5 pt-md-0 mt-5 mt-lg-0 appear-animation pe-5" data-appear-animation="fadeInUp" data-appear-animation-delay="400"><img src="{{asset("porto/img/lazy.png")}}" data-src="{{asset("porto/img/landing/intro1.jpg")}}" class="lazyload img-fluid box-shadow-3 position-relative z-index-1 rounded" alt="Screenshot 1" style="left: -110px;"></div>
+                    <div class="intro2 pt-5 pt-md-0 mt-5 mt-lg-0 appear-animation pe-5" data-appear-animation="fadeInUp" data-appear-animation-delay="400"><img src="{{asset("images/perfumesgeral.png")}}" data-src="{{asset("images/perfumesgeral.png")}}" class="lazyload img-fluid position-relative z-index-1 rounded" alt="Screenshot 1" style="left: -110px;"></div>
                     <div class="intro3 z-index-3 position-absolute appear-animation" data-appear-animation="fadeInUp" data-appear-animation-delay="800" style="top: 20%; right: 4%;">
-                        <img src="{{asset("porto/img/lazy.png")}}" data-src="{{asset("porto/img/landing/intro3.jpg")}}" class="lazyload img-fluid border border-width-10 border-color-light box-shadow-3 rounded" alt="Screenshot 3">
+                        {{--<img src="{{asset("porto/img/lazy.png")}}" data-src="{{asset("porto/img/landing/intro3.jpg")}}" class="lazyload img-fluid border border-width-10 border-color-light box-shadow-3 rounded" alt="Screenshot 3">
                         <div class="position-absolute d-none d-md-flex align-items-end appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="1100" style="bottom: -135px; right: -20px;">
                             <strong class="text-color-dark mb-3">a lot of demos!</strong>
                             <span class="arrow hru"></span>
-                        </div>
+                        </div>--}}
                     </div>
                 </div>
             </div>
@@ -91,8 +91,8 @@
         <div class="container">
             <div class="row align-items-center justify-content-between">
                 <div class="col-lg-4">
-                    <h2 class="text-7 font-weight-semibold line-height-2 mb-2">The new generation of website templates is here.</h2>
-                    <p>A complete suite of tools designed to make life easier with a top quality website templates.</p>
+                    <h2 class="text-7 font-weight-semibold line-height-2 mb-2">CONSTRUA SEU PRÓPRIO NEGÓCIO</h2>
+                    <p></p>
                 </div>
                 <div class="col-sm-4 col-lg-auto icon-box text-center mb-4">
                     <i class="icon-bg icon-1"></i>
