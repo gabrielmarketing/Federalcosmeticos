@@ -67,7 +67,6 @@
         }else{
             cartItem.forEach(item => {
                 if (product.id == item.id){
-                    product.quantity = item.quantity += 1;
                     item.quantity += 1;
                     products.push(item)
                 }else{
@@ -256,4 +255,185 @@
 
     }
 
+    // ------------------------------ script checkout -------------------------------------//
+
+    function alimentaPedido(){
+        var cartItem = JSON.parse(localStorage.getItem('prdInCart'))
+        var cartChekouttr = $(".cartChekouttr");
+        var htmltr = '';
+        var total = 0;
+        var totalsub = 0;
+        if (!cartItem){
+            htmltr += "" +
+                "<tr>"+
+                    "<td colspan='2' class='border-top-0'>"+
+                        "<strong class='text-color-dark'>produtos</strong>"+
+                    "</td>"+
+                "</tr>"+
+            "<tr class='cart-subtotal'>"+
+                "<td class='border-top-0'>"+
+                    "<strong class='text-color-dark'>Subtotal</strong>"+
+                "</td>"+
+                "<td class='border-top-0 text-end'>"+
+                    "<strong><span class='amount font-weight-medium'>R$0</span></strong>"+
+                "</td>"+
+            "</tr>"+
+            "<tr class='shipping'>"+
+                "<td colspan='2'>"+
+                    "<strong class='d-block text-color-dark mb-2'>Shipping</strong>"+
+                    "<div class='d-flex flex-column'>"+
+                        "<label class='d-flex align-items-center text-color-grey mb-0' for='shipping_method1'>"+
+                            "<input id='shipping_method1' type='radio' class='me-2' name='shipping_method' value='free' checked />Valor do Envio R$ 0,00</label>"+
+                        "<label class='d-flex align-items-center text-color-grey mb-0' for='shipping_method2'>"+
+                            "<input id='shipping_method2' type='radio' class='me-2' name='shipping_method' value='local-pickup' />Pegar na Fabrica</label>"+
+                    "</div>"+
+                "</td>"+
+            "</tr>"+
+            "<tr class='total'>"+
+                "<td>"+
+                    "<strong class='text-color-dark text-3-5'>Total</strong>"+
+                "</td>"+
+                "<td class='text-end'>"+
+                    "<strong class='text-color-dark'><span class='amount text-color-dark text-5'>R$0</span></strong>"+
+                "</td>"+
+            "</tr>"+
+            "<tr class='payment-methods'>"+
+                "<td colspan='2'>"+
+                    "<strong class='d-block text-color-dark mb-2'>Métodos de Pagamento</strong>"+
+                    "<div class='d-flex flex-column'>"+
+                       " <label class='d-flex align-items-center text-color-grey mb-0' for='payment_method1'>"+
+                            "<input id='payment_method1' type='radio' class='me-2' name='payment_method' value='cash-on-delivery' checked />Boleto</label>"+
+                    "</div>"+
+                "</td>"+
+            "</tr>"+
+            "<tr>"+
+                "<td colspan='2'>Seus dados pessoais serão usados apenas para processar seu pedido.</td>"+
+            "</tr>"
+            ;
+        }else {
+
+            if (Object.keys(cartItem).length === 0){
+                htmltr += "" +
+                    "<tr>"+
+                    "<td colspan='2' class='border-top-0'>"+
+                    "<strong class='text-color-dark'>produtos</strong>"+
+                    "</td>"+
+                    "</tr>"+
+                    "<tr class='cart-subtotal'>"+
+                    "<td class='border-top-0'>"+
+                    "<strong class='text-color-dark'>Subtotal</strong>"+
+                    "</td>"+
+                    "<td class='border-top-0 text-end'>"+
+                    "<strong><span class='amount font-weight-medium'>R$0</span></strong>"+
+                    "</td>"+
+                    "</tr>"+
+                    "<tr class='shipping'>"+
+                    "<td colspan='2'>"+
+                    "<strong class='d-block text-color-dark mb-2'>Shipping</strong>"+
+                    "<div class='d-flex flex-column'>"+
+                    "<label class='d-flex align-items-center text-color-grey mb-0' for='shipping_method1'>"+
+                    "<input id='shipping_method1' type='radio' class='me-2' name='shipping_method' value='free' checked />Valor do Envio R$ 0,00</label>"+
+                    "<label class='d-flex align-items-center text-color-grey mb-0' for='shipping_method2'>"+
+                    "<input id='shipping_method2' type='radio' class='me-2' name='shipping_method' value='local-pickup' />Pegar na Fabrica</label>"+
+                    "</div>"+
+                    "</td>"+
+                    "</tr>"+
+                    "<tr class='total'>"+
+                    "<td>"+
+                    "<strong class='text-color-dark text-3-5'>Total</strong>"+
+                    "</td>"+
+                    "<td class='text-end'>"+
+                    "<strong class='text-color-dark'><span class='amount text-color-dark text-5'>R$0</span></strong>"+
+                    "</td>"+
+                    "</tr>"+
+                    "<tr class='payment-methods'>"+
+                    "<td colspan='2'>"+
+                    "<strong class='d-block text-color-dark mb-2'>Métodos de Pagamento</strong>"+
+                    "<div class='d-flex flex-column'>"+
+                    " <label class='d-flex align-items-center text-color-grey mb-0' for='payment_method1'>"+
+                    "<input id='payment_method1' type='radio' class='me-2' name='payment_method' value='cash-on-delivery' checked />Boleto</label>"+
+                    "</div>"+
+                    "</td>"+
+                    "</tr>"+
+                    "<tr>"+
+                    "<td colspan='2'>Seus dados pessoais serão usados apenas para processar seu pedido.</td>"+
+                    "</tr>";
+            }else{
+                htmltr += "" +
+                    "<tr>"+
+                    "<td colspan='2' class='border-top-0'>"+
+                    "<strong class='text-color-dark'>produtos</strong>"+
+                    "</td>"+
+                    "</tr>";
+
+                cartItem.forEach(item =>{
+                    var price = 'R$ '+ item.price;
+                    var totaltr = parseInt(item.price) * parseInt(item.quantity);
+                    totalsub += totaltr;
+                    htmltr += "" +
+                        "<tr>"+
+                            "<td>"+
+                            "<strong class='d-block text-color-dark line-height-1 font-weight-semibold'>"+item.perfume+" <span class='product-qty'>x"+item.quantity+"</span></strong>"+
+                            " <span class='text-1'>COLOR BLACK</span>"+
+                            "</td>"+
+                            "<td class='text-end align-top'>"+
+                            "<span class='amount font-weight-medium text-color-grey'>R$ "+item.quantity * 10+"</span>"+
+                            "</td>"+
+                        "</tr>";
+
+                });
+                htmltr += "" +
+                "<tr class='cart-subtotal'>"+
+                "<td class='border-top-0'>"+
+                "<strong class='text-color-dark'>Subtotal</strong>"+
+                "</td>"+
+                "<td class='border-top-0 text-end'>"+
+                "<strong><span class='amount font-weight-medium' id='totalsub'></span></strong>"+
+                "</td>"+
+                "</tr>"+
+                "<tr class='shipping'>"+
+                "<td colspan='2'>"+
+                "<strong class='d-block text-color-dark mb-2'>Shipping</strong>"+
+                "<div class='d-flex flex-column'>"+
+                "<label class='d-flex align-items-center text-color-grey mb-0' for='shipping_method1'>"+
+                "<input id='shipping_method1' type='radio' class='me-2' name='shipping_method' value='free' checked />Valor do Envio R$ 50,00</label>"+
+                "<label class='d-flex align-items-center text-color-grey mb-0' for='shipping_method2'>"+
+                "<input id='shipping_method2' type='radio' class='me-2' name='shipping_method' value='local-pickup' />Pegar na Fabrica</label>"+
+                "</div>"+
+                "</td>"+
+                "</tr>"+
+                "<tr class='total'>"+
+                "<td>"+
+                "<strong class='text-color-dark text-3-5'>Total</strong>"+
+                "</td>"+
+                "<td class='text-end'>"+
+                "<strong class='text-color-dark'><span class='amount text-color-dark text-5' id='total'></span></strong>"+
+                "</td>"+
+                "</tr>"+
+                "<tr class='payment-methods'>"+
+                "<td colspan='2'>"+
+                "<strong class='d-block text-color-dark mb-2'>Métodos de Pagamento</strong>"+
+                "<div class='d-flex flex-column'>"+
+                " <label class='d-flex align-items-center text-color-grey mb-0' for='payment_method1'>"+
+                "<input id='payment_method1' type='radio' class='me-2' name='payment_method' value='cash-on-delivery' checked />Boleto</label>"+
+                "</div>"+
+                "</td>"+
+                "</tr>"+
+                "<tr>"+
+                "<td colspan='2'>Seus dados pessoais serão usados apenas para processar seu pedido.</td>"+
+                "</tr>"
+                ;
+            }
+
+        }
+
+        cartChekouttr.html(htmltr);
+        total = parseInt(totalsub) + 50;
+        if (document.getElementById('totalsub')){
+            document.getElementById('totalsub').innerHTML='R$ '+totalsub;
+            document.getElementById('total').innerHTML='R$ '+total;
+        }
+
+    }
+    alimentaPedido();
 </script>

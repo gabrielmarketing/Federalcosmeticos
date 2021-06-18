@@ -97,8 +97,8 @@
                         <h2 class="text-color-dark font-weight-bold text-5-5 mb-3">Detalhes de Cobrança</h2>
                         <div class="row">
                             <div class="form-group col">
-                                <label class="form-label">CPF</label>
-                                <input type="text" class="form-control h-auto py-2 @error('cpf') is-invalid @enderror" name="cpf" value="" required/>
+                                <label class="form-label">CPF<span class="text-color-danger">*</span></label>
+                                <input type="text" class="form-control h-auto py-2 @error('cpf') is-invalid @enderror" name="cpf" value="" required />
                                 @error('cpf')
                                 <span class="text-danger">{{ $message }}</span>
                                 @enderror
@@ -135,8 +135,8 @@
                         </div>
                         <div class="row">
                             <div class="form-group col">
-                                <label class="form-label">Complemento<span class="text-color-danger">*</span></label>
-                                <input type="text" class="form-control h-auto py-2 @error('complement') is-invalid @enderror" name="complement" value="" placeholder="Apartment, suite, unit, etc..." required />
+                                <label class="form-label">Complemento</label>
+                                <input type="text" class="form-control h-auto py-2 @error('complement') is-invalid @enderror" name="complement" value="" placeholder="Apartment, suite, unit, etc..." />
                                 @error('complement')
                                 <span class="text-danger">{{ $message }}</span>
                                 @enderror
@@ -295,83 +295,8 @@
                             <div class="card-body">
                                 <h4 class="font-weight-bold text-uppercase text-4 mb-3">SEU PEDIDO</h4>
                                 <table class="shop_table cart-totals mb-3">
-                                    <tbody>
-                                    <tr>
-                                        <td colspan="2" class="border-top-0">
-                                            <strong class="text-color-dark">produtos</strong>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            <strong class="d-block text-color-dark line-height-1 font-weight-semibold">Black Porto Smartwatch <span class="product-qty">x1</span></strong>
-                                            <span class="text-1">COLOR BLACK</span>
-                                        </td>
-                                        <td class="text-end align-top">
-                                            <span class="amount font-weight-medium text-color-grey">R$10</span>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td class="border-top-0 pt-0">
-                                            <strong class="d-block text-color-dark line-height-1 font-weight-semibold">Black Porto Smartwatch <span class="product-qty">x1</span></strong>
-                                            <span class="text-1">COLOR BLACK</span>
-                                        </td>
-                                        <td class="border-top-0 text-end align-top pt-0">
-                                            <span class="amount font-weight-medium text-color-grey">R$10</span>
-                                        </td>
-                                    </tr>
-                                    <tr class="cart-subtotal">
-                                        <td class="border-top-0">
-                                            <strong class="text-color-dark">Subtotal</strong>
-                                        </td>
-                                        <td class="border-top-0 text-end">
-                                            <strong><span class="amount font-weight-medium">R$10</span></strong>
-                                        </td>
-                                    </tr>
-                                    <tr class="shipping">
-                                        <td colspan="2">
-                                            <strong class="d-block text-color-dark mb-2">Shipping</strong>
+                                    <tbody class="cartChekouttr">
 
-                                            <div class="d-flex flex-column">
-                                                <label class="d-flex align-items-center text-color-grey mb-0" for="shipping_method1">
-                                                    <input id="shipping_method1" type="radio" class="me-2" name="shipping_method" value="free" checked />
-                                                    Free Shipping
-                                                </label>
-                                                <label class="d-flex align-items-center text-color-grey mb-0" for="shipping_method2">
-                                                    <input id="shipping_method2" type="radio" class="me-2" name="shipping_method" value="local-pickup" />
-                                                    Local Pickup
-                                                </label>
-                                                <label class="d-flex align-items-center text-color-grey mb-0" for="shipping_method3">
-                                                    <input id="shipping_method3" type="radio" class="me-2" name="shipping_method" value="flat-rate" />
-                                                    Flat Rate: $5.00
-                                                </label>
-                                            </div>
-                                        </td>
-                                    </tr>
-                                    <tr class="total">
-                                        <td>
-                                            <strong class="text-color-dark text-3-5">Total</strong>
-                                        </td>
-                                        <td class="text-end">
-                                            <strong class="text-color-dark"><span class="amount text-color-dark text-5">R$10</span></strong>
-                                        </td>
-                                    </tr>
-                                    <tr class="payment-methods">
-                                        <td colspan="2">
-                                            <strong class="d-block text-color-dark mb-2">Métodos de Pagamento</strong>
-
-                                            <div class="d-flex flex-column">
-                                                <label class="d-flex align-items-center text-color-grey mb-0" for="payment_method1">
-                                                    <input id="payment_method1" type="radio" class="me-2" name="payment_method" value="cash-on-delivery" checked />
-                                                    Boleto
-                                                </label>
-                                            </div>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td colspan="2">
-                                            Seus dados pessoais serão usados apenas para processar seu pedido.
-                                        </td>
-                                    </tr>
                                     </tbody>
                                 </table>
                                 <button type="submit" class="btn btn-dark btn-modern w-100 text-uppercase bg-color-hover-primary border-color-hover-primary border-radius-0 text-3 py-3">Finalizar o Pedido <i class="fas fa-arrow-right ms-2"></i></button>
