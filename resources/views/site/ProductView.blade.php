@@ -356,9 +356,9 @@
                                         </a>--}}
                                         <a href="{{route("site.ShopCart")}}">
                                             <div class="product-thumb-info-image product-thumb-info-image-effect">
-                                                <img alt="" class="img-fluid" src="{{asset("images/produtos/mustang.png")}}">
+                                                <img alt="" class="img-fluid" src="{{asset("images/produtos/mustang_v2.png")}}">
 
-                                                <img alt="" class="img-fluid" src="{{asset("images/produtos/mustang.png")}}">
+                                                <img alt="" class="img-fluid" src="{{asset("images/produtos/mustang_v2.png")}}">
                                             </div>
                                         </a>
                                     </div>
