@@ -60,7 +60,7 @@
                     <div class="header-column">
                         <div class="header-row">
                             <div class="header-logo">
-                                <a href="index.html"><img alt="Porto" width="100" height="48" data-sticky-width="82" data-sticky-height="40" data-sticky-top="0" src="{{asset("porto/img/logo-default-slim-dark.png")}}"></a>
+                                <a href="#"><img alt="Porto" width="180" height="65" data-sticky-width="115" data-sticky-height="40" data-sticky-top="110" src="{{asset("images/logosupbranco.png")}}"></a>
                             </div>
                         </div>
                     </div>
@@ -76,40 +76,40 @@
                                                 </a>
                                             </li>
                                             <li class="dropdown">
-                                                <a class="dropdown-item" data-hash data-hash-offset="130" href="{{route("site.home")}}">
-                                                    Plano de Negócio
+                                                <a class="dropdown-item" data-hash data-hash-offset="130" href="#">
+                                                    Material do Consultor
                                                 </a>
                                                 <ul class="dropdown-menu">
-                                                    <li class="dropdown-submenu">
-                                                        <a class="dropdown-item" href="#">Catalogo Feminino</a>
+                                                    <li class="dropdown">
+                                                        <a target="_blank" class="dropdown-item" href="{{asset("images/catalogofeminino.pdf")}}">Catalogo Feminino</a>
                                                     </li>
-                                                    <li class="dropdown-submenu">
-                                                        <a class="dropdown-item" href="#">Catalogo Masculino</a>
+                                                    <li class="dropdown">
+                                                        <a target="_blank" class="dropdown-item" href="{{asset("images/catalogomasculino.pdf")}}">Catalogo Masculino</a>
                                                     </li>
-                                                    <li class="dropdown-submenu">
-                                                        <a class="dropdown-item" href="#">Revista Plano de Negócio</a>
+                                                    <li class="dropdown">
+                                                        <a target="_blank" class="dropdown-item" href="{{asset("images/revistaoficial.pdf")}}">Revista Plano de Negócio</a>
                                                     </li>
                                                 </ul>
                                             </li>
                                             <li class="dropdown dropdown-mega">
-                                                <a class="dropdown-item dropdown-toggle" href="{{route("site.index")}}">
-                                                    Loja Virtual
+                                                <a class="dropdown-item dropdown-toggle" href="{{route("site.login")}}">
+                                                    Área do Consultor
                                                 </a>
                                             </li>
                                             <li class="dropdown">
-                                                <a class="dropdown-item dropdown-toggle" href="#">
+                                                <a class="dropdown-item dropdown-toggle" href="{{route("site.Empresa")}}">
                                                     Empresa
                                                 </a>
                                             </li>
                                             <li class="dropdown">
-                                                <a class="dropdown-item dropdown-toggle" href="#">
+                                                <a class="dropdown-item dropdown-toggle" href="{{route("site.contato")}}">
                                                     Contato
                                                 </a>
                                             </li>
                                         </ul>
                                     </nav>
                                 </div>
-                                <a class="btn btn-gradient btn-rounded font-weight-semibold px-4 ms-3" href="https://themeforest.net/checkout/from_item/4106987?license=regular&support=bundle_6month&ref=Okler" target="_blank">BUY PORTO NOW!</a>
+                                <a class="btn btn-gradient btn-rounded font-weight-semibold px-4 ms-3" href="{{route("site.index")}}" target="_blank">LOJA VIRTUAL</a>
                                 <button class="btn header-btn-collapse-nav" data-bs-toggle="collapse" data-bs-target=".header-nav-main nav"><i class="fa fa-bars"></i></button>
                             </div>
                         </div>
@@ -123,10 +123,10 @@
     </div>
     <footer id="footer" class="bg-color-dark-scale-2 border border-end-0 border-start-0 border-bottom-0 border-color-light-3 mt-0">
         <div class="container text-center my-3 py-5">
-            <a href="index.html">
+            <a href="#">
                 <img src="{{asset("porto/img/lazy.png")}}" data-src="{{asset("porto/img/landing/logo.png")}}" width="102" height="45" class="appear-animation lazyload mb-4" alt="Porto" data-appear-animation="fadeIn" data-appear-animation-delay="300">
             </a>
-            <p class="text-4 mb-4">Porto is exclusively available on themeforest.net by <a href="https://themeforest.net/user/okler/" class="text-color-light text-decoration-none" target="_blank">Okler.</a></p>
+            <p class="text-4 mb-4">Porto is exclusively available on themeforest.net by <a href="https://themeforest.net/user/okler/" class="text-color-light text-decoration-none" target="_blank"></a></p>
             <ul class="social-icons social-icons-big social-icons-dark-2">
                 <li class="social-icons-facebook"><a href="http://www.facebook.com/" target="_blank" title="Facebook"><i class="fab fa-facebook-f"></i></a></li>
                 <li class="social-icons-twitter"><a href="http://www.twitter.com/" target="_blank" title="Twitter"><i class="fab fa-twitter"></i></a></li>

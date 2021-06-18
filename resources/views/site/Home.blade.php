@@ -7,26 +7,17 @@
             <div class="row align-items-center pt-3">
                 <div class="col-lg-5 mb-5">
                     <h5 class="text-primary font-weight-bold mb-1"></h5>
-                    <h1 class="font-weight-bold text-12 line-height-2 mb-3">Perfumes Importados!</h1>
-                    <p class="custom-font-size-1">Os melhores perfumes importados e nacions, pra quem gosta de destacar sua personalidade através de fragrâncias únicas e duradouras.<a href="#intro" data-hash data-hash-offset="120" class="text-color-light font-weight-semibold text-1 d-block text-decoration-none">Receba até 100%<i class="fa fa-long-arrow-alt-right ms-1"></i></a></p>
+                    <h1 class="font-weight-bold text-12 line-height-2 mb-3">Perfumes com inspirações importadas!</h1>
+                    <p class="custom-font-size-1">Os melhores perfumes importados e nacionais, pra quem gosta de destacar sua personalidade através de fragrâncias únicas e duradouras.<a href="#intro" data-hash data-hash-offset="120" class="text-color-light font-weight-semibold text-1 d-block text-decoration-none">Receba até 100%<i class="fa fa-long-arrow-alt-right ms-1"></i></a></p>
 
+                    <a class="d-none video-open lightbox d-block text-color-light text-decoration-none" href="https://www.youtube.com/watch?v=Utlevah0WEg" data-trigger-play-video="#popupPresentation"><div class="video-open-icon"></div></a>
 
-                    <a class="d-none video-open lightbox d-block text-color-light text-decoration-none" href="https://www.youtube.com/watch?v=Utlevah0WEg" data-trigger-play-video="#popupPresentation"><div class="video-open-icon"></div>See How It Works</a>
-
-                    <div id="popup-content-1" class="dialog dialog-lg zoom-anim-dialog rounded p-3 mfp-hide mfp-close-out">
-                        <div class="ratio ratio-4x3">
-                            <video id="popupPresentation" class="float-start" width="100%" height="100%" muted playsinline loop preload="metadata" poster="{{asset("porto/video/presentation.jpg")}}">
-                                <source src="{{asset("porto/video/presentation.webm")}}" type="video/webm">
-                                <source src="{{asset("porto/video/presentation.mp4")}}" type="video/mp4">
-                            </video>
-                        </div>
-                    </div>
                 </div>
                 <div class="col-lg-6 offset-lg-1 mb-5">
                     <div class="position-relative border-width-10 border-color-light clearfix border border-radius" data-remove-min-height style="min-height: 446px;">
-                        <video id="presentation" class="float-start" width="100%" height="100%" muted playsinline loop preload="metadata" poster="{{asset("porto/video/presentation.jpg")}}" data-auto-play="true">
-                            <source src="{{asset("porto/video/presentation.webm")}}" type="video/webm">
-                            <source src="{{asset("porto/video/presentation.mp4")}}" type="video/mp4">
+                        <video id="presentation" class="float-start" width="100%" height="100%" muted playsinline loop preload="metadata" poster="{{asset("images/thumbnails.png")}}" data-auto-play="true">
+                            <source src="{{asset("images/apresentacaocosmeticos.mp4")}}" type="video/mp4">
+                            <source src="{{asset("images/apresentacaocosmeticos.mp4")}}" type="video/mp4">
                         </video>
                         <a href="#" class="position-absolute top-50pct left-50pct transform3dxy-n50 bg-light rounded-circle d-flex align-items-center justify-content-center text-decoration-none bg-color-hover-primary text-color-hover-light play-button-lg pulseAnim pulseAnimAnimated" data-trigger-play-video="#presentation" data-trigger-play-video-remove="yes">
                             <i class="fas fa-play text-5"></i>
@@ -41,7 +32,7 @@
 
                         <h4 class="position-relative text-center font-weight-bold text-7 line-height-2 mb-0">Os melhores perfumes </h4>
 
-                        <p class="position-relative text-center font-weight-normal mb-1">*A</p>
+                        <p class="position-relative text-center font-weight-normal mb-1">estão nos pequenos menores frascos </p>
                     </div>
                 </div>
             </div>
@@ -53,9 +44,9 @@
         <div class="container pb-5" style="min-height: 1000px;">
             <div class="row mb-5 pb-lg-3 counters">
                 <div class="col-lg-10 text-center offset-lg-1">
-                    <h2 class="font-weight-bold text-9 mb-0">The Perfect Template for<br>Beginners or Professionals</h2>
-                    <p class="sub-title text-primary text-4 font-weight-semibold positive-ls-2 mt-2 mb-4">YOUR WEBSITE TO <span class="highlighted-word highlighted-word-animation-1 highlighted-word-animation-1-2 highlighted-word-animation-1 highlighted-word-animation-1-no-rotate alternative-font-4 font-weight-semibold line-height-2 pb-2">A NEW LEVEL</span></p>
-                    <p class="text-1rem text-color-default negative-ls-05 pt-3 pb-4 mb-5">Porto is simply a better choice for your new website design. The template is several years among the most popular in the world, being constantly improved and following the trends of design and best practices of code. Your search for the best solution is over, get your own copy and join tens of thousands of happy customers.</p>
+                    <h2 class="font-weight-bold text-9 mb-0">Veja como se tornar<br>um Consultor da Federal Cosméticos</h2>
+                    <p class="sub-title text-primary text-4 font-weight-semibold positive-ls-2 mt-2 mb-4">Um negócio forte, simples e <span class="highlighted-word highlighted-word-animation-1 highlighted-word-animation-1-2 highlighted-word-animation-1 highlighted-word-animation-1-no-rotate alternative-font-4 font-weight-semibold line-height-2 pb-2">muito lucrativo!</span></p>
+                    <p class="text-1rem text-color-default negative-ls-05 pt-3 pb-4 mb-5">he world, being constantly improved and following the trends of design and best practices of code. Your search for the best solution is over, get your own copy and join tens of thousands of happy customers.</p>
                 </div>
                 <div class="col-sm-6 col-lg-4 offset-lg-2 counter mb-5 mb-md-0">
                     <div class="appear-animation" data-appear-animation="fadeInLeftShorter" data-appear-animation-delay="750" data-appear-animation-duration="750">
@@ -301,7 +292,7 @@
         </div>
     </section>
 
-    <section id="demos" class="section section-no-border section-light position-relative z-index-3 pt-0 m-0">
+    {{--<section id="demos" class="section section-no-border section-light position-relative z-index-3 pt-0 m-0">
         <div class="container">
             <div class="row align-items-center appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="250" data-appear-animation-duration="750">
                 <div class="col-lg-8 offset-lg-2 text-center">
@@ -1675,7 +1666,7 @@
 
             </div>
         </div>
-    </section>
+    </section>--}}
 
     <section class="section section-angled section-angled-reverse border-0 m-0 bg-dark section-dark" style="background-size: 100%; background-position: top;" data-bg-src="{{asset("porto/img/landing/header_builder_bg.jpg")}}">
         <div class="section-angled-layer-top section-angled-layer-increase-angle bg-light" style="padding: 4rem 0;"></div>
@@ -2038,7 +2029,7 @@
         </div>
     </section>
 
-    <section class="section section-elements m-0 section-no-border bg-bottom-slash position-relative z-index-1">
+    {{--<section class="section section-elements m-0 section-no-border bg-bottom-slash position-relative z-index-1">
         <div class="container text-center mt-4">
             <h2 class="font-weight-bold text-9 mb-2">Porto Elements</h2>
             <p class="text-4 mb-5">Porto is simply a better choice for your new website design.</p>
@@ -2677,15 +2668,15 @@
 
             </div>
         </div>
-    </section>
+    </section>--}}
 
-    <section class="section section-dark section-angled border-0 lazyload pb-0 m-0" style="background-size: 100%; background-position: top;" data-bg-src="{{asset("porto/img/landing/build_bg.jpg")}}">
+    {{--<section class="section section-dark section-angled border-0 lazyload pb-0 m-0" style="background-size: 100%; background-position: top;" data-bg-src="{{asset("porto/img/landing/build_bg.jpg")}}">
         <div class="section-angled-layer-top section-angled-layer-increase-angle bg-color-light-scale-1" style="padding: 4rem 0;"></div>
         <div class="container text-center my-5 py-5">
             <h2 class="font-weight-bold line-height-3 text-12 mt-5 mb-3 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="250" data-appear-animation-duration="750">Build your website with Porto</h2>
             <h4 class="font-weight-bold text-9 mb-4 pb-2 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="500" data-appear-animation-duration="750">Purchase now. Only <span class="highlighted-word highlighted-word-animation-1 highlighted-word-animation-1-no-rotate highlighted-word-animation-1 highlighted-word-animation-1-light alternative-font-4 font-weight-extra-bold text-4 light appear-animation" data-appear-animation="blurIn" data-appear-animation-delay="800" data-appear-animation-duration="750">$16!</span></h4>
             <div class="appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="900" data-appear-animation-duration="750">
-                <h4 class="font-weight-light text-4 col-lg-6 px-0 offset-lg-3 fw-400 mb-5 opacity-8">Porto Template has been available on ThemeForest since 2013 and is one of the top sellers with more than 40K+ sales.</h4>
+                <h4 class="font-weight-light text-4 col-lg-6 px-0 offset-lg-3 fw-400 mb-5 opacity-8">Pensamos juntos para pensar maior. Reunimos ideias, pessoas e sonhos em um só lugar.</h4>
             </div>
             <div class="col-12 px-0 pb-2 mb-4">
                 <div class="row flex-column flex-lg-row justify-content-center">
@@ -2736,7 +2727,7 @@
                 </a>
             </div>
         </div>
-    </section>
+    </section>--}}
 
     <section class="section bg-color-dark-scale-2 border-0 m-0 py-4">
         <div class="container">

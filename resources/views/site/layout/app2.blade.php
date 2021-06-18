@@ -289,11 +289,6 @@
                                                     </a>
                                                 </li>
                                                 <li class="dropdown">
-                                                    <a class="dropdown-item dropdown-toggle" href="{{route("site.Promocoes")}}">
-                                                        Promoções
-                                                    </a>
-                                                </li>
-                                                <li class="dropdown">
                                                     <a class="dropdown-item dropdown-toggle" href="{{route("site.Empresa")}}">
                                                         Empresa
                                                     </a>
@@ -304,7 +299,7 @@
                                                     </a>
                                                 </li>
                                                 <li class="dropdown">
-                                                    <a class="dropdown-item" data-hash data-hash-offset="130" href="{{route("site.home")}}">
+                                                    <a class="dropdown-item" data-hash data-hash-offset="130" href="#">
                                                         Catalogos
                                                     </a>
                                                     <ul class="dropdown-menu">
