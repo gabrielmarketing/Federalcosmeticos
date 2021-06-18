@@ -67,23 +67,6 @@
                         </div>
 
                         <h1 class="mb-0 font-weight-bold text-7">V8</h1>
-
-                        <div class="pb-0 clearfix d-flex align-items-center">
-                            <div title="Rated 3 out of 5" class="float-start">
-                                <input type="text" class="opacity-0" value="3" title="" data-plugin-star-rating data-plugin-options="{'displayOnly': true, 'color': 'primary', 'size':'xs'}">
-                            </div>
-
-                            <div class="review-num">
-                                <a href="#description" class="text-decoration-none text-color-default text-color-hover-primary" data-hash data-hash-offset="75" data-hash-trigger-click=".nav-link-reviews" data-hash-trigger-click-delay="1000">
-                                    <span class="count text-color-inherit" itemprop="ratingCount">(2</span> reviews)
-                                </a>
-                            </div>
-                        </div>
-
-                        <div class="divider divider-small">
-                            <hr class="bg-color-grey-scale-4">
-                        </div>
-
                         <p class="price mb-3">
                             <span class="sale text-color-dark">R$10,00</span>
                             <span class="amount">R$30,00</span>
@@ -848,7 +831,7 @@
                             <div class="product-thumb-info border-0">
                                 <a href="{{route("site.ShopCart")}}">
                                     <div class="product-thumb-info-image">
-                                        <img alt="" class="img-fluid" src="{{asset("images/produtos/black.png")}}">
+                                        <img alt="" class="img-fluid" src="{{asset("images/produtos/black_v1.png")}}">
                                     </div>
                                 </a>
                             </div>
@@ -860,8 +843,8 @@
                                 <input type="text" class="d-none" value="5" title="" data-plugin-star-rating data-plugin-options="{'displayOnly': true, 'color': 'dark', 'size':'xs'}">
                             </div>
                             <p class="price text-4 mb-0">
-                                <span class="sale text-color-dark font-weight-semi-bold">$399,00</span>
-                                <span class="amount">$299,00</span>
+                                <span class="sale text-color-dark font-weight-semi-bold">R$10,00</span>
+                                <span class="amount">R$30,00</span>
                             </p>
                         </div>
                     </div>
@@ -875,7 +858,7 @@
                             <div class="product-thumb-info border-0">
                                 <a href="{{route("site.ShopCart")}}">
                                     <div class="product-thumb-info-image">
-                                        <img alt="" class="img-fluid" src="{{asset("images/produtos/blackout.png")}}">
+                                        <img alt="" class="img-fluid" src="{{asset("images/produtos/blackout_v1.png")}}">
 
                                     </div>
                                 </a>
@@ -888,8 +871,8 @@
                                 <input type="text" class="d-none" value="5" title="" data-plugin-star-rating data-plugin-options="{'displayOnly': true, 'color': 'dark', 'size':'xs'}">
                             </div>
                             <p class="price text-4 mb-0">
-                                <span class="sale text-color-dark font-weight-semi-bold">$69,00</span>
-                                <span class="amount">$59,00</span>
+                                <span class="sale text-color-dark font-weight-semi-bold">R$10,00</span>
+                                <span class="amount">R$30,00</span>
                             </p>
                         </div>
                     </div>
