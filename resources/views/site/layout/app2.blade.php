@@ -489,6 +489,8 @@
 <!-- Theme Initialization Files -->
 <script src="{{asset("porto/js/theme.init.js")}}"></script>
 
+@includeIf('global.sweetalert2')
+@includeIf('global.formRequest')
 @includeIf('global.javascript')
 
 </body>

@@ -2,7 +2,7 @@
 <script>
 
     // ------------------------------ script carrinho -------------------------------------//
-    const products = []
+
 
     function addcar(element){
         event.preventDefault();
@@ -21,6 +21,7 @@
     }
 
     function addItemToLocal(product){
+        let products = [];
         let cartItem = JSON.parse(localStorage.getItem('prdInCart'))
         if (cartItem === null){
             products.push(product);
@@ -38,16 +39,9 @@
             products.push(product)
         }
         localStorage.setItem('prdInCart', JSON.stringify(products));
-        Swal.fire({
-            position: 'top-end',
-            icon: 'success',
-            title: 'Produto adicionado ao carrinho',
-            showConfirmButton: false,
-            timer: 1500
-        })
-        setTimeout(function (){
-            window.location.reload()
-        },1500);
+        successSwal('Parabens', 'Adicionado com sucesso');
+        confericar();
+        cartNumberDisplay();
 
     }
 
@@ -66,6 +60,7 @@
     }
 
     function updateItemToLocal(product){
+        let products = [];
         let cartItem = JSON.parse(localStorage.getItem('prdInCart'))
         if (cartItem === null){
 
@@ -73,24 +68,19 @@
             cartItem.forEach(item => {
                 if (product.id == item.id){
                     product.quantity = item.quantity += 1;
-
+                    item.quantity += 1;
+                    products.push(item)
                 }else{
                     products.push(item)
                 }
             });
-            products.push(product)
         }
         localStorage.setItem('prdInCart', JSON.stringify(products));
-        Swal.fire({
-            position: 'top-end',
-            icon: 'success',
-            title: 'Produto atualizado no carrinho',
-            showConfirmButton: false,
-            timer: 1500
-        })
-        setTimeout(function (){
-            window.location.reload()
-        },1500);
+        confericar();
+        cartNumberDisplay();
+        // setTimeout(function (){
+        //     window.location.reload()
+        // },1500);
 
     }
 
@@ -109,6 +99,7 @@
     }
 
     function delItemToLocal(product){
+        let products = [];
         let cartItem = JSON.parse(localStorage.getItem('prdInCart'))
         if (cartItem === null){
 
@@ -116,28 +107,25 @@
             cartItem.forEach(item => {
                 if (product.id == item.id){
                     if (item.quantity <= 1){
-                        product.quantity = 1;
+                        item.quantity = 1;
                     }else {
-                        product.quantity = item.quantity - 1;
+                        item.quantity = item.quantity - 1;
                     }
-
+                    products.push(item)
                 }else{
                     products.push(item)
                 }
             });
-            products.push(product)
+            // products.push(product)
         }
         localStorage.setItem('prdInCart', JSON.stringify(products));
-        Swal.fire({
-            position: 'top-end',
-            icon: 'success',
-            title: 'Produto atualizado no carrinho',
-            showConfirmButton: false,
-            timer: 1500
-        })
-        setTimeout(function (){
-            window.location.reload()
-        },1500);
+        confericar();
+        cartNumberDisplay();
+
+        // successSwal('Parabens', 'Operação realizada com sucesso');
+        // setTimeout(function (){
+        //     window.location.reload()
+        // },1500);
 
     }
 
@@ -251,6 +239,7 @@
 
     function decreasesCart(element){
         event.preventDefault();
+        let products = [];
         let elementHTML = $(element);
         let cartItem = JSON.parse(localStorage.getItem('prdInCart'))
         cartItem.forEach(item => {
@@ -260,16 +249,8 @@
                products.push(item)
            }
             localStorage.setItem('prdInCart', JSON.stringify(products));
-            Swal.fire({
-                position: 'top-end',
-                icon: 'success',
-                title: 'Produto deletado do carrinho',
-                showConfirmButton: false,
-                timer: 1500
-            })
-            setTimeout(function (){
-                window.location.reload()
-            },1500);
+            confericar();
+            cartNumberDisplay();
 
         });
 
