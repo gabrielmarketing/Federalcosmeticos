@@ -369,7 +369,7 @@
                                     </a>
                                     <a href="shop-product-sidebar-left.html">
                                         <div class="product-thumb-info-image">
-                                            <img alt="" class="img-fluid" src="{{asset("images/produtos/mustang_v2.png")}}">
+                                            <img alt="" class="img-fluid" src="{{asset("images/produtos/mustang.png")}}">
 
                                         </div>
                                     </a>

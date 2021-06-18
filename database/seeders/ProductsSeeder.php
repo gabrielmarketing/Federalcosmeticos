@@ -61,7 +61,7 @@ class ProductsSeeder extends Seeder
             'name'          => 'MUSTANG',
             'description'  => 'Perfume Masculino',
             'weight'        => '0,50',
-            'image'         => 'images/produtos/mustang_v2.png',
+            'image'         => 'images/produtos/mustang.png',
             'price'         => 10,
         ]);
 
