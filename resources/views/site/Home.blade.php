@@ -92,19 +92,19 @@
             <div class="row align-items-center justify-content-between">
                 <div class="col-lg-4">
                     <h2 class="text-7 font-weight-semibold line-height-2 mb-2">CONSTRUA SEU PRÓPRIO NEGÓCIO</h2>
-                    <p></p>
+                    <p>Seja um revendedor da Federal Cosméticos e construa seu próprio negócio vendendo os produtos de altíssima qualidade de nossa empresa. </p>
                 </div>
                 <div class="col-sm-4 col-lg-auto icon-box text-center mb-4">
-                    <i class="icon-bg icon-1"></i>
-                    <h4 class="font-weight-bold custom-font-size-2 line-height-3 mb-0">Super High<br>Performance</h4>
+                    <i href="{{asset("images/money.png")}}"></i>
+                    <h4 class="font-weight-bold custom-font-size-2 line-height-3 mb-0">receba até <br>100% lucro</h4>
                 </div>
                 <div class="col-sm-4 col-lg-auto icon-box text-center mb-4">
                     <i class="icon-bg icon-2"></i>
-                    <h4 class="font-weight-bold custom-font-size-2 line-height-3 mb-0">Created with Top<br>Plugins and Extensions</h4>
+                    <h4 class="font-weight-bold custom-font-size-2 line-height-3 mb-0">+40 modelos de<br> fragrâncias</h4>
                 </div>
                 <div class="col-sm-4 col-lg-auto icon-box text-center mb-4">
                     <i class="icon-bg icon-3"></i>
-                    <h4 class="font-weight-bold custom-font-size-2 line-height-3 mb-0">Extremely Easy<br>to Customize</h4>
+                    <h4 class="font-weight-bold custom-font-size-2 line-height-3 mb-0">Produtos<br>Atrativos</h4>
                 </div>
                 <div class="col-sm-12">
                     <hr class="my-5">

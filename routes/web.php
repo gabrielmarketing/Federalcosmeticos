@@ -17,8 +17,8 @@ use Illuminate\Support\Facades\Route;
 
 Route::name('site.')->group(function (){
 
-    Route::get('/', [ SiteController::class, "home" ])
-        ->name('home');
+    Route::get('/', [ SiteController::class, "Home" ])
+        ->name('Home');
 
     Route::get('/index', [ SiteController::class, "index" ])
         ->name('index');
@@ -37,9 +37,6 @@ Route::name('site.')->group(function (){
 
     Route::get('/ComoComprar', [ SiteController::class, "ComoComprar" ])
         ->name('ComoComprar');
-
-    Route::get('/PagamentoEnvio', [ SiteController::class, "PagamentoEnvio" ])
-        ->name('PagamentoEnvio');
 
     Route::get('/Promocoes', [ SiteController::class, "Promocoes" ])
         ->name('Promocoes');

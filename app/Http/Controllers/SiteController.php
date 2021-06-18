@@ -12,9 +12,9 @@ class SiteController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function home()
+    public function Home()
     {
-        return view('site.home');
+        return view('site.Home');
     }
 
     /**
@@ -142,16 +142,6 @@ class SiteController extends Controller
     public function ComoComprar()
     {
         return view("site.ComoComprar");
-    }
-
-    /**
-     * Remove the specified resource from storage.
-     *
-     * @return \Illuminate\Http\Response
-     */
-    public function PagamentoEnvio()
-    {
-        return view("site.PagamentoEnvio");
     }
 
     /**

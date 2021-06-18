@@ -17,3 +17,15 @@
 - cadastrei carrinho em javascript 
   
   video de apoio https://www.youtube.com/watch?v=Q-2ofSvIvBo
+
+## Sobre Federal Cosmeticos ga2
+
+- Ajustei layout app2 com todos os produtos e imagens 
+- Criei paginas de Empresas, Contato e login
+- Ajustei todas as imagens
+
+## Sobre Federal Cosmeticos ga3
+
+- Ajustei layout app2 com todos os produtos e imagens
+- Criei paginas de Empresas, Contato e login
+- Ajustei todas as imagens

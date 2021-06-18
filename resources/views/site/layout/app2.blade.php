@@ -167,7 +167,7 @@
                     <div class="header-column w-100">
                         <div class="header-row justify-content-between">
                             <div class="header-logo z-index-2 col-lg-2 px-0">
-                                <a href="{{route("site.index")}}">
+                                <a href="{{route("site.Home")}}">
                                     <img alt="Porto" width="180" height="65" data-sticky-width="115" data-sticky-height="40" data-sticky-top=110" src="{{asset("images/logofederalcosmeticos.png")}}">
                                 </a>
                             </div>
@@ -274,18 +274,14 @@
                                         <nav class="collapse w-100">
                                             <ul class="nav nav-pills w-100" id="mainNav">
                                                 <li class="dropdown">
-                                                    <a class="dropdown-item dropdown-toggle" href="{{route("site.index")}}">
+                                                    <a class="dropdown-item dropdown-toggle" href="{{route("site.Home")}}">
                                                         Home
                                                     </a>
                                                 </li>
                                                 <li class="dropdown dropdown-mega">
-                                                    <a class="dropdown-item dropdown-toggle" href="{{route("site.ComoComprar")}}">
-                                                        Como Comprar
-                                                    </a>
-                                                </li>
-                                                <li class="dropdown">
-                                                    <a class="dropdown-item dropdown-toggle" href="{{route("site.PagamentoEnvio")}}">
-                                                        Formas de Pagamento/Envio
+                                                    <a class="dropdown-item dropdown-toggle" href="{{route("site.index")}}">
+                                                        Produtos
+
                                                     </a>
                                                 </li>
                                                 <li class="dropdown">
@@ -300,7 +296,7 @@
                                                 </li>
                                                 <li class="dropdown">
                                                     <a class="dropdown-item" data-hash data-hash-offset="130" href="#">
-                                                        Catalogos
+                                                        Material Do Consultor
                                                     </a>
                                                     <ul class="dropdown-menu">
                                                         <li class="dropdown">
@@ -313,6 +309,11 @@
                                                             <a target="_blank" class="dropdown-item" href="{{asset("images/revistaoficial.pdf")}}">Revista Plano de Negócio</a>
                                                         </li>
                                                     </ul>
+                                                </li>
+                                                <li class="dropdown">
+                                                    <a class="dropdown-item dropdown-toggle" href="{{route("site.ComoComprar")}}">
+                                                        Como Comprar
+                                                    </a>
                                                 </li>
                                             </ul>
                                         </nav>
@@ -328,9 +329,7 @@
             </div>
         </div>
     </header>
-
 @yield('content')
-
     <footer id="footer" class="m-0 bg-color-dark" xmlns="http://www.w3.org/1999/html">
         <div class="container">
             <div class="row py-5">

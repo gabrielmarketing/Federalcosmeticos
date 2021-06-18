@@ -71,8 +71,18 @@
                                     <nav class="collapse">
                                         <ul class="nav nav-pills" id="mainNav">
                                             <li class="dropdown">
-                                                <a class="dropdown-item dropdown-toggle" href="{{route("site.home")}}">
+                                                <a class="dropdown-item dropdown-toggle" href="{{route("site.Home")}}">
                                                     Home
+                                                </a>
+                                            </li>
+                                            <li class="dropdown">
+                                                <a class="dropdown-item dropdown-toggle" href="{{route("site.Empresa")}}">
+                                                    Empresa
+                                                </a>
+                                            </li>
+                                            <li class="dropdown">
+                                                <a class="dropdown-item dropdown-toggle" href="{{route("site.contato")}}">
+                                                    Contato
                                                 </a>
                                             </li>
                                             <li class="dropdown">
@@ -92,18 +102,13 @@
                                                 </ul>
                                             </li>
                                             <li class="dropdown dropdown-mega">
+                                                <a class="dropdown-item dropdown-toggle" href="{{route("site.ComoComprar")}}">
+                                                    Como Comprar
+                                                </a>
+                                            </li>
+                                            <li class="dropdown dropdown-mega">
                                                 <a class="dropdown-item dropdown-toggle" href="{{route("site.login")}}">
                                                     Área do Consultor
-                                                </a>
-                                            </li>
-                                            <li class="dropdown">
-                                                <a class="dropdown-item dropdown-toggle" href="{{route("site.Empresa")}}">
-                                                    Empresa
-                                                </a>
-                                            </li>
-                                            <li class="dropdown">
-                                                <a class="dropdown-item dropdown-toggle" href="{{route("site.contato")}}">
-                                                    Contato
                                                 </a>
                                             </li>
                                         </ul>
@@ -119,7 +124,9 @@
         </div>
     </header>
     <div role="main" class="main">
+
     @yield('content')
+
     </div>
     <footer id="footer" class="bg-color-dark-scale-2 border border-end-0 border-start-0 border-bottom-0 border-color-light-3 mt-0">
         <div class="container text-center my-3 py-5">
@@ -138,6 +145,7 @@
                 <p class="mb-0 text-2">Copyright 2013 - 2021 - Porto - All Rights Reserved</p>
             </div>
         </div>
+    </footer>
     </footer>
 </div>
 
