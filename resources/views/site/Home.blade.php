@@ -46,22 +46,22 @@
                 <div class="col-lg-10 text-center offset-lg-1">
                     <h2 class="font-weight-bold text-9 mb-0">Veja como se tornar<br>um Consultor da Federal Cosméticos</h2>
                     <p class="sub-title text-primary text-4 font-weight-semibold positive-ls-2 mt-2 mb-4">Um negócio forte, simples e <span class="highlighted-word highlighted-word-animation-1 highlighted-word-animation-1-2 highlighted-word-animation-1 highlighted-word-animation-1-no-rotate alternative-font-4 font-weight-semibold line-height-2 pb-2">muito lucrativo!</span></p>
-                    <p class="text-1rem text-color-default negative-ls-05 pt-3 pb-4 mb-5">a Federal Cosméticos, existem muitas formas de mudar de vida. Descubra os caminhos para poder alcançar todos os seus sonhos.</p>
+                    <p class="text-1rem text-color-default negative-ls-05 pt-3 pb-4 mb-5">Na Federal Cosméticos, existem muitas formas de mudar de vida. Descubra os caminhos para poder alcançar todos os seus sonhos.</p>
                 </div>
                 <div class="col-sm-6 col-lg-4 offset-lg-2 counter mb-5 mb-md-0">
                     <div class="appear-animation" data-appear-animation="fadeInLeftShorter" data-appear-animation-delay="750" data-appear-animation-duration="750">
                         <h3 class="font-weight-extra-bold text-14 line-height-1 mb-2" data-to="180" data-append="+" data-plugin-options="{'accY': 50}">0</h3>
                         <label class="font-weight-semibold negative-ls-1 text-color-dark mb-0">CONSULTORES</label>
                         <p class="text-color-grey font-weight-semibold pb-1 mb-2">Ao se tornar um(a) Consultor(a), você poderá oferecer a seus clientes todo nosso portfólio, que conta com mais de 40 perfumes.</p>
-                        <p class="mb-0"><a href="#demos" data-hash data-hash-offset="120" class="text-color-primary d-flex align-items-center justify-content-center text-4 font-weight-semibold text-decoration-none">SABER MAIS<i class="fas fa-long-arrow-alt-right ms-2 text-4 mb-0"></i></a></p>
+                        <p class="mb-0"><a href="https://api.whatsapp.com/send/?phone=556233535679&text&app_absent=0" data-hash data-hash-offset="120" class="text-color-primary d-flex align-items-center justify-content-center text-4 font-weight-semibold text-decoration-none">SABER MAIS<i class="fas fa-long-arrow-alt-right ms-2 text-4 mb-0"></i></a></p>
                     </div>
                 </div>
                 <div class="col-sm-6 col-lg-4 counter divider-left-border">
                     <div class="appear-animation" data-appear-animation="fadeInRightShorter" data-appear-animation-delay="750" data-appear-animation-duration="750">
                         <h3 class="font-weight-extra-bold text-14 line-height-1 mb-2" data-to="3" data-append="+" data-plugin-options="{'accY': 50}">0</h3>
                         <label class="font-weight-semibold negative-ls-1 text-color-dark mb-0">FRANQUIAS</label>
-                        <p class="text-color-grey font-weight-semibold pb-1 mb-2">Nossos(as) Consultores(as) contam com um local para experimentar e adquirir seus produtos, fazer suas reuniões e treinamentos. A Federal Cosméticos é uma extensão da nossa marca para todo o Brasil.</p>
-                        <p class="mb-0"><a href="https://themeforest.net/checkout/from_item/4106987?license=regular&support=bundle_6month&ref=Okler" class="text-color-primary d-flex align-items-center justify-content-center text-4 font-weight-semibold text-decoration-none" target="_blank">SABER MAIS<i class="fas fa-long-arrow-alt-right ms-2 text-4 mb-0"></i></a></p>
+                        <p class="text-color-grey font-weight-semibold pb-1 mb-2">Nossos(as) Consultores(as) contam com um local para experimentar e adquirir seus produtos, fazer suas reuniões e treinamentos.</p>
+                        <p class="mb-0"><a href="https://api.whatsapp.com/send/?phone=556233535679&text&app_absent=0" class="text-color-primary d-flex align-items-center justify-content-center text-4 font-weight-semibold text-decoration-none" target="_blank">SABER MAIS<i class="fas fa-long-arrow-alt-right ms-2 text-4 mb-0"></i></a></p>
                     </div>
                 </div>
             </div>
@@ -96,38 +96,34 @@
                         nossa empresa. Construa uma cartela de clientes fiéis e lucre até 100% sobre o valor das linhas de produtos com alta procura no mercado!</p>
                 </div>
                 <div class="col-sm-4 col-lg-auto icon-box text-center mb-4">
-                    <i class="icon-bg icon-1"></i>
+                    <img width="140"  height="100" src="{{asset("images/bag.png")}}">
                     <h4 class="font-weight-bold custom-font-size-2 line-height-3 mb-0">Consumir com<br>50% de Desconto</h4>
                 </div>
                 <div class="col-sm-4 col-lg-auto icon-box text-center mb-4">
-                    <i class="icon-bg icon-"></i>
-                    <h4 class="font-weight-bold custom-font-size-2 line-height-3 mb-0">Lucro de até 100%</h4>
+                    <img width="140"  height="100" src="{{asset("images/lucro100.png")}}">
+                    <h4 class="font-weight-bold custom-font-size-2 line-height-3 mb-0">Lucro de<br> até 100%</h4>
                 </div>
                 <div class="col-sm-4 col-lg-auto icon-box text-center mb-4">
-                    <i class="icon-bg icon-3"></i>
-                    <h4 class="font-weight-bold custom-font-size-2 line-height-3 mb-0">Construa uma Rede</h4>
-                </div>
-                <div class="col-sm-12">
-                    <hr class="my-5">
-                    <h2 class="font-weight-bold text-center text-10 pt-3 mb-4">REVENDA NOSSOS PERFUMES E GANHE ATÉ 100% OU MAIS!</h2>
-                </div>
-                <div class="col-lg-8 offset-lg-2 px-lg-0 text-center">
-                    <p class="text-4">Veja como se cadastrar</p>
+                    <img width="140"  height="100" src="{{asset("images/invoice.png")}}">
+                    <h4 class="font-weight-bold custom-font-size-2 line-height-3 mb-0">Construa<br> uma Rede</h4>
                 </div>
             </div>
         </div>
     </section>
 
     <section class="section section-no-border section-angled bg-color-light-scale-1 m-0">
-        <div class="section-angled-layer-top section-angled-layer-increase-angle" style="padding: 5rem 0; background-color: #0169fe;"></div>
         <div class="container py-5 my-5">
             <div class="row align-items-center text-center my-5">
+                <div class="col-sm-12">
+                    <hr class="my-5">
+                    <h2 class="font-weight-bold text-center text-10 pt-3 mb-4">REVENDA NOSSOS PERFUMES E GANHE ATÉ 100% OU MAIS!</h2>
+                </div>
                 <div class="col-md-6">
-                    <h2 class="font-weight-bold text-9 mb-0 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="200" data-appear-animation-duration="750">Introducing Porto Admin</h2>
-                    <p class="font-weight-semibold text-primary text-4 fonts-weight-semibold positive-ls-2 mb-3 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="600" data-appear-animation-duration="750">ADMIN WITH SAME LOOK FEEL AS THE FRONT-END</p>
-                    <p class="pb-2 mb-4 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="800" data-appear-animation-duration="750">Porto Admin integration give you a package of new features to add in the front-end template, such as advanced tables, advanced forms, etc... Also allows you to create the back-end of your site using the same design.</p>
-                    <a href="https://themeforest.net/item/porto-admin-responsive-html5-template/8539472" class="btn btn-modern btn-gradient btn-rounded btn-px-5 py-3 text-3 mb-4 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="1000" data-appear-animation-duration="750" target="_blank">VIEW PORTO ADMIN</a>
-                    <p class="appear-animation text-3" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="1200">* Porto Admin <strong class="text-dark">is not included</strong> in the front-end and is available for $16.</p>
+                    <h2 class="font-weight-bold text-9 mb-0 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="200" data-appear-animation-duration="750">Venda Perfumes</h2>
+                    <p class="font-weight-semibold text-primary text-4 fonts-weight-semibold positive-ls-2 mb-3 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="600" data-appear-animation-duration="750">no conforto da sua conta</p>
+                    <p class="pb-2 mb-4 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="800" data-appear-animation-duration="750">Seja um revendedor da Federal Cosméticos e construa seu próprio negócio vendendo os produtos de altíssima qualidade de nossa empresa. Construa uma cartela de clientes fiéis e lucre até 100% sobre o valor das linhas de produtos com alta procura no mercado!</p>
+                    <a href="https://themeforest.net/item/porto-admin-responsive-html5-template/8539472" class="btn btn-modern btn-gradient btn-rounded btn-px-5 py-3 text-3 mb-4 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="1000" data-appear-animation-duration="750" target="_blank">COMPRAR</a>
+                    <p class="appear-animation text-3" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="1200"><strong class="text-dark"></strong></p>
                 </div>
                 <div class="col-md-6 position-relative py-5">
                     <div class="appear-animation" data-appear-animation="fadeIn" data-appear-animation-delay="500">
@@ -135,7 +131,7 @@
                     </div>
                     <div class="appear-animation" data-appear-animation="fadeInLeftShorter" data-appear-animation-delay="0" data-appear-animation-duration="750">
                         <div class="strong-shadow rounded strong-shadow-top-right">
-                            <img src="{{asset("porto/img/lazy.png")}}" data-src="{{asset("porto/img/landing/porto_admin.jpg")}}" class="lazyload img-fluid border border-width-10 border-color-light rounded box-shadow-3" alt="Porto Admin" />
+                            <img src="{{asset("images/thumbnails.png")}}" data-src="{{asset("images/thumbnails.png")}}" class="lazyload img-fluid border border-width-10 border-color-light rounded box-shadow-3" alt="Porto Admin" />
                         </div>
                     </div>
                 </div>
@@ -200,48 +196,6 @@
                         <img class="img-fluid lazyload" src="{{asset("porto/img/lazy.png")}}" data-src="{{asset("porto/img/landing/porto_iphone.png")}}" width="244" height="228" alt="Performance on Mobile">
                     </div>
                     <img class="img-fluid appear-animation z-index-1 position-relative lazyload" data-appear-animation="fadeInRightShorter" data-appear-animation-delay="800" data-appear-animation-duration="750" src="{{asset("porto/img/lazy.png")}}" data-src="{{asset("porto/img/landing/porto_ipad.png")}}" width="437" height="241" alt="Performance on Tablet" style="margin-bottom: -10%">
-                </div>
-            </div>
-        </div>
-        <div class="section-funnel-layer-bottom">
-            <div class="section-funnel-layer bg-light"></div>
-            <div class="section-funnel-layer bg-light"></div>
-        </div>
-    </section>
-
-    <section class="section section-funnel border-0 bg-light lazyload m-0" style="background-size: 100%; background-repeat: no-repeat; background-position: top;" data-bg-src="{{asset("porto/img/landing/half_circle.png")}}">
-        <div class="container text-center pb-5 mt-3 mb-5">
-            <h2 class="font-weight-bold text-9 mb-2 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="250">Layouts</h2>
-            <h5 class="text-primary font-weight-semibold positive-ls-2 text-4 mb-3 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="400">GIANT LIBRARY OF VARIATIONS</h5>
-            <p class="text-4 mb-0 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="550">Giant variety of layouts to create your site with unlimited possibilities.</p>
-            <div class="row flex-column flex-lg-row justify-content-center align-items-center my-5">
-                <div class="col-8 col-md-5 col-lg-3 image-box mb-4 mb-lg-0 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="600" data-appear-animation-duration="750">
-                    <div class="image mb-3">
-                        <img alt="Layouts" width="195" height="161" src="{{asset("porto/img/lazy.png")}}" data-src="{{asset("porto/img/landing/porto_layouts1.png")}}" class="position-relative z-index-3 lazyload me-auto" style="width: 67.47%; left: -51px;">
-                        <img alt="Layouts" width="174" height="161" src="{{asset("porto/img/lazy.png")}}" data-src="{{asset("porto/img/landing/porto_layouts3.png")}}" class="position-relative z-index-1 lazyload ms-auto" style="width: 60.2%; margin-top: -32%; right: -50px;">
-                        <img alt="Layouts" width="174" height="161" src="{{asset("porto/img/lazy.png")}}" data-src="{{asset("porto/img/landing/porto_layouts3.png")}}" class="position-relative z-index-2 lazyload mx-auto" style="width: 60.2%; margin-top: -13%;">
-                    </div>
-                    <h4 class="text-dark font-weight-bold pt-2 mb-1">Layouts</h4>
-                    <p class="fs-md text-3 px-lg-4">Max Width 1200px, 1170px, 1024px,<br> full width, etc...</p>
-                </div>
-                <div class="col-8 col-md-5 col-lg-3 image-box mb-4 mb-lg-0 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="800" data-appear-animation-duration="750">
-                    <div class="image mb-3">
-                        <img alt="Sidebars" width="172" height="161" src="{{asset("porto/img/lazy.png")}}" data-src="{{asset("porto/img/landing/porto_sidebars1.png")}}" class="position-relative z-index-1 lazyload ms-auto" style="right: -33px;">
-                        <img alt="Sidebars" width="172" height="161" src="{{asset("porto/img/lazy.png")}}" data-src="{{asset("porto/img/landing/porto_sidebars2.png")}}" class="position-relative z-index-2 lazyload" style="left: -19px; margin-top: -32%;">
-                        <img alt="Sidebars" width="172" height="161" src="{{asset("porto/img/lazy.png")}}" data-src="{{asset("porto/img/landing/porto_sidebars3.png")}}" class="position-relative z-index-3 lazyload ms-auto" style="right: -20px; margin-top: -13%;">
-                    </div>
-                    <h4 class="text-dark font-weight-bold pt-2 mb-1">Sidebars</h4>
-                    <p class="fs-md text-3 px-lg-4">Sidebar can be set to be on left, right, both or even disabled.</p>
-                </div>
-                <div class="col-8 col-md-5 col-lg-3 image-box appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="1000" data-appear-animation-duration="750">
-                    <div class="image mb-3">
-                        <img alt="Sliders" width="142" height="161" src="{{asset("porto/img/lazy.png")}}" data-src="{{asset("porto/img/landing/porto_sliders1.png")}}" class="position-relative z-index-1 lazyload" style="left: -31px;">
-                        <img alt="Sliders" width="142" height="161" src="{{asset("porto/img/lazy.png")}}" data-src="{{asset("porto/img/landing/porto_sliders2.png")}}" class="position-relative z-index-2 lazyload ms-auto" style="right: -60px; margin-top: -31%">
-                        <img alt="Sliders" width="142" height="161" src="{{asset("porto/img/lazy.png")}}" data-src="{{asset("porto/img/landing/porto_sliders3.png")}}" class="position-relative z-index-3 lazyload ms-auto" style="margin-right: 15%; margin-top: -41%;">
-                        <img alt="Sliders" width="142" height="161" src="{{asset("porto/img/lazy.png")}}" data-src="{{asset("porto/img/landing/porto_sliders4.png")}}" class="position-relative z-index-4 lazyload" style="left: -50px; margin-top: -35.67%;">
-                    </div>
-                    <h4 class="text-dark font-weight-bold pt-2 mb-1">Sliders</h4>
-                    <p class="fs-md text-3 px-lg-4">You can set several different types of sliders, boxed, full, grid, etc..</p>
                 </div>
             </div>
         </div>
